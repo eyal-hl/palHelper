@@ -1,1 +1,0 @@
-import{j as n}from"./index-BkkQfHX8.js";const f="_badge_un5yx_1",s={badge:f};function e(t){return t>=70?"easy":t>=40?"medium":"hard"}function r(t){const i=e(t);return`${i.charAt(0).toUpperCase()+i.slice(1)} (${t})`}function u({captureRate:t}){const i=e(t);return n.jsx("span",{className:s.badge,"data-difficulty":i,children:r(t)})}export{u as C};
