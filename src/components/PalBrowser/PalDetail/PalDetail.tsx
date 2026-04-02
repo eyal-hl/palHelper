@@ -32,7 +32,7 @@ export function PalDetail() {
         <div className={styles.headerLeft}>
           <PalImage name={pal.name} imageUrl={pal.imageUrl} elements={pal.elements} size="xl" />
           <div className={styles.headerInfo}>
-            <span className={styles.palNumber}>#{pal.paldeckNumber}</span>
+            <span className={styles.palNumber}>#{pal.paldeckNumber}{pal.paldeckVariant ?? ''}</span>
             <h1 className={styles.name}>{pal.name}</h1>
             <div className={styles.elements}>
               {pal.elements.map((el) => (

@@ -500,7 +500,7 @@
   {
     "id": "jolthog_cryst",
     "name": "Jolthog Cryst",
-    "paldeckNumber": 13,
+    "paldeckNumber": 12,
     "elements": [
       "Ice"
     ],
@@ -524,13 +524,14 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Jolthog_Cryst_icon.png",
-    "breedingPower": 1380,
-    "captureRate": 76
+    "breedingPower": 1385,
+    "captureRate": 72,
+    "paldeckVariant": "B"
   },
   {
     "id": "gumoss",
     "name": "Gumoss",
-    "paldeckNumber": 14,
+    "paldeckNumber": 13,
     "elements": [
       "Leaf"
     ],
@@ -558,13 +559,13 @@
       "Bamboo Groves"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Gumoss_icon.png",
-    "breedingPower": 1370,
-    "captureRate": 74
+    "breedingPower": 1380,
+    "captureRate": 76
   },
   {
     "id": "vixy",
     "name": "Vixy",
-    "paldeckNumber": 15,
+    "paldeckNumber": 14,
     "elements": [
       "Neutral"
     ],
@@ -596,13 +597,13 @@
       "Plateau of Beginnings"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Vixy_icon.png",
-    "breedingPower": 1360,
-    "captureRate": 73
+    "breedingPower": 1370,
+    "captureRate": 74
   },
   {
     "id": "hoocrates",
     "name": "Hoocrates",
-    "paldeckNumber": 16,
+    "paldeckNumber": 15,
     "elements": [
       "Dark"
     ],
@@ -634,13 +635,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Hoocrates_icon.png",
-    "breedingPower": 1350,
-    "captureRate": 71
+    "breedingPower": 1360,
+    "captureRate": 73
   },
   {
     "id": "teafant",
     "name": "Teafant",
-    "paldeckNumber": 17,
+    "paldeckNumber": 16,
     "elements": [
       "Water"
     ],
@@ -664,13 +665,13 @@
       "Verdant Brook"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Teafant_icon.png",
-    "breedingPower": 1340,
-    "captureRate": 70
+    "breedingPower": 1350,
+    "captureRate": 71
   },
   {
     "id": "depresso",
     "name": "Depresso",
-    "paldeckNumber": 18,
+    "paldeckNumber": 17,
     "elements": [
       "Dark"
     ],
@@ -702,13 +703,13 @@
       "Windswept Hills"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Depresso_icon.png",
-    "breedingPower": 1330,
-    "captureRate": 68
+    "breedingPower": 1340,
+    "captureRate": 70
   },
   {
     "id": "cremis",
     "name": "Cremis",
-    "paldeckNumber": 19,
+    "paldeckNumber": 18,
     "elements": [
       "Neutral"
     ],
@@ -741,13 +742,13 @@
       "Windswept Hills"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Cremis_icon.png",
-    "breedingPower": 1320,
-    "captureRate": 67
+    "breedingPower": 1330,
+    "captureRate": 68
   },
   {
     "id": "daedream",
     "name": "Daedream",
-    "paldeckNumber": 20,
+    "paldeckNumber": 19,
     "elements": [
       "Dark"
     ],
@@ -775,13 +776,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Daedream_icon.png",
-    "breedingPower": 1310,
-    "captureRate": 65
+    "breedingPower": 1320,
+    "captureRate": 67
   },
   {
     "id": "rushoar",
     "name": "Rushoar",
-    "paldeckNumber": 21,
+    "paldeckNumber": 20,
     "elements": [
       "Earth"
     ],
@@ -810,13 +811,13 @@
       "Windswept Hills"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Rushoar_icon.png",
-    "breedingPower": 1300,
-    "captureRate": 64
+    "breedingPower": 1310,
+    "captureRate": 65
   },
   {
     "id": "nox",
     "name": "Nox",
-    "paldeckNumber": 22,
+    "paldeckNumber": 21,
     "elements": [
       "Dark"
     ],
@@ -844,13 +845,13 @@
       "Plateau of Beginnings"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Nox_icon.png",
-    "breedingPower": 1290,
-    "captureRate": 62
+    "breedingPower": 1300,
+    "captureRate": 64
   },
   {
     "id": "fuddler",
     "name": "Fuddler",
-    "paldeckNumber": 23,
+    "paldeckNumber": 22,
     "elements": [
       "Earth"
     ],
@@ -883,13 +884,13 @@
       "Gobfin's Turf"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Fuddler_icon.png",
-    "breedingPower": 1280,
-    "captureRate": 61
+    "breedingPower": 1290,
+    "captureRate": 62
   },
   {
     "id": "killamari",
     "name": "Killamari",
-    "paldeckNumber": 24,
+    "paldeckNumber": 23,
     "elements": [
       "Dark"
     ],
@@ -917,13 +918,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Killamari_icon.png",
-    "breedingPower": 1270,
-    "captureRate": 59
+    "breedingPower": 1280,
+    "captureRate": 61
   },
   {
     "id": "mau",
     "name": "Mau",
-    "paldeckNumber": 25,
+    "paldeckNumber": 24,
     "elements": [
       "Dark"
     ],
@@ -951,13 +952,13 @@
       "Plateau of Beginnings"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mau_icon.png",
-    "breedingPower": 1260,
-    "captureRate": 58
+    "breedingPower": 1270,
+    "captureRate": 59
   },
   {
     "id": "mau_cryst",
     "name": "Mau Cryst",
-    "paldeckNumber": 26,
+    "paldeckNumber": 24,
     "elements": [
       "Ice"
     ],
@@ -985,13 +986,14 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mau_Cryst_icon.png",
-    "breedingPower": 1250,
-    "captureRate": 56
+    "breedingPower": 1265,
+    "captureRate": 54,
+    "paldeckVariant": "B"
   },
   {
     "id": "celaray",
     "name": "Celaray",
-    "paldeckNumber": 27,
+    "paldeckNumber": 25,
     "elements": [
       "Water"
     ],
@@ -1024,13 +1026,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Celaray_icon.png",
-    "breedingPower": 1240,
-    "captureRate": 55
+    "breedingPower": 1260,
+    "captureRate": 58
   },
   {
     "id": "direhowl",
     "name": "Direhowl",
-    "paldeckNumber": 28,
+    "paldeckNumber": 26,
     "elements": [
       "Neutral"
     ],
@@ -1058,13 +1060,13 @@
       "Gobfin's Turf"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Direhowl_icon.png",
-    "breedingPower": 1230,
-    "captureRate": 53
+    "breedingPower": 1250,
+    "captureRate": 56
   },
   {
     "id": "tocotoco",
     "name": "Tocotoco",
-    "paldeckNumber": 29,
+    "paldeckNumber": 27,
     "elements": [
       "Neutral"
     ],
@@ -1092,13 +1094,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Tocotoco_icon.png",
-    "breedingPower": 1220,
-    "captureRate": 52
+    "breedingPower": 1240,
+    "captureRate": 55
   },
   {
     "id": "flopie",
     "name": "Flopie",
-    "paldeckNumber": 30,
+    "paldeckNumber": 28,
     "elements": [
       "Leaf"
     ],
@@ -1135,13 +1137,13 @@
       "Windswept Hills"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Flopie_icon.png",
-    "breedingPower": 1210,
-    "captureRate": 50
+    "breedingPower": 1230,
+    "captureRate": 53
   },
   {
     "id": "mozzarina",
     "name": "Mozzarina",
-    "paldeckNumber": 31,
+    "paldeckNumber": 29,
     "elements": [
       "Neutral"
     ],
@@ -1170,13 +1172,13 @@
       "Verdant Brook"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mozzarina_icon.png",
-    "breedingPower": 1200,
-    "captureRate": 50
+    "breedingPower": 1220,
+    "captureRate": 52
   },
   {
     "id": "bristla",
     "name": "Bristla",
-    "paldeckNumber": 32,
+    "paldeckNumber": 30,
     "elements": [
       "Leaf"
     ],
@@ -1208,13 +1210,13 @@
       "Verdant Brook"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Bristla_icon.png",
-    "breedingPower": 1190,
-    "captureRate": 49
+    "breedingPower": 1210,
+    "captureRate": 50
   },
   {
     "id": "gobfin",
     "name": "Gobfin",
-    "paldeckNumber": 33,
+    "paldeckNumber": 31,
     "elements": [
       "Water"
     ],
@@ -1247,13 +1249,13 @@
       "Sea Breeze Archipelago"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Gobfin_icon.png",
-    "breedingPower": 1180,
-    "captureRate": 49
+    "breedingPower": 1200,
+    "captureRate": 50
   },
   {
     "id": "gobfin_ignis",
     "name": "Gobfin Ignis",
-    "paldeckNumber": 34,
+    "paldeckNumber": 31,
     "elements": [
       "Fire"
     ],
@@ -1281,13 +1283,14 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Gobfin_Ignis_icon.png",
-    "breedingPower": 1170,
-    "captureRate": 48
+    "breedingPower": 1195,
+    "captureRate": 45,
+    "paldeckVariant": "B"
   },
   {
     "id": "hangyu",
     "name": "Hangyu",
-    "paldeckNumber": 35,
+    "paldeckNumber": 32,
     "elements": [
       "Earth"
     ],
@@ -1315,13 +1318,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Hangyu_icon.png",
-    "breedingPower": 1160,
-    "captureRate": 48
+    "breedingPower": 1190,
+    "captureRate": 49
   },
   {
     "id": "hangyu_cryst",
     "name": "Hangyu Cryst",
-    "paldeckNumber": 36,
+    "paldeckNumber": 32,
     "elements": [
       "Ice"
     ],
@@ -1349,13 +1352,14 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Hangyu_Cryst_icon.png",
-    "breedingPower": 1150,
-    "captureRate": 47
+    "breedingPower": 1185,
+    "captureRate": 44,
+    "paldeckVariant": "B"
   },
   {
     "id": "mossanda",
     "name": "Mossanda",
-    "paldeckNumber": 37,
+    "paldeckNumber": 33,
     "elements": [
       "Leaf"
     ],
@@ -1391,13 +1395,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mossanda_icon.png",
-    "breedingPower": 1140,
-    "captureRate": 47
+    "breedingPower": 1180,
+    "captureRate": 49
   },
   {
     "id": "mossanda_lux",
     "name": "Mossanda Lux",
-    "paldeckNumber": 38,
+    "paldeckNumber": 33,
     "elements": [
       "Electricity"
     ],
@@ -1433,13 +1437,14 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mossanda_Lux_icon.png",
-    "breedingPower": 1130,
-    "captureRate": 46
+    "breedingPower": 1175,
+    "captureRate": 44,
+    "paldeckVariant": "B"
   },
   {
     "id": "eikthyrdeer",
     "name": "Eikthyrdeer",
-    "paldeckNumber": 39,
+    "paldeckNumber": 34,
     "elements": [
       "Leaf"
     ],
@@ -1472,13 +1477,13 @@
       "Bamboo Groves"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Eikthyrdeer_icon.png",
-    "breedingPower": 1120,
-    "captureRate": 46
+    "breedingPower": 1170,
+    "captureRate": 48
   },
   {
     "id": "eikthyrdeer_terra",
     "name": "Eikthyrdeer Terra",
-    "paldeckNumber": 40,
+    "paldeckNumber": 34,
     "elements": [
       "Earth"
     ],
@@ -1511,13 +1516,14 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Eikthyrdeer_Terra_icon.png",
-    "breedingPower": 1110,
-    "captureRate": 45
+    "breedingPower": 1165,
+    "captureRate": 43,
+    "paldeckVariant": "B"
   },
   {
     "id": "nitewing",
     "name": "Nitewing",
-    "paldeckNumber": 41,
+    "paldeckNumber": 35,
     "elements": [
       "Neutral"
     ],
@@ -1545,13 +1551,13 @@
       "Bamboo Groves"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Nitewing_icon.png",
-    "breedingPower": 1100,
-    "captureRate": 45
+    "breedingPower": 1160,
+    "captureRate": 48
   },
   {
     "id": "ribbuny",
     "name": "Ribbuny",
-    "paldeckNumber": 42,
+    "paldeckNumber": 36,
     "elements": [
       "Neutral"
     ],
@@ -1579,13 +1585,13 @@
       "Verdant Brook"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Ribbuny_icon.png",
-    "breedingPower": 1090,
-    "captureRate": 44
+    "breedingPower": 1150,
+    "captureRate": 47
   },
   {
     "id": "incineram",
     "name": "Incineram",
-    "paldeckNumber": 43,
+    "paldeckNumber": 37,
     "elements": [
       "Fire",
       "Dark"
@@ -1623,13 +1629,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Incineram_icon.png",
-    "breedingPower": 1080,
-    "captureRate": 44
+    "breedingPower": 1140,
+    "captureRate": 47
   },
   {
     "id": "incineram_noct",
     "name": "Incineram Noct",
-    "paldeckNumber": 44,
+    "paldeckNumber": 37,
     "elements": [
       "Dark"
     ],
@@ -1661,13 +1667,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Incineram_Noct_icon.png",
-    "breedingPower": 1070,
-    "captureRate": 43
+    "breedingPower": 1135,
+    "captureRate": 42,
+    "paldeckVariant": "B"
   },
   {
     "id": "cinnamoth",
     "name": "Cinnamoth",
-    "paldeckNumber": 45,
+    "paldeckNumber": 38,
     "elements": [
       "Leaf"
     ],
@@ -1699,13 +1706,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Cinnamoth_icon.png",
-    "breedingPower": 1060,
-    "captureRate": 43
+    "breedingPower": 1130,
+    "captureRate": 46
   },
   {
     "id": "arsox",
     "name": "Arsox",
-    "paldeckNumber": 46,
+    "paldeckNumber": 39,
     "elements": [
       "Fire"
     ],
@@ -1738,13 +1745,13 @@
       "Gobfin's Turf"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Arsox_icon.png",
-    "breedingPower": 1050,
-    "captureRate": 42
+    "breedingPower": 1120,
+    "captureRate": 46
   },
   {
     "id": "dumud",
     "name": "Dumud",
-    "paldeckNumber": 47,
+    "paldeckNumber": 40,
     "elements": [
       "Earth"
     ],
@@ -1777,13 +1784,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Dumud_icon.png",
-    "breedingPower": 1040,
-    "captureRate": 42
+    "breedingPower": 1110,
+    "captureRate": 45
   },
   {
     "id": "cawgnito",
     "name": "Cawgnito",
-    "paldeckNumber": 48,
+    "paldeckNumber": 41,
     "elements": [
       "Dark"
     ],
@@ -1811,13 +1818,13 @@
       "Windswept Hills"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Cawgnito_icon.png",
-    "breedingPower": 1030,
-    "captureRate": 41
+    "breedingPower": 1100,
+    "captureRate": 45
   },
   {
     "id": "leezpunk",
     "name": "Leezpunk",
-    "paldeckNumber": 49,
+    "paldeckNumber": 42,
     "elements": [
       "Dark"
     ],
@@ -1849,13 +1856,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Leezpunk_icon.png",
-    "breedingPower": 1020,
-    "captureRate": 41
+    "breedingPower": 1090,
+    "captureRate": 44
   },
   {
     "id": "leezpunk_ignis",
     "name": "Leezpunk Ignis",
-    "paldeckNumber": 50,
+    "paldeckNumber": 42,
     "elements": [
       "Fire"
     ],
@@ -1887,13 +1894,14 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Leezpunk_Ignis_icon.png",
-    "breedingPower": 1010,
-    "captureRate": 40
+    "breedingPower": 1085,
+    "captureRate": 39,
+    "paldeckVariant": "B"
   },
   {
     "id": "loupmoon",
     "name": "Loupmoon",
-    "paldeckNumber": 51,
+    "paldeckNumber": 43,
     "elements": [
       "Dark"
     ],
@@ -1930,13 +1938,13 @@
       "Gobfin's Turf"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Loupmoon_icon.png",
-    "breedingPower": 1000,
-    "captureRate": 40
+    "breedingPower": 1080,
+    "captureRate": 44
   },
   {
     "id": "galeclaw",
     "name": "Galeclaw",
-    "paldeckNumber": 52,
+    "paldeckNumber": 44,
     "elements": [
       "Neutral"
     ],
@@ -1964,13 +1972,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Galeclaw_icon.png",
-    "breedingPower": 990,
-    "captureRate": 39
+    "breedingPower": 1070,
+    "captureRate": 43
   },
   {
     "id": "robinquill",
     "name": "Robinquill",
-    "paldeckNumber": 53,
+    "paldeckNumber": 45,
     "elements": [
       "Leaf"
     ],
@@ -2006,13 +2014,13 @@
       "Verdant Brook"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Robinquill_icon.png",
-    "breedingPower": 980,
-    "captureRate": 39
+    "breedingPower": 1060,
+    "captureRate": 43
   },
   {
     "id": "robinquill_terra",
     "name": "Robinquill Terra",
-    "paldeckNumber": 54,
+    "paldeckNumber": 45,
     "elements": [
       "Leaf",
       "Earth"
@@ -2049,13 +2057,14 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Robinquill_Terra_icon.png",
-    "breedingPower": 970,
-    "captureRate": 38
+    "breedingPower": 1055,
+    "captureRate": 38,
+    "paldeckVariant": "B"
   },
   {
     "id": "gorirat",
     "name": "Gorirat",
-    "paldeckNumber": 55,
+    "paldeckNumber": 46,
     "elements": [
       "Neutral"
     ],
@@ -2087,13 +2096,13 @@
       "Bamboo Groves"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Gorirat_icon.png",
-    "breedingPower": 960,
-    "captureRate": 38
+    "breedingPower": 1050,
+    "captureRate": 42
   },
   {
     "id": "beegarde",
     "name": "Beegarde",
-    "paldeckNumber": 56,
+    "paldeckNumber": 47,
     "elements": [
       "Leaf"
     ],
@@ -2125,13 +2134,13 @@
       "Bamboo Groves"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Beegarde_icon.png",
-    "breedingPower": 950,
-    "captureRate": 37
+    "breedingPower": 1040,
+    "captureRate": 42
   },
   {
     "id": "elizabee",
     "name": "Elizabee",
-    "paldeckNumber": 57,
+    "paldeckNumber": 48,
     "elements": [
       "Leaf"
     ],
@@ -2172,13 +2181,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Elizabee_icon.png",
-    "breedingPower": 940,
-    "captureRate": 37
+    "breedingPower": 1030,
+    "captureRate": 41
   },
   {
     "id": "grintale",
     "name": "Grintale",
-    "paldeckNumber": 58,
+    "paldeckNumber": 49,
     "elements": [
       "Neutral"
     ],
@@ -2206,13 +2215,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Grintale_icon.png",
-    "breedingPower": 930,
-    "captureRate": 36
+    "breedingPower": 1020,
+    "captureRate": 41
   },
   {
     "id": "swee",
     "name": "Swee",
-    "paldeckNumber": 59,
+    "paldeckNumber": 50,
     "elements": [
       "Ice"
     ],
@@ -2236,13 +2245,13 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Swee_icon.png",
-    "breedingPower": 920,
-    "captureRate": 36
+    "breedingPower": 1010,
+    "captureRate": 40
   },
   {
     "id": "sweepa",
     "name": "Sweepa",
-    "paldeckNumber": 60,
+    "paldeckNumber": 51,
     "elements": [
       "Ice"
     ],
@@ -2279,13 +2288,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Sweepa_icon.png",
-    "breedingPower": 910,
-    "captureRate": 35
+    "breedingPower": 985,
+    "captureRate": 40
   },
   {
     "id": "chillet",
     "name": "Chillet",
-    "paldeckNumber": 61,
+    "paldeckNumber": 52,
     "elements": [
       "Ice",
       "Dragon"
@@ -2315,13 +2324,13 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Chillet_icon.png",
-    "breedingPower": 900,
-    "captureRate": 35
+    "breedingPower": 971,
+    "captureRate": 39
   },
   {
     "id": "univolt",
     "name": "Univolt",
-    "paldeckNumber": 62,
+    "paldeckNumber": 53,
     "elements": [
       "Electricity"
     ],
@@ -2359,13 +2368,13 @@
       "Windswept Hills"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Univolt_icon.png",
-    "breedingPower": 890,
-    "captureRate": 34
+    "breedingPower": 956,
+    "captureRate": 39
   },
   {
     "id": "foxcicle",
     "name": "Foxcicle",
-    "paldeckNumber": 63,
+    "paldeckNumber": 54,
     "elements": [
       "Ice"
     ],
@@ -2394,13 +2403,13 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Foxcicle_icon.png",
-    "breedingPower": 880,
-    "captureRate": 34
+    "breedingPower": 941,
+    "captureRate": 38
   },
   {
     "id": "pyrin",
     "name": "Pyrin",
-    "paldeckNumber": 64,
+    "paldeckNumber": 55,
     "elements": [
       "Fire"
     ],
@@ -2433,13 +2442,13 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Pyrin_icon.png",
-    "breedingPower": 870,
-    "captureRate": 33
+    "breedingPower": 927,
+    "captureRate": 38
   },
   {
     "id": "pyrin_noct",
     "name": "Pyrin Noct",
-    "paldeckNumber": 65,
+    "paldeckNumber": 55,
     "elements": [
       "Fire",
       "Dark"
@@ -2473,13 +2482,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Pyrin_Noct_icon.png",
-    "breedingPower": 860,
-    "captureRate": 33
+    "breedingPower": 922,
+    "captureRate": 33,
+    "paldeckVariant": "B"
   },
   {
     "id": "reindrix",
     "name": "Reindrix",
-    "paldeckNumber": 66,
+    "paldeckNumber": 56,
     "elements": [
       "Ice"
     ],
@@ -2517,13 +2527,13 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Reindrix_icon.png",
-    "breedingPower": 850,
-    "captureRate": 32
+    "breedingPower": 912,
+    "captureRate": 37
   },
   {
     "id": "rayhound",
     "name": "Rayhound",
-    "paldeckNumber": 67,
+    "paldeckNumber": 57,
     "elements": [
       "Electricity"
     ],
@@ -2552,13 +2562,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Rayhound_icon.png",
-    "breedingPower": 840,
-    "captureRate": 32
+    "breedingPower": 897,
+    "captureRate": 37
   },
   {
     "id": "kitsun",
     "name": "Kitsun",
-    "paldeckNumber": 68,
+    "paldeckNumber": 58,
     "elements": [
       "Fire"
     ],
@@ -2587,13 +2597,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Kitsun_icon.png",
-    "breedingPower": 830,
-    "captureRate": 31
+    "breedingPower": 882,
+    "captureRate": 36
   },
   {
     "id": "dazzi",
     "name": "Dazzi",
-    "paldeckNumber": 69,
+    "paldeckNumber": 59,
     "elements": [
       "Electricity"
     ],
@@ -2621,13 +2631,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Dazzi_icon.png",
-    "breedingPower": 820,
-    "captureRate": 31
+    "breedingPower": 868,
+    "captureRate": 36
   },
   {
     "id": "lunaris",
     "name": "Lunaris",
-    "paldeckNumber": 70,
+    "paldeckNumber": 60,
     "elements": [
       "Neutral"
     ],
@@ -2659,13 +2669,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Lunaris_icon.png",
-    "breedingPower": 810,
-    "captureRate": 30
+    "breedingPower": 853,
+    "captureRate": 35
   },
   {
     "id": "dinossom",
     "name": "Dinossom",
-    "paldeckNumber": 71,
+    "paldeckNumber": 61,
     "elements": [
       "Leaf"
     ],
@@ -2697,13 +2707,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Dinossom_icon.png",
-    "breedingPower": 800,
-    "captureRate": 30
+    "breedingPower": 838,
+    "captureRate": 34
   },
   {
     "id": "dinossom_lux",
     "name": "Dinossom Lux",
-    "paldeckNumber": 72,
+    "paldeckNumber": 61,
     "elements": [
       "Leaf",
       "Electricity"
@@ -2736,13 +2746,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Dinossom_Lux_icon.png",
-    "breedingPower": 790,
-    "captureRate": 29
+    "breedingPower": 833,
+    "captureRate": 29,
+    "paldeckVariant": "B"
   },
   {
     "id": "melpaca",
     "name": "Melpaca",
-    "paldeckNumber": 73,
+    "paldeckNumber": 62,
     "elements": [
       "Neutral"
     ],
@@ -2775,13 +2786,13 @@
       "Verdant Brook"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Melpaca_icon.png",
-    "breedingPower": 780,
-    "captureRate": 29
+    "breedingPower": 824,
+    "captureRate": 34
   },
   {
     "id": "surfent",
     "name": "Surfent",
-    "paldeckNumber": 74,
+    "paldeckNumber": 63,
     "elements": [
       "Water"
     ],
@@ -2810,13 +2821,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Surfent_icon.png",
-    "breedingPower": 770,
-    "captureRate": 28
+    "breedingPower": 809,
+    "captureRate": 33
   },
   {
     "id": "surfent_terra",
     "name": "Surfent Terra",
-    "paldeckNumber": 75,
+    "paldeckNumber": 63,
     "elements": [
       "Earth"
     ],
@@ -2845,13 +2856,14 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Surfent_Terra_icon.png",
-    "breedingPower": 760,
-    "captureRate": 28
+    "breedingPower": 804,
+    "captureRate": 28,
+    "paldeckVariant": "B"
   },
   {
     "id": "maraith",
     "name": "Maraith",
-    "paldeckNumber": 76,
+    "paldeckNumber": 64,
     "elements": [
       "Dark"
     ],
@@ -2883,13 +2895,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Maraith_icon.png",
-    "breedingPower": 750,
-    "captureRate": 27
+    "breedingPower": 794,
+    "captureRate": 33
   },
   {
     "id": "digtoise",
     "name": "Digtoise",
-    "paldeckNumber": 77,
+    "paldeckNumber": 65,
     "elements": [
       "Earth"
     ],
@@ -2918,13 +2930,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Digtoise_icon.png",
-    "breedingPower": 740,
-    "captureRate": 27
+    "breedingPower": 780,
+    "captureRate": 32
   },
   {
     "id": "tombat",
     "name": "Tombat",
-    "paldeckNumber": 78,
+    "paldeckNumber": 66,
     "elements": [
       "Dark"
     ],
@@ -2956,13 +2968,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Tombat_icon.png",
-    "breedingPower": 730,
-    "captureRate": 26
+    "breedingPower": 765,
+    "captureRate": 31
   },
   {
     "id": "lovander",
     "name": "Lovander",
-    "paldeckNumber": 79,
+    "paldeckNumber": 67,
     "elements": [
       "Neutral"
     ],
@@ -2994,13 +3006,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Lovander_icon.png",
-    "breedingPower": 720,
-    "captureRate": 26
+    "breedingPower": 750,
+    "captureRate": 31
   },
   {
     "id": "flambelle",
     "name": "Flambelle",
-    "paldeckNumber": 80,
+    "paldeckNumber": 68,
     "elements": [
       "Fire"
     ],
@@ -3033,13 +3045,13 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Flambelle_icon.png",
-    "breedingPower": 710,
-    "captureRate": 25
+    "breedingPower": 735,
+    "captureRate": 30
   },
   {
     "id": "vanwyrm",
     "name": "Vanwyrm",
-    "paldeckNumber": 81,
+    "paldeckNumber": 69,
     "elements": [
       "Fire",
       "Dark"
@@ -3073,13 +3085,13 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Vanwyrm_icon.png",
-    "breedingPower": 700,
-    "captureRate": 25
+    "breedingPower": 721,
+    "captureRate": 30
   },
   {
     "id": "vanwyrm_cryst",
     "name": "Vanwyrm Cryst",
-    "paldeckNumber": 82,
+    "paldeckNumber": 69,
     "elements": [
       "Ice",
       "Dark"
@@ -3113,13 +3125,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Vanwyrm_Cryst_icon.png",
-    "breedingPower": 690,
-    "captureRate": 24
+    "breedingPower": 716,
+    "captureRate": 25,
+    "paldeckVariant": "B"
   },
   {
     "id": "bushi",
     "name": "Bushi",
-    "paldeckNumber": 83,
+    "paldeckNumber": 70,
     "elements": [
       "Fire"
     ],
@@ -3156,13 +3169,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Bushi_icon.png",
-    "breedingPower": 680,
-    "captureRate": 24
+    "breedingPower": 706,
+    "captureRate": 29
   },
   {
     "id": "beakon",
     "name": "Beakon",
-    "paldeckNumber": 84,
+    "paldeckNumber": 71,
     "elements": [
       "Electricity"
     ],
@@ -3195,13 +3208,13 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Beakon_icon.png",
-    "breedingPower": 670,
-    "captureRate": 23
+    "breedingPower": 691,
+    "captureRate": 28
   },
   {
     "id": "ragnahawk",
     "name": "Ragnahawk",
-    "paldeckNumber": 85,
+    "paldeckNumber": 72,
     "elements": [
       "Fire"
     ],
@@ -3234,13 +3247,13 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Ragnahawk_icon.png",
-    "breedingPower": 660,
-    "captureRate": 23
+    "breedingPower": 677,
+    "captureRate": 28
   },
   {
     "id": "katress",
     "name": "Katress",
-    "paldeckNumber": 86,
+    "paldeckNumber": 73,
     "elements": [
       "Dark"
     ],
@@ -3272,13 +3285,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Katress_icon.png",
-    "breedingPower": 650,
-    "captureRate": 22
+    "breedingPower": 662,
+    "captureRate": 27
   },
   {
     "id": "wixen",
     "name": "Wixen",
-    "paldeckNumber": 87,
+    "paldeckNumber": 74,
     "elements": [
       "Fire"
     ],
@@ -3310,13 +3323,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Wixen_icon.png",
-    "breedingPower": 640,
-    "captureRate": 22
+    "breedingPower": 647,
+    "captureRate": 27
   },
   {
     "id": "verdash",
     "name": "Verdash",
-    "paldeckNumber": 88,
+    "paldeckNumber": 75,
     "elements": [
       "Leaf"
     ],
@@ -3352,13 +3365,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Verdash_icon.png",
-    "breedingPower": 630,
-    "captureRate": 21
+    "breedingPower": 633,
+    "captureRate": 26
   },
   {
     "id": "vaelet",
     "name": "Vaelet",
-    "paldeckNumber": 89,
+    "paldeckNumber": 76,
     "elements": [
       "Leaf"
     ],
@@ -3395,13 +3408,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Vaelet_icon.png",
-    "breedingPower": 620,
-    "captureRate": 21
+    "breedingPower": 618,
+    "captureRate": 25
   },
   {
     "id": "sibelyx",
     "name": "Sibelyx",
-    "paldeckNumber": 90,
+    "paldeckNumber": 77,
     "elements": [
       "Ice"
     ],
@@ -3438,13 +3451,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Sibelyx_icon.png",
-    "breedingPower": 610,
-    "captureRate": 20
+    "breedingPower": 603,
+    "captureRate": 25
   },
   {
     "id": "elphidran",
     "name": "Elphidran",
-    "paldeckNumber": 91,
+    "paldeckNumber": 78,
     "elements": [
       "Dragon"
     ],
@@ -3472,13 +3485,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Elphidran_icon.png",
-    "breedingPower": 600,
-    "captureRate": 20
+    "breedingPower": 588,
+    "captureRate": 24
   },
   {
     "id": "elphidran_aqua",
     "name": "Elphidran Aqua",
-    "paldeckNumber": 92,
+    "paldeckNumber": 78,
     "elements": [
       "Dragon",
       "Water"
@@ -3512,13 +3525,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Elphidran_Aqua_icon.png",
-    "breedingPower": 590,
-    "captureRate": 19
+    "breedingPower": 583,
+    "captureRate": 19,
+    "paldeckVariant": "B"
   },
   {
     "id": "kelpsea",
     "name": "Kelpsea",
-    "paldeckNumber": 93,
+    "paldeckNumber": 79,
     "elements": [
       "Water"
     ],
@@ -3547,13 +3561,13 @@
       "Gobfin's Turf"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Kelpsea_icon.png",
-    "breedingPower": 580,
-    "captureRate": 19
+    "breedingPower": 574,
+    "captureRate": 24
   },
   {
     "id": "kelpsea_ignis",
     "name": "Kelpsea Ignis",
-    "paldeckNumber": 94,
+    "paldeckNumber": 79,
     "elements": [
       "Fire"
     ],
@@ -3577,13 +3591,14 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Kelpsea_Ignis_icon.png",
-    "breedingPower": 570,
-    "captureRate": 18
+    "breedingPower": 569,
+    "captureRate": 19,
+    "paldeckVariant": "B"
   },
   {
     "id": "azurobe",
     "name": "Azurobe",
-    "paldeckNumber": 95,
+    "paldeckNumber": 80,
     "elements": [
       "Water",
       "Dragon"
@@ -3612,13 +3627,13 @@
       "Sea Breeze Archipelago"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Azurobe_icon.png",
-    "breedingPower": 560,
-    "captureRate": 18
+    "breedingPower": 559,
+    "captureRate": 23
   },
   {
     "id": "cryolinx",
     "name": "Cryolinx",
-    "paldeckNumber": 96,
+    "paldeckNumber": 81,
     "elements": [
       "Ice"
     ],
@@ -3655,13 +3670,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Cryolinx_icon.png",
-    "breedingPower": 550,
-    "captureRate": 17
+    "breedingPower": 544,
+    "captureRate": 22
   },
   {
     "id": "blazehowl",
     "name": "Blazehowl",
-    "paldeckNumber": 97,
+    "paldeckNumber": 82,
     "elements": [
       "Fire"
     ],
@@ -3694,13 +3709,13 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Blazehowl_icon.png",
-    "breedingPower": 540,
-    "captureRate": 17
+    "breedingPower": 530,
+    "captureRate": 22
   },
   {
     "id": "blazehowl_noct",
     "name": "Blazehowl Noct",
-    "paldeckNumber": 98,
+    "paldeckNumber": 82,
     "elements": [
       "Fire",
       "Dark"
@@ -3734,13 +3749,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Blazehowl_Noct_icon.png",
-    "breedingPower": 530,
-    "captureRate": 16
+    "breedingPower": 525,
+    "captureRate": 17,
+    "paldeckVariant": "B"
   },
   {
     "id": "relaxaurus",
     "name": "Relaxaurus",
-    "paldeckNumber": 99,
+    "paldeckNumber": 83,
     "elements": [
       "Dragon"
     ],
@@ -3777,13 +3793,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Relaxaurus_icon.png",
-    "breedingPower": 520,
-    "captureRate": 16
+    "breedingPower": 515,
+    "captureRate": 21
   },
   {
     "id": "relaxaurus_lux",
     "name": "Relaxaurus Lux",
-    "paldeckNumber": 100,
+    "paldeckNumber": 83,
     "elements": [
       "Dragon",
       "Electricity"
@@ -3822,12 +3838,13 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Relaxaurus_Lux_icon.png",
     "breedingPower": 510,
-    "captureRate": 15
+    "captureRate": 16,
+    "paldeckVariant": "B"
   },
   {
     "id": "broncherry",
     "name": "Broncherry",
-    "paldeckNumber": 101,
+    "paldeckNumber": 84,
     "elements": [
       "Leaf"
     ],
@@ -3865,12 +3882,12 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Broncherry_icon.png",
     "breedingPower": 500,
-    "captureRate": 15
+    "captureRate": 21
   },
   {
     "id": "broncherry_aqua",
     "name": "Broncherry Aqua",
-    "paldeckNumber": 102,
+    "paldeckNumber": 84,
     "elements": [
       "Leaf",
       "Water"
@@ -3908,13 +3925,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Broncherry_Aqua_icon.png",
-    "breedingPower": 490,
-    "captureRate": 15
+    "breedingPower": 495,
+    "captureRate": 16,
+    "paldeckVariant": "B"
   },
   {
     "id": "petallia",
     "name": "Petallia",
-    "paldeckNumber": 103,
+    "paldeckNumber": 85,
     "elements": [
       "Leaf"
     ],
@@ -3951,13 +3969,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Petallia_icon.png",
-    "breedingPower": 480,
-    "captureRate": 14
+    "breedingPower": 486,
+    "captureRate": 20
   },
   {
     "id": "reptyro",
     "name": "Reptyro",
-    "paldeckNumber": 104,
+    "paldeckNumber": 86,
     "elements": [
       "Fire",
       "Earth"
@@ -3996,13 +4014,13 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Reptyro_icon.png",
-    "breedingPower": 470,
-    "captureRate": 14
+    "breedingPower": 461,
+    "captureRate": 20
   },
   {
     "id": "reptyro_cryst",
     "name": "Reptyro Cryst",
-    "paldeckNumber": 105,
+    "paldeckNumber": 86,
     "elements": [
       "Ice",
       "Earth"
@@ -4036,13 +4054,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Reptyro_Cryst_icon.png",
-    "breedingPower": 460,
-    "captureRate": 14
+    "breedingPower": 456,
+    "captureRate": 15,
+    "paldeckVariant": "B"
   },
   {
     "id": "kingpaca",
     "name": "Kingpaca",
-    "paldeckNumber": 106,
+    "paldeckNumber": 87,
     "elements": [
       "Neutral"
     ],
@@ -4079,13 +4098,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Kingpaca_icon.png",
-    "breedingPower": 450,
-    "captureRate": 14
+    "breedingPower": 441,
+    "captureRate": 19
   },
   {
     "id": "kingpaca_cryst",
     "name": "Kingpaca Cryst",
-    "paldeckNumber": 107,
+    "paldeckNumber": 87,
     "elements": [
       "Ice"
     ],
@@ -4122,13 +4141,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Kingpaca_Cryst_icon.png",
-    "breedingPower": 440,
-    "captureRate": 14
+    "breedingPower": 436,
+    "captureRate": 14,
+    "paldeckVariant": "B"
   },
   {
     "id": "mammorest",
     "name": "Mammorest",
-    "paldeckNumber": 108,
+    "paldeckNumber": 88,
     "elements": [
       "Leaf"
     ],
@@ -4165,13 +4185,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mammorest_icon.png",
-    "breedingPower": 430,
-    "captureRate": 13
+    "breedingPower": 422,
+    "captureRate": 19
   },
   {
     "id": "mammorest_cryst",
     "name": "Mammorest Cryst",
-    "paldeckNumber": 109,
+    "paldeckNumber": 88,
     "elements": [
       "Ice"
     ],
@@ -4208,13 +4228,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mammorest_Cryst_icon.png",
-    "breedingPower": 420,
-    "captureRate": 13
+    "breedingPower": 417,
+    "captureRate": 14,
+    "paldeckVariant": "B"
   },
   {
     "id": "wumpo",
     "name": "Wumpo",
-    "paldeckNumber": 110,
+    "paldeckNumber": 89,
     "elements": [
       "Ice"
     ],
@@ -4255,13 +4276,13 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Wumpo_icon.png",
-    "breedingPower": 410,
-    "captureRate": 13
+    "breedingPower": 402,
+    "captureRate": 18
   },
   {
     "id": "wumpo_botan",
     "name": "Wumpo Botan",
-    "paldeckNumber": 111,
+    "paldeckNumber": 89,
     "elements": [
       "Leaf"
     ],
@@ -4302,13 +4323,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Wumpo_Botan_icon.png",
-    "breedingPower": 400,
-    "captureRate": 13
+    "breedingPower": 397,
+    "captureRate": 13,
+    "paldeckVariant": "B"
   },
   {
     "id": "warsect",
     "name": "Warsect",
-    "paldeckNumber": 112,
+    "paldeckNumber": 90,
     "elements": [
       "Leaf",
       "Earth"
@@ -4346,13 +4368,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Warsect_icon.png",
-    "breedingPower": 390,
-    "captureRate": 13
+    "breedingPower": 383,
+    "captureRate": 18
   },
   {
     "id": "fenglope",
     "name": "Fenglope",
-    "paldeckNumber": 113,
+    "paldeckNumber": 91,
     "elements": [
       "Neutral"
     ],
@@ -4380,13 +4402,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Fenglope_icon.png",
-    "breedingPower": 380,
-    "captureRate": 12
+    "breedingPower": 363,
+    "captureRate": 18
   },
   {
     "id": "felbat",
     "name": "Felbat",
-    "paldeckNumber": 114,
+    "paldeckNumber": 92,
     "elements": [
       "Dark"
     ],
@@ -4419,13 +4441,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Felbat_icon.png",
-    "breedingPower": 370,
-    "captureRate": 12
+    "breedingPower": 344,
+    "captureRate": 17
   },
   {
     "id": "quivern",
     "name": "Quivern",
-    "paldeckNumber": 115,
+    "paldeckNumber": 93,
     "elements": [
       "Dragon"
     ],
@@ -4457,13 +4479,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Quivern_icon.png",
-    "breedingPower": 360,
-    "captureRate": 12
+    "breedingPower": 324,
+    "captureRate": 17
   },
   {
     "id": "blazamut",
     "name": "Blazamut",
-    "paldeckNumber": 116,
+    "paldeckNumber": 94,
     "elements": [
       "Fire"
     ],
@@ -4501,13 +4523,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Blazamut_icon.png",
-    "breedingPower": 350,
-    "captureRate": 12
+    "breedingPower": 305,
+    "captureRate": 16
   },
   {
     "id": "helzephyr",
     "name": "Helzephyr",
-    "paldeckNumber": 117,
+    "paldeckNumber": 95,
     "elements": [
       "Dark"
     ],
@@ -4535,13 +4557,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Helzephyr_icon.png",
-    "breedingPower": 340,
-    "captureRate": 12
+    "breedingPower": 285,
+    "captureRate": 16
   },
   {
     "id": "astegon",
     "name": "Astegon",
-    "paldeckNumber": 118,
+    "paldeckNumber": 96,
     "elements": [
       "Dragon",
       "Dark"
@@ -4576,13 +4598,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Astegon_icon.png",
-    "breedingPower": 330,
-    "captureRate": 11
+    "breedingPower": 266,
+    "captureRate": 16
   },
   {
     "id": "menasting",
     "name": "Menasting",
-    "paldeckNumber": 119,
+    "paldeckNumber": 97,
     "elements": [
       "Dark",
       "Earth"
@@ -4616,13 +4638,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Menasting_icon.png",
-    "breedingPower": 320,
-    "captureRate": 11
+    "breedingPower": 246,
+    "captureRate": 15
   },
   {
     "id": "anubis",
     "name": "Anubis",
-    "paldeckNumber": 120,
+    "paldeckNumber": 98,
     "elements": [
       "Earth"
     ],
@@ -4659,13 +4681,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Anubis_icon.png",
-    "breedingPower": 310,
-    "captureRate": 11
+    "breedingPower": 227,
+    "captureRate": 15
   },
   {
     "id": "jormuntide",
     "name": "Jormuntide",
-    "paldeckNumber": 121,
+    "paldeckNumber": 99,
     "elements": [
       "Water",
       "Dragon"
@@ -4695,13 +4717,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Jormuntide_icon.png",
-    "breedingPower": 300,
-    "captureRate": 10
+    "breedingPower": 207,
+    "captureRate": 14
   },
   {
     "id": "jormuntide_ignis",
     "name": "Jormuntide Ignis",
-    "paldeckNumber": 122,
+    "paldeckNumber": 99,
     "elements": [
       "Fire",
       "Dragon"
@@ -4731,13 +4753,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Jormuntide_Ignis_icon.png",
-    "breedingPower": 290,
-    "captureRate": 10
+    "breedingPower": 202,
+    "captureRate": 9,
+    "paldeckVariant": "B"
   },
   {
     "id": "suzaku",
     "name": "Suzaku",
-    "paldeckNumber": 123,
+    "paldeckNumber": 100,
     "elements": [
       "Fire"
     ],
@@ -4770,13 +4793,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Suzaku_icon.png",
-    "breedingPower": 280,
-    "captureRate": 10
+    "breedingPower": 188,
+    "captureRate": 14
   },
   {
     "id": "suzaku_aqua",
     "name": "Suzaku Aqua",
-    "paldeckNumber": 124,
+    "paldeckNumber": 100,
     "elements": [
       "Water"
     ],
@@ -4809,13 +4832,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Suzaku_Aqua_icon.png",
-    "breedingPower": 270,
-    "captureRate": 10
+    "breedingPower": 183,
+    "captureRate": 9,
+    "paldeckVariant": "B"
   },
   {
     "id": "grizzbolt",
     "name": "Grizzbolt",
-    "paldeckNumber": 125,
+    "paldeckNumber": 101,
     "elements": [
       "Electricity"
     ],
@@ -4855,13 +4879,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Grizzbolt_icon.png",
-    "breedingPower": 260,
-    "captureRate": 10
+    "breedingPower": 168,
+    "captureRate": 13
   },
   {
     "id": "lyleen",
     "name": "Lyleen",
-    "paldeckNumber": 126,
+    "paldeckNumber": 102,
     "elements": [
       "Leaf"
     ],
@@ -4901,13 +4925,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Lyleen_icon.png",
-    "breedingPower": 250,
-    "captureRate": 10
+    "breedingPower": 149,
+    "captureRate": 12
   },
   {
     "id": "lyleen_noct",
     "name": "Lyleen Noct",
-    "paldeckNumber": 127,
+    "paldeckNumber": 102,
     "elements": [
       "Dark"
     ],
@@ -4944,13 +4968,14 @@
       "Dungeon"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Lyleen_Noct_icon.png",
-    "breedingPower": 240,
-    "captureRate": 10
+    "breedingPower": 144,
+    "captureRate": 7,
+    "paldeckVariant": "B"
   },
   {
     "id": "faleris",
     "name": "Faleris",
-    "paldeckNumber": 128,
+    "paldeckNumber": 103,
     "elements": [
       "Fire"
     ],
@@ -4983,13 +5008,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Faleris_icon.png",
-    "breedingPower": 230,
-    "captureRate": 10
+    "breedingPower": 129,
+    "captureRate": 11
   },
   {
     "id": "orserk",
     "name": "Orserk",
-    "paldeckNumber": 129,
+    "paldeckNumber": 104,
     "elements": [
       "Electricity",
       "Dragon"
@@ -5027,13 +5052,13 @@
       "Dungeon"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Orserk_icon.png",
-    "breedingPower": 220,
+    "breedingPower": 110,
     "captureRate": 10
   },
   {
     "id": "shadowbeak",
     "name": "Shadowbeak",
-    "paldeckNumber": 130,
+    "paldeckNumber": 105,
     "elements": [
       "Dark"
     ],
@@ -5062,13 +5087,13 @@
       "Syndicate Tower"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Shadowbeak_icon.png",
-    "breedingPower": 210,
-    "captureRate": 10
+    "breedingPower": 90,
+    "captureRate": 9
   },
   {
     "id": "paladius",
     "name": "Paladius",
-    "paldeckNumber": 131,
+    "paldeckNumber": 106,
     "elements": [
       "Neutral"
     ],
@@ -5105,13 +5130,13 @@
       "Syndicate Tower"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Paladius_icon.png",
-    "breedingPower": 80,
-    "captureRate": 5
+    "breedingPower": 90,
+    "captureRate": 8
   },
   {
     "id": "necromus",
     "name": "Necromus",
-    "paldeckNumber": 132,
+    "paldeckNumber": 107,
     "elements": [
       "Dark"
     ],
@@ -5148,13 +5173,13 @@
       "Syndicate Tower"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Necromus_icon.png",
-    "breedingPower": 70,
-    "captureRate": 5
+    "breedingPower": 80,
+    "captureRate": 7
   },
   {
     "id": "frostallion",
     "name": "Frostallion",
-    "paldeckNumber": 133,
+    "paldeckNumber": 108,
     "elements": [
       "Ice"
     ],
@@ -5184,12 +5209,12 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Frostallion_icon.png",
     "breedingPower": 60,
-    "captureRate": 5
+    "captureRate": 6
   },
   {
     "id": "frostallion_noct",
     "name": "Frostallion Noct",
-    "paldeckNumber": 134,
+    "paldeckNumber": 108,
     "elements": [
       "Dark"
     ],
@@ -5218,13 +5243,14 @@
       "Syndicate Tower"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Frostallion_Noct_icon.png",
-    "breedingPower": 50,
-    "captureRate": 5
+    "breedingPower": 55,
+    "captureRate": 5,
+    "paldeckVariant": "B"
   },
   {
     "id": "jetragon",
     "name": "Jetragon",
-    "paldeckNumber": 135,
+    "paldeckNumber": 109,
     "elements": [
       "Dragon"
     ],

@@ -25,7 +25,7 @@ export function PalCard({ pal }: PalCardProps) {
         <PalImage name={pal.name} imageUrl={pal.imageUrl} elements={pal.elements} size="lg" />
       </div>
       <div className={styles.header}>
-        <span className={styles.number}>#{pal.paldeckNumber}</span>
+        <span className={styles.number}>#{pal.paldeckNumber}{pal.paldeckVariant ?? ''}</span>
         <div className={styles.elements}>
           {pal.elements.map((el) => (
             <Badge key={el} label={el} variant="element" element={el} />

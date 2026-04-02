@@ -12,7 +12,9 @@
       "Bash(node:*)",
       "Bash(python3 -c \"import json,sys; pals=json.load\\(sys.stdin\\); print\\([\\(p['id'],p['breedingPower']\\) for p in pals[:10]]\\)\")",
       "Bash(git add:*)",
-      "Bash(git commit -m 'feat: sort owned pals to top across all pal lists:*)"
+      "Bash(git commit -m 'feat: sort owned pals to top across all pal lists:*)",
+      "Bash(git push:*)",
+      "Bash(git commit -m 'fix: correct paldeck numbers for B variant pals:*)"
     ]
   }
 }

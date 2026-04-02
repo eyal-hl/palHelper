@@ -46,8 +46,10 @@ export function useBreedingCalculator(): UseBreedingCalculatorReturn {
     if (!desiredChildId) return []
     const combos = getParentCombos(desiredChildId)
     return [...combos].sort((a, b) => {
-      const aOwned = (ownedPalIds.has(a.parent1.id) ? 1 : 0) + (ownedPalIds.has(a.parent2.id) ? 1 : 0)
-      const bOwned = (ownedPalIds.has(b.parent1.id) ? 1 : 0) + (ownedPalIds.has(b.parent2.id) ? 1 : 0)
+      const aOwned =
+        (ownedPalIds.has(a.parent1.id) ? 1 : 0) + (ownedPalIds.has(a.parent2.id) ? 1 : 0)
+      const bOwned =
+        (ownedPalIds.has(b.parent1.id) ? 1 : 0) + (ownedPalIds.has(b.parent2.id) ? 1 : 0)
       return bOwned - aOwned
     })
   }, [mode, desiredChildId, ownedPalIds])

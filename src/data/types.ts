@@ -53,6 +53,8 @@ export interface Pal {
   breedingPower: number
   /** Capture rate 1-100. Higher = easier to catch. */
   captureRate: number
+  /** Set to 'B' for variant pals (e.g. Jolthog Cryst is #12B). Display as #{paldeckNumber}{paldeckVariant}. */
+  paldeckVariant?: string
 }
 
 export interface SpecialBreedingCombo {

@@ -102,7 +102,7 @@ export function PalPicker({ value, onChange, placeholder = 'Select a Pal...' }: 
                     size="sm"
                   />
                   <span className={styles.palName}>{pal.name}</span>
-                  <span className={styles.palNumber}>#{pal.paldeckNumber}</span>
+                  <span className={styles.palNumber}>#{pal.paldeckNumber}{pal.paldeckVariant ?? ''}</span>
                 </button>
               </li>
             ))}

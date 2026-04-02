@@ -68,7 +68,7 @@ export function PalSourceList({ material }: PalSourceListProps) {
                       size="sm"
                     />
                     <span className={styles.palName}>{pal.name}</span>
-                    <span className={styles.palNumber}>#{pal.paldeckNumber}</span>
+                    <span className={styles.palNumber}>#{pal.paldeckNumber}{pal.paldeckVariant ?? ''}</span>
                   </Link>
                   <div className={styles.badges}>
                     {pal.elements.map((el) => (
