@@ -1,0 +1,1 @@
+import{j as r}from"./index-BkkQfHX8.js";const o="_badge_1jcik_1",d={badge:o};function c({label:s,variant:t="neutral",element:a}){return r.jsx("span",{className:d.badge,"data-variant":t,"data-element":a==null?void 0:a.toLowerCase(),children:s})}export{c as B};
