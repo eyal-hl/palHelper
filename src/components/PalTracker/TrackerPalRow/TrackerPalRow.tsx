@@ -30,7 +30,10 @@ export function TrackerPalRow({ pal, isOwned, onToggle }: TrackerPalRowProps) {
           className={styles.palName}
           onClick={(e) => e.stopPropagation()}
         >
-          <span className={styles.number}>#{pal.paldeckNumber}{pal.paldeckVariant ?? ''}</span>
+          <span className={styles.number}>
+            #{pal.paldeckNumber}
+            {pal.paldeckVariant ?? ''}
+          </span>
           {pal.name}
         </Link>
         <div className={styles.elements}>

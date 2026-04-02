@@ -210,6 +210,42 @@
     "captureRate": 85
   },
   {
+    "id": "foxparks_cryst",
+    "name": "Foxparks Cryst",
+    "paldeckNumber": 5,
+    "paldeckVariant": "B",
+    "elements": [
+      "Ice"
+    ],
+    "description": "It is unskilled at controlling cold air from the moment it is born and tends to choke on the frost it breathes unintentionally.",
+    "partnerSkill": "Huggy Frost - When activated, equips to the player and attacks using frigid air.",
+    "workSuitabilities": [
+      {
+        "type": "cooling",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "ice_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Frozen Coral Hill",
+      "Feybreak"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Foxparks_Cryst_icon.png",
+    "breedingPower": 1455,
+    "captureRate": 85
+  },
+  {
     "id": "fuack",
     "name": "Fuack",
     "paldeckNumber": 6,
@@ -251,6 +287,60 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Fuack_icon.png",
     "breedingPower": 1450,
+    "captureRate": 85
+  },
+  {
+    "id": "fuack_ignis",
+    "name": "Fuack Ignis",
+    "paldeckNumber": 6,
+    "paldeckVariant": "B",
+    "elements": [
+      "Water",
+      "Fire"
+    ],
+    "description": "With a belly built for friction, this Pal sparks flames as it body surfs. But when it gets carried away, it often ends up a rolling fireball.",
+    "partnerSkill": "Fire Tackle - When activated, Fuack Ignis fire surfs towards an enemy and slams into them.",
+    "workSuitabilities": [
+      {
+        "type": "kindling",
+        "level": 1
+      },
+      {
+        "type": "watering",
+        "level": 1
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "flame_organ",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Dry Sandy Beach",
+      "Ruined Fortress City"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Fuack_Ignis_icon.png",
+    "breedingPower": 1445,
     "captureRate": 85
   },
   {
@@ -416,6 +506,56 @@
     "captureRate": 85
   },
   {
+    "id": "pengullet_lux",
+    "name": "Pengullet Lux",
+    "paldeckNumber": 10,
+    "paldeckVariant": "B",
+    "elements": [
+      "Water",
+      "Electricity"
+    ],
+    "description": "The feathers of this Pal have all but disappeared, and it can no longer fly. Yet its longing for the sky has turned to jealousy — so it harnessed electricity to strike down those who still soar.",
+    "partnerSkill": "Pengullet Lux Launcher - When activated, the player equips a Rocket Launcher and fires Pengullet Lux as ammunition.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 1
+      },
+      {
+        "type": "generating",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "electric_organ",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Phantom Isle",
+      "Isle of Decayed Treasures",
+      "Desiccated Dunes"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Pengullet_Lux_icon.png",
+    "breedingPower": 1405,
+    "captureRate": 85
+  },
+  {
     "id": "penking",
     "name": "Penking",
     "paldeckNumber": 11,
@@ -465,6 +605,55 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Penking_icon.png",
     "breedingPower": 1400,
+    "captureRate": 79
+  },
+  {
+    "id": "penking_lux",
+    "name": "Penking Lux",
+    "paldeckNumber": 11,
+    "paldeckVariant": "B",
+    "elements": [
+      "Water",
+      "Electricity"
+    ],
+    "description": "Its body changed color after gaining electricity to improve underwater hunting. As a result, it lost the affection of Pengullet but strangely enough, it now has a loyal follower; Pengullet Lux.",
+    "partnerSkill": "Unyielding Storm Commander - While fighting together, Water Pals drop more items when defeated.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 2
+      },
+      {
+        "type": "generating",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 2
+      },
+      {
+        "type": "mining",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "electric_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Phantom Isle",
+      "No. 3 Wildlife Sanctuary",
+      "Sakurajima"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Penking_Lux_icon.png",
+    "breedingPower": 1395,
     "captureRate": 79
   },
   {
@@ -525,7 +714,7 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Jolthog_Cryst_icon.png",
     "breedingPower": 1385,
-    "captureRate": 72,
+    "captureRate": 77,
     "paldeckVariant": "B"
   },
   {
@@ -922,6 +1111,46 @@
     "captureRate": 61
   },
   {
+    "id": "killamari_primo",
+    "name": "Killamari Primo",
+    "paldeckNumber": 23,
+    "paldeckVariant": "B",
+    "elements": [
+      "Neutral",
+      "Water"
+    ],
+    "description": "It sinks its fangs into the enemy's neck, draining every last drop of blood. When two Killamari Primos latch onto each other, they become locked in a relentless struggle.",
+    "partnerSkill": "Fried Killamari - While in team, modifies the performance of the equipped glider. Enables gentle floating while gliding for an extended time.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 1
+      },
+      {
+        "type": "gathering",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Mount Obsidian coast",
+      "Sealed Realm of Terraria"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Killamari_Primo_icon.png",
+    "breedingPower": 1275,
+    "captureRate": 61
+  },
+  {
     "id": "mau",
     "name": "Mau",
     "paldeckNumber": 24,
@@ -987,7 +1216,7 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mau_Cryst_icon.png",
     "breedingPower": 1265,
-    "captureRate": 54,
+    "captureRate": 59,
     "paldeckVariant": "B"
   },
   {
@@ -1027,6 +1256,48 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Celaray_icon.png",
     "breedingPower": 1260,
+    "captureRate": 58
+  },
+  {
+    "id": "celaray_lux",
+    "name": "Celaray Lux",
+    "paldeckNumber": 25,
+    "paldeckVariant": "B",
+    "elements": [
+      "Water",
+      "Electricity"
+    ],
+    "description": "Its flashy patterns help it attract a partner. But after a long history of electrocution incidents involving Celaray Lux, yellow-and-black stripes are now seen across the island as a sign of danger.",
+    "partnerSkill": "Jolt Glider - While in team, modifies the performance of the equipped glider. Increases speed while gliding for an extended time.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 1
+      },
+      {
+        "type": "generating",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Verdant Brook",
+      "Scars of War",
+      "Oasis Isle",
+      "Eternal Summer Isle"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Celaray_Lux_icon.png",
+    "breedingPower": 1255,
     "captureRate": 58
   },
   {
@@ -1250,7 +1521,7 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Gobfin_icon.png",
     "breedingPower": 1200,
-    "captureRate": 50
+    "captureRate": 49
   },
   {
     "id": "gobfin_ignis",
@@ -1284,7 +1555,7 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Gobfin_Ignis_icon.png",
     "breedingPower": 1195,
-    "captureRate": 45,
+    "captureRate": 49,
     "paldeckVariant": "B"
   },
   {
@@ -1319,7 +1590,7 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Hangyu_icon.png",
     "breedingPower": 1190,
-    "captureRate": 49
+    "captureRate": 47
   },
   {
     "id": "hangyu_cryst",
@@ -1353,7 +1624,7 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Hangyu_Cryst_icon.png",
     "breedingPower": 1185,
-    "captureRate": 44,
+    "captureRate": 47,
     "paldeckVariant": "B"
   },
   {
@@ -1396,7 +1667,7 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mossanda_icon.png",
     "breedingPower": 1180,
-    "captureRate": 49
+    "captureRate": 46
   },
   {
     "id": "mossanda_lux",
@@ -1438,13 +1709,128 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mossanda_Lux_icon.png",
     "breedingPower": 1175,
-    "captureRate": 44,
+    "captureRate": 46,
     "paldeckVariant": "B"
+  },
+  {
+    "id": "woolipop",
+    "name": "Woolipop",
+    "paldeckNumber": 34,
+    "elements": [
+      "Neutral"
+    ],
+    "description": "Its entire body is 18,000 times sweeter than sugar. Carnivorous Pals lured by its scent will find themselves overwhelmed by sweetness and even pass out should they take a bite.",
+    "partnerSkill": "Candy Pop - Sometimes drops Cotton Candy when assigned to the ranch.",
+    "workSuitabilities": [
+      {
+        "type": "farming",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "high_quality_pal_oil",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Bamboo Groves"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Woolipop_icon.png",
+    "breedingPower": 1170,
+    "captureRate": 44
+  },
+  {
+    "id": "caprity",
+    "name": "Caprity",
+    "paldeckNumber": 35,
+    "elements": [
+      "Leaf"
+    ],
+    "description": "The shrub on this Pal's back produces berries as long as it is properly fed. It offers these berries to potential mates, and if the flavor is to their liking, romance blossoms.",
+    "partnerSkill": "Berry Picker - Sometimes drops Red Berries from its back when assigned to the ranch.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 2
+      },
+      {
+        "type": "farming",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "red_berries",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "horn",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "red_berries",
+        "method": "farming",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Windswept Hills",
+      "Eastern Wild Island",
+      "Ice Wind Island",
+      "Sea Breeze Archipelago"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Caprity_icon.png",
+    "breedingPower": 1160,
+    "captureRate": 43
+  },
+  {
+    "id": "caprity_noct",
+    "name": "Caprity Noct",
+    "paldeckNumber": 35,
+    "paldeckVariant": "B",
+    "elements": [
+      "Dark"
+    ],
+    "description": "The berries that grow on its back change flavor according to its emotions. The harsher the environment it grows in, the sweeter the berries become. This is why most Caprity Noct raised in captivity have never known love.",
+    "partnerSkill": "Venom Picker - Sometimes drops Venom Gland from its back when assigned to the ranch.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 2
+      },
+      {
+        "type": "farming",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "red_berries",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "horn",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Southern Scorched Hill",
+      "Feybreak Island"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Caprity_Noct_icon.png",
+    "breedingPower": 1155,
+    "captureRate": 43
   },
   {
     "id": "eikthyrdeer",
     "name": "Eikthyrdeer",
-    "paldeckNumber": 34,
+    "paldeckNumber": 36,
     "elements": [
       "Leaf"
     ],
@@ -1477,13 +1863,13 @@
       "Bamboo Groves"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Eikthyrdeer_icon.png",
-    "breedingPower": 1170,
-    "captureRate": 48
+    "breedingPower": 1150,
+    "captureRate": 42
   },
   {
     "id": "eikthyrdeer_terra",
     "name": "Eikthyrdeer Terra",
-    "paldeckNumber": 34,
+    "paldeckNumber": 36,
     "elements": [
       "Earth"
     ],
@@ -1516,14 +1902,14 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Eikthyrdeer_Terra_icon.png",
-    "breedingPower": 1165,
-    "captureRate": 43,
+    "breedingPower": 1145,
+    "captureRate": 42,
     "paldeckVariant": "B"
   },
   {
     "id": "nitewing",
     "name": "Nitewing",
-    "paldeckNumber": 35,
+    "paldeckNumber": 37,
     "elements": [
       "Neutral"
     ],
@@ -1551,13 +1937,13 @@
       "Bamboo Groves"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Nitewing_icon.png",
-    "breedingPower": 1160,
-    "captureRate": 48
+    "breedingPower": 1140,
+    "captureRate": 42
   },
   {
     "id": "ribbuny",
     "name": "Ribbuny",
-    "paldeckNumber": 36,
+    "paldeckNumber": 38,
     "elements": [
       "Neutral"
     ],
@@ -1585,13 +1971,56 @@
       "Verdant Brook"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Ribbuny_icon.png",
-    "breedingPower": 1150,
-    "captureRate": 47
+    "breedingPower": 1130,
+    "captureRate": 41
+  },
+  {
+    "id": "ribbuny_botan",
+    "name": "Ribbuny Botan",
+    "paldeckNumber": 38,
+    "paldeckVariant": "B",
+    "elements": [
+      "Leaf"
+    ],
+    "description": "Always wears a cheerful smile. Sometimes, thanks to Cattiva's pranks, they end up tangled in tentacles and have to fight their way out!",
+    "partnerSkill": "Grass Weaver - Boosts Attack power of Grass-type Pals in team; increases work efficiency at Weapon Workbench when stationed at base.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 1
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "gathering",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Scorched Hill",
+      "Feybreak"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Ribbuny_Botan_icon.png",
+    "breedingPower": 1125,
+    "captureRate": 41
   },
   {
     "id": "incineram",
     "name": "Incineram",
-    "paldeckNumber": 37,
+    "paldeckNumber": 39,
     "elements": [
       "Fire",
       "Dark"
@@ -1629,13 +2058,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Incineram_icon.png",
-    "breedingPower": 1140,
-    "captureRate": 47
+    "breedingPower": 1120,
+    "captureRate": 41
   },
   {
     "id": "incineram_noct",
     "name": "Incineram Noct",
-    "paldeckNumber": 37,
+    "paldeckNumber": 39,
     "elements": [
       "Dark"
     ],
@@ -1667,14 +2096,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Incineram_Noct_icon.png",
-    "breedingPower": 1135,
-    "captureRate": 42,
+    "breedingPower": 1115,
+    "captureRate": 41,
     "paldeckVariant": "B"
   },
   {
     "id": "cinnamoth",
     "name": "Cinnamoth",
-    "paldeckNumber": 38,
+    "paldeckNumber": 40,
     "elements": [
       "Leaf"
     ],
@@ -1706,13 +2135,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Cinnamoth_icon.png",
-    "breedingPower": 1130,
-    "captureRate": 46
+    "breedingPower": 1110,
+    "captureRate": 40
   },
   {
     "id": "arsox",
     "name": "Arsox",
-    "paldeckNumber": 39,
+    "paldeckNumber": 41,
     "elements": [
       "Fire"
     ],
@@ -1745,13 +2174,13 @@
       "Gobfin's Turf"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Arsox_icon.png",
-    "breedingPower": 1120,
-    "captureRate": 46
+    "breedingPower": 1100,
+    "captureRate": 39
   },
   {
     "id": "dumud",
     "name": "Dumud",
-    "paldeckNumber": 40,
+    "paldeckNumber": 42,
     "elements": [
       "Earth"
     ],
@@ -1784,13 +2213,64 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Dumud_icon.png",
-    "breedingPower": 1110,
-    "captureRate": 45
+    "breedingPower": 1090,
+    "captureRate": 39
+  },
+  {
+    "id": "dumud_gild",
+    "name": "Dumud Gild",
+    "paldeckNumber": 42,
+    "paldeckVariant": "B",
+    "elements": [
+      "Earth",
+      "Water"
+    ],
+    "description": "Its body reflects light with astounding clarity. Even more shocking, its reflexes are somehow even slower than Dumud.",
+    "partnerSkill": "Golden Harvest - While in team, increases Attack of Ground Pals. Sometimes drops High Quality Pal Oil when assigned to the ranch.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 1
+      },
+      {
+        "type": "mining",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      },
+      {
+        "type": "farming",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "high_quality_pal_oil",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "high_quality_pal_oil",
+        "method": "farming",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Desert Island",
+      "Oasis Isle",
+      "Eternal Summer Isle",
+      "No. 3 Wildlife Sanctuary"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Dumud_Gild_icon.png",
+    "breedingPower": 1085,
+    "captureRate": 39
   },
   {
     "id": "cawgnito",
     "name": "Cawgnito",
-    "paldeckNumber": 41,
+    "paldeckNumber": 43,
     "elements": [
       "Dark"
     ],
@@ -1818,13 +2298,13 @@
       "Windswept Hills"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Cawgnito_icon.png",
-    "breedingPower": 1100,
-    "captureRate": 45
+    "breedingPower": 1080,
+    "captureRate": 38
   },
   {
     "id": "leezpunk",
     "name": "Leezpunk",
-    "paldeckNumber": 42,
+    "paldeckNumber": 44,
     "elements": [
       "Dark"
     ],
@@ -1856,13 +2336,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Leezpunk_icon.png",
-    "breedingPower": 1090,
-    "captureRate": 44
+    "breedingPower": 1070,
+    "captureRate": 38
   },
   {
     "id": "leezpunk_ignis",
     "name": "Leezpunk Ignis",
-    "paldeckNumber": 42,
+    "paldeckNumber": 44,
     "elements": [
       "Fire"
     ],
@@ -1894,14 +2374,14 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Leezpunk_Ignis_icon.png",
-    "breedingPower": 1085,
-    "captureRate": 39,
+    "breedingPower": 1065,
+    "captureRate": 38,
     "paldeckVariant": "B"
   },
   {
     "id": "loupmoon",
     "name": "Loupmoon",
-    "paldeckNumber": 43,
+    "paldeckNumber": 45,
     "elements": [
       "Dark"
     ],
@@ -1938,13 +2418,48 @@
       "Gobfin's Turf"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Loupmoon_icon.png",
-    "breedingPower": 1080,
-    "captureRate": 44
+    "breedingPower": 1060,
+    "captureRate": 37
+  },
+  {
+    "id": "loupmoon_cryst",
+    "name": "Loupmoon Cryst",
+    "paldeckNumber": 45,
+    "paldeckVariant": "B",
+    "elements": [
+      "Ice"
+    ],
+    "description": "The horns on its head are made of a mysterious ice that never melts. Shaved ice made by breaking off a horn is truly exquisite, but both the one who tries it and Loupmoon Cryst end up with a headache.",
+    "partnerSkill": "Frozen Gleam Strike - When activated, attacks targeted enemy with a powerful Snow Claw.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 2
+      },
+      {
+        "type": "cooling",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Frozen Coral Hill",
+      "Feybreak"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Loupmoon_Cryst_icon.png",
+    "breedingPower": 1055,
+    "captureRate": 37
   },
   {
     "id": "galeclaw",
     "name": "Galeclaw",
-    "paldeckNumber": 44,
+    "paldeckNumber": 46,
     "elements": [
       "Neutral"
     ],
@@ -1972,13 +2487,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Galeclaw_icon.png",
-    "breedingPower": 1070,
-    "captureRate": 43
+    "breedingPower": 1050,
+    "captureRate": 36
   },
   {
     "id": "robinquill",
     "name": "Robinquill",
-    "paldeckNumber": 45,
+    "paldeckNumber": 47,
     "elements": [
       "Leaf"
     ],
@@ -2014,13 +2529,13 @@
       "Verdant Brook"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Robinquill_icon.png",
-    "breedingPower": 1060,
-    "captureRate": 43
+    "breedingPower": 1040,
+    "captureRate": 36
   },
   {
     "id": "robinquill_terra",
     "name": "Robinquill Terra",
-    "paldeckNumber": 45,
+    "paldeckNumber": 47,
     "elements": [
       "Leaf",
       "Earth"
@@ -2057,14 +2572,14 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Robinquill_Terra_icon.png",
-    "breedingPower": 1055,
-    "captureRate": 38,
+    "breedingPower": 1035,
+    "captureRate": 36,
     "paldeckVariant": "B"
   },
   {
     "id": "gorirat",
     "name": "Gorirat",
-    "paldeckNumber": 46,
+    "paldeckNumber": 48,
     "elements": [
       "Neutral"
     ],
@@ -2096,13 +2611,57 @@
       "Bamboo Groves"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Gorirat_icon.png",
-    "breedingPower": 1050,
-    "captureRate": 42
+    "breedingPower": 1030,
+    "captureRate": 35
+  },
+  {
+    "id": "gorirat_terra",
+    "name": "Gorirat Terra",
+    "paldeckNumber": 48,
+    "paldeckVariant": "B",
+    "elements": [
+      "Earth"
+    ],
+    "description": "It communicates with its friends through rhythmic tapping on the ground. Stronger than Gorirat. If every Gorirat Terra hit the ground at the same time, the island would sink in 1 second.",
+    "partnerSkill": "Full-Power Gorilla Mode - When activated, unleashes a primal fury that increases Gorirat Terra's Attack for a limited time.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "mining",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "ore",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Sakurajima Southern Sandbar",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Gorirat_Terra_icon.png",
+    "breedingPower": 1025,
+    "captureRate": 35
   },
   {
     "id": "beegarde",
     "name": "Beegarde",
-    "paldeckNumber": 47,
+    "paldeckNumber": 49,
     "elements": [
       "Leaf"
     ],
@@ -2134,13 +2693,13 @@
       "Bamboo Groves"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Beegarde_icon.png",
-    "breedingPower": 1040,
-    "captureRate": 42
+    "breedingPower": 1020,
+    "captureRate": 35
   },
   {
     "id": "elizabee",
     "name": "Elizabee",
-    "paldeckNumber": 48,
+    "paldeckNumber": 50,
     "elements": [
       "Leaf"
     ],
@@ -2181,13 +2740,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Elizabee_icon.png",
-    "breedingPower": 1030,
-    "captureRate": 41
+    "breedingPower": 1010,
+    "captureRate": 34
   },
   {
     "id": "grintale",
     "name": "Grintale",
-    "paldeckNumber": 49,
+    "paldeckNumber": 51,
     "elements": [
       "Neutral"
     ],
@@ -2215,13 +2774,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Grintale_icon.png",
-    "breedingPower": 1020,
-    "captureRate": 41
+    "breedingPower": 1000,
+    "captureRate": 33
   },
   {
     "id": "swee",
     "name": "Swee",
-    "paldeckNumber": 50,
+    "paldeckNumber": 52,
     "elements": [
       "Ice"
     ],
@@ -2245,13 +2804,13 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Swee_icon.png",
-    "breedingPower": 1010,
-    "captureRate": 40
+    "breedingPower": 990,
+    "captureRate": 33
   },
   {
     "id": "sweepa",
     "name": "Sweepa",
-    "paldeckNumber": 51,
+    "paldeckNumber": 53,
     "elements": [
       "Ice"
     ],
@@ -2288,13 +2847,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Sweepa_icon.png",
-    "breedingPower": 985,
-    "captureRate": 40
+    "breedingPower": 980,
+    "captureRate": 32
   },
   {
     "id": "chillet",
     "name": "Chillet",
-    "paldeckNumber": 52,
+    "paldeckNumber": 54,
     "elements": [
       "Ice",
       "Dragon"
@@ -2324,13 +2883,55 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Chillet_icon.png",
-    "breedingPower": 971,
-    "captureRate": 39
+    "breedingPower": 970,
+    "captureRate": 32
+  },
+  {
+    "id": "chillet_ignis",
+    "name": "Chillet Ignis",
+    "paldeckNumber": 54,
+    "paldeckVariant": "B",
+    "elements": [
+      "Fire",
+      "Dragon"
+    ],
+    "description": "When curled up it spins so fast that sparks fly. Sparks also fly when it feels excited. If you stroke it too much, sparks fly!",
+    "partnerSkill": "Sparkling Weasel - Can be ridden. Converts player attacks to Fire element while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "kindling",
+        "level": 2
+      },
+      {
+        "type": "gathering",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "flame_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Sakurajima",
+      "Dancing Sakura Shrine",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Chillet_Ignis_icon.png",
+    "breedingPower": 965,
+    "captureRate": 32
   },
   {
     "id": "univolt",
     "name": "Univolt",
-    "paldeckNumber": 53,
+    "paldeckNumber": 55,
     "elements": [
       "Electricity"
     ],
@@ -2368,13 +2969,13 @@
       "Windswept Hills"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Univolt_icon.png",
-    "breedingPower": 956,
-    "captureRate": 39
+    "breedingPower": 960,
+    "captureRate": 31
   },
   {
     "id": "foxcicle",
     "name": "Foxcicle",
-    "paldeckNumber": 54,
+    "paldeckNumber": 56,
     "elements": [
       "Ice"
     ],
@@ -2403,13 +3004,13 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Foxcicle_icon.png",
-    "breedingPower": 941,
-    "captureRate": 38
+    "breedingPower": 950,
+    "captureRate": 30
   },
   {
     "id": "pyrin",
     "name": "Pyrin",
-    "paldeckNumber": 55,
+    "paldeckNumber": 57,
     "elements": [
       "Fire"
     ],
@@ -2442,13 +3043,13 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Pyrin_icon.png",
-    "breedingPower": 927,
-    "captureRate": 38
+    "breedingPower": 940,
+    "captureRate": 30
   },
   {
     "id": "pyrin_noct",
     "name": "Pyrin Noct",
-    "paldeckNumber": 55,
+    "paldeckNumber": 57,
     "elements": [
       "Fire",
       "Dark"
@@ -2482,14 +3083,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Pyrin_Noct_icon.png",
-    "breedingPower": 922,
-    "captureRate": 33,
+    "breedingPower": 935,
+    "captureRate": 30,
     "paldeckVariant": "B"
   },
   {
     "id": "reindrix",
     "name": "Reindrix",
-    "paldeckNumber": 56,
+    "paldeckNumber": 58,
     "elements": [
       "Ice"
     ],
@@ -2527,13 +3128,13 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Reindrix_icon.png",
-    "breedingPower": 912,
-    "captureRate": 37
+    "breedingPower": 930,
+    "captureRate": 29
   },
   {
     "id": "rayhound",
     "name": "Rayhound",
-    "paldeckNumber": 57,
+    "paldeckNumber": 59,
     "elements": [
       "Electricity"
     ],
@@ -2562,13 +3163,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Rayhound_icon.png",
-    "breedingPower": 897,
-    "captureRate": 37
+    "breedingPower": 920,
+    "captureRate": 29
   },
   {
     "id": "kitsun",
     "name": "Kitsun",
-    "paldeckNumber": 58,
+    "paldeckNumber": 60,
     "elements": [
       "Fire"
     ],
@@ -2597,13 +3198,49 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Kitsun_icon.png",
-    "breedingPower": 882,
-    "captureRate": 36
+    "breedingPower": 910,
+    "captureRate": 28
+  },
+  {
+    "id": "kitsun_noct",
+    "name": "Kitsun Noct",
+    "paldeckNumber": 60,
+    "paldeckVariant": "B",
+    "elements": [
+      "Dark"
+    ],
+    "description": "Despite its appearance, Kitsun Noct is extremely sensitive and will flee into a cave when spooked. It has become quite gloomy from being a shut-in for too long.",
+    "partnerSkill": "Fogged Mind - Can be ridden. Changes the player's attack type to Dark while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "kindling",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "flame_organ",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Scorched Hill",
+      "Feybreak Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Kitsun_Noct_icon.png",
+    "breedingPower": 905,
+    "captureRate": 28
   },
   {
     "id": "dazzi",
     "name": "Dazzi",
-    "paldeckNumber": 59,
+    "paldeckNumber": 61,
     "elements": [
       "Electricity"
     ],
@@ -2631,13 +3268,58 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Dazzi_icon.png",
-    "breedingPower": 868,
-    "captureRate": 36
+    "breedingPower": 883,
+    "captureRate": 27
+  },
+  {
+    "id": "dazzi_noct",
+    "name": "Dazzi Noct",
+    "paldeckNumber": 61,
+    "paldeckVariant": "B",
+    "elements": [
+      "Dark",
+      "Electricity"
+    ],
+    "description": "Often kind to lonely Pals, it plots to lure them into dropping their guard before striking them down. Yet, unable to find the right moment, it ends up making friends with them instead.",
+    "partnerSkill": "Lady of Dark Lightning - While in team, appears near the player. Follows up player attacks with dark lightning bolts.",
+    "workSuitabilities": [
+      {
+        "type": "generating",
+        "level": 1
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "medicine",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "electric_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Emberstone Plateau",
+      "Feybreak",
+      "Frozen Coral Hill"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Dazzi_Noct_icon.png",
+    "breedingPower": 878,
+    "captureRate": 27
   },
   {
     "id": "lunaris",
     "name": "Lunaris",
-    "paldeckNumber": 60,
+    "paldeckNumber": 62,
     "elements": [
       "Neutral"
     ],
@@ -2669,13 +3351,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Lunaris_icon.png",
-    "breedingPower": 853,
-    "captureRate": 35
+    "breedingPower": 867,
+    "captureRate": 27
   },
   {
     "id": "dinossom",
     "name": "Dinossom",
-    "paldeckNumber": 61,
+    "paldeckNumber": 63,
     "elements": [
       "Leaf"
     ],
@@ -2707,13 +3389,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Dinossom_icon.png",
-    "breedingPower": 838,
-    "captureRate": 34
+    "breedingPower": 850,
+    "captureRate": 26
   },
   {
     "id": "dinossom_lux",
     "name": "Dinossom Lux",
-    "paldeckNumber": 61,
+    "paldeckNumber": 63,
     "elements": [
       "Leaf",
       "Electricity"
@@ -2746,14 +3428,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Dinossom_Lux_icon.png",
-    "breedingPower": 833,
-    "captureRate": 29,
+    "breedingPower": 845,
+    "captureRate": 26,
     "paldeckVariant": "B"
   },
   {
     "id": "melpaca",
     "name": "Melpaca",
-    "paldeckNumber": 62,
+    "paldeckNumber": 64,
     "elements": [
       "Neutral"
     ],
@@ -2786,13 +3468,13 @@
       "Verdant Brook"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Melpaca_icon.png",
-    "breedingPower": 824,
-    "captureRate": 34
+    "breedingPower": 833,
+    "captureRate": 26
   },
   {
     "id": "surfent",
     "name": "Surfent",
-    "paldeckNumber": 63,
+    "paldeckNumber": 65,
     "elements": [
       "Water"
     ],
@@ -2821,13 +3503,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Surfent_icon.png",
-    "breedingPower": 809,
-    "captureRate": 33
+    "breedingPower": 817,
+    "captureRate": 25
   },
   {
     "id": "surfent_terra",
     "name": "Surfent Terra",
-    "paldeckNumber": 63,
+    "paldeckNumber": 65,
     "elements": [
       "Earth"
     ],
@@ -2856,14 +3538,14 @@
       "Twilight Dunes"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Surfent_Terra_icon.png",
-    "breedingPower": 804,
-    "captureRate": 28,
+    "breedingPower": 812,
+    "captureRate": 25,
     "paldeckVariant": "B"
   },
   {
     "id": "maraith",
     "name": "Maraith",
-    "paldeckNumber": 64,
+    "paldeckNumber": 66,
     "elements": [
       "Dark"
     ],
@@ -2895,13 +3577,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Maraith_icon.png",
-    "breedingPower": 794,
-    "captureRate": 33
+    "breedingPower": 800,
+    "captureRate": 24
   },
   {
     "id": "digtoise",
     "name": "Digtoise",
-    "paldeckNumber": 65,
+    "paldeckNumber": 67,
     "elements": [
       "Earth"
     ],
@@ -2930,13 +3612,13 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Digtoise_icon.png",
-    "breedingPower": 780,
-    "captureRate": 32
+    "breedingPower": 783,
+    "captureRate": 24
   },
   {
     "id": "tombat",
     "name": "Tombat",
-    "paldeckNumber": 66,
+    "paldeckNumber": 68,
     "elements": [
       "Dark"
     ],
@@ -2968,13 +3650,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Tombat_icon.png",
-    "breedingPower": 765,
-    "captureRate": 31
+    "breedingPower": 766,
+    "captureRate": 23
   },
   {
     "id": "lovander",
     "name": "Lovander",
-    "paldeckNumber": 67,
+    "paldeckNumber": 69,
     "elements": [
       "Neutral"
     ],
@@ -3007,12 +3689,12 @@
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Lovander_icon.png",
     "breedingPower": 750,
-    "captureRate": 31
+    "captureRate": 23
   },
   {
     "id": "flambelle",
     "name": "Flambelle",
-    "paldeckNumber": 68,
+    "paldeckNumber": 70,
     "elements": [
       "Fire"
     ],
@@ -3045,13 +3727,13 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Flambelle_icon.png",
-    "breedingPower": 735,
-    "captureRate": 30
+    "breedingPower": 733,
+    "captureRate": 22
   },
   {
     "id": "vanwyrm",
     "name": "Vanwyrm",
-    "paldeckNumber": 69,
+    "paldeckNumber": 71,
     "elements": [
       "Fire",
       "Dark"
@@ -3085,13 +3767,13 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Vanwyrm_icon.png",
-    "breedingPower": 721,
-    "captureRate": 30
+    "breedingPower": 716,
+    "captureRate": 22
   },
   {
     "id": "vanwyrm_cryst",
     "name": "Vanwyrm Cryst",
-    "paldeckNumber": 69,
+    "paldeckNumber": 71,
     "elements": [
       "Ice",
       "Dark"
@@ -3125,14 +3807,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Vanwyrm_Cryst_icon.png",
-    "breedingPower": 716,
-    "captureRate": 25,
+    "breedingPower": 711,
+    "captureRate": 22,
     "paldeckVariant": "B"
   },
   {
     "id": "bushi",
     "name": "Bushi",
-    "paldeckNumber": 70,
+    "paldeckNumber": 72,
     "elements": [
       "Fire"
     ],
@@ -3169,13 +3851,61 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Bushi_icon.png",
-    "breedingPower": 706,
-    "captureRate": 29
+    "breedingPower": 700,
+    "captureRate": 21
+  },
+  {
+    "id": "bushi_noct",
+    "name": "Bushi Noct",
+    "paldeckNumber": 72,
+    "paldeckVariant": "B",
+    "elements": [
+      "Fire",
+      "Dark"
+    ],
+    "description": "Its body becomes a blade upon death, to be taken up by the next generation. If the Bushi who inherits it has a weak heart, the voices of the dead will drive it mad. The madness turns it into Bushi Noct that endlessly wanders.",
+    "partnerSkill": "Flash Blade - When activated, attacks targeted enemy with a powerful Iaigiri.",
+    "workSuitabilities": [
+      {
+        "type": "lumbering",
+        "level": 3
+      },
+      {
+        "type": "kindling",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "gathering",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "flame_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Sakurajima cherry blossom forest",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Bushi_Noct_icon.png",
+    "breedingPower": 695,
+    "captureRate": 21
   },
   {
     "id": "beakon",
     "name": "Beakon",
-    "paldeckNumber": 71,
+    "paldeckNumber": 73,
     "elements": [
       "Electricity"
     ],
@@ -3208,13 +3938,13 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Beakon_icon.png",
-    "breedingPower": 691,
-    "captureRate": 28
+    "breedingPower": 683,
+    "captureRate": 21
   },
   {
     "id": "ragnahawk",
     "name": "Ragnahawk",
-    "paldeckNumber": 72,
+    "paldeckNumber": 74,
     "elements": [
       "Fire"
     ],
@@ -3247,13 +3977,13 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Ragnahawk_icon.png",
-    "breedingPower": 677,
-    "captureRate": 28
+    "breedingPower": 666,
+    "captureRate": 21
   },
   {
     "id": "katress",
     "name": "Katress",
-    "paldeckNumber": 73,
+    "paldeckNumber": 75,
     "elements": [
       "Dark"
     ],
@@ -3285,13 +4015,57 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Katress_icon.png",
-    "breedingPower": 662,
-    "captureRate": 27
+    "breedingPower": 650,
+    "captureRate": 21
+  },
+  {
+    "id": "katress_ignis",
+    "name": "Katress Ignis",
+    "paldeckNumber": 75,
+    "paldeckVariant": "B",
+    "elements": [
+      "Dark",
+      "Fire"
+    ],
+    "description": "Due to its upbringing, it no longer cares about whether its food is raw enough. This Pal stopped worrying about those details, and just prefers its food to be as spicy as possible. Not on good terms with Wixen Noct.",
+    "partnerSkill": "Botanical Atlas - While fighting together, Grass Pals drop more items when defeated.",
+    "workSuitabilities": [
+      {
+        "type": "kindling",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 2
+      },
+      {
+        "type": "medicine",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "flame_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Cherry Blossom Cave",
+      "Sakurajima"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Katress_Ignis_icon.png",
+    "breedingPower": 645,
+    "captureRate": 21
   },
   {
     "id": "wixen",
     "name": "Wixen",
-    "paldeckNumber": 74,
+    "paldeckNumber": 76,
     "elements": [
       "Fire"
     ],
@@ -3323,13 +4097,47 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Wixen_icon.png",
-    "breedingPower": 647,
-    "captureRate": 27
+    "breedingPower": 633,
+    "captureRate": 20
+  },
+  {
+    "id": "wixen_noct",
+    "name": "Wixen Noct",
+    "paldeckNumber": 76,
+    "paldeckVariant": "B",
+    "elements": [
+      "Fire",
+      "Dark"
+    ],
+    "description": "Due to its upbringing, it no longer cares about whether its food is cooked enough. Just prefers its food to be as sweet as possible. Not on good terms with Katress Ignis.",
+    "partnerSkill": "Black Fox Lord - While fighting together, changes the player's attack type to Dark.",
+    "workSuitabilities": [
+      {
+        "type": "kindling",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 3
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Sakurajima (night)",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Wixen_Noct_icon.png",
+    "breedingPower": 628,
+    "captureRate": 20
   },
   {
     "id": "verdash",
     "name": "Verdash",
-    "paldeckNumber": 75,
+    "paldeckNumber": 77,
     "elements": [
       "Leaf"
     ],
@@ -3365,13 +4173,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Verdash_icon.png",
-    "breedingPower": 633,
-    "captureRate": 26
+    "breedingPower": 616,
+    "captureRate": 20
   },
   {
     "id": "vaelet",
     "name": "Vaelet",
-    "paldeckNumber": 76,
+    "paldeckNumber": 78,
     "elements": [
       "Leaf"
     ],
@@ -3408,13 +4216,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Vaelet_icon.png",
-    "breedingPower": 618,
-    "captureRate": 25
+    "breedingPower": 599,
+    "captureRate": 20
   },
   {
     "id": "sibelyx",
     "name": "Sibelyx",
-    "paldeckNumber": 77,
+    "paldeckNumber": 79,
     "elements": [
       "Ice"
     ],
@@ -3451,13 +4259,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Sibelyx_icon.png",
-    "breedingPower": 603,
-    "captureRate": 25
+    "breedingPower": 583,
+    "captureRate": 19
   },
   {
     "id": "elphidran",
     "name": "Elphidran",
-    "paldeckNumber": 78,
+    "paldeckNumber": 80,
     "elements": [
       "Dragon"
     ],
@@ -3485,13 +4293,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Elphidran_icon.png",
-    "breedingPower": 588,
-    "captureRate": 24
+    "breedingPower": 566,
+    "captureRate": 19
   },
   {
     "id": "elphidran_aqua",
     "name": "Elphidran Aqua",
-    "paldeckNumber": 78,
+    "paldeckNumber": 80,
     "elements": [
       "Dragon",
       "Water"
@@ -3525,14 +4333,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Elphidran_Aqua_icon.png",
-    "breedingPower": 583,
+    "breedingPower": 561,
     "captureRate": 19,
     "paldeckVariant": "B"
   },
   {
     "id": "kelpsea",
     "name": "Kelpsea",
-    "paldeckNumber": 79,
+    "paldeckNumber": 81,
     "elements": [
       "Water"
     ],
@@ -3561,13 +4369,13 @@
       "Gobfin's Turf"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Kelpsea_icon.png",
-    "breedingPower": 574,
-    "captureRate": 24
+    "breedingPower": 549,
+    "captureRate": 19
   },
   {
     "id": "kelpsea_ignis",
     "name": "Kelpsea Ignis",
-    "paldeckNumber": 79,
+    "paldeckNumber": 81,
     "elements": [
       "Fire"
     ],
@@ -3591,14 +4399,14 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Kelpsea_Ignis_icon.png",
-    "breedingPower": 569,
+    "breedingPower": 544,
     "captureRate": 19,
     "paldeckVariant": "B"
   },
   {
     "id": "azurobe",
     "name": "Azurobe",
-    "paldeckNumber": 80,
+    "paldeckNumber": 82,
     "elements": [
       "Water",
       "Dragon"
@@ -3627,13 +4435,56 @@
       "Sea Breeze Archipelago"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Azurobe_icon.png",
-    "breedingPower": 559,
-    "captureRate": 23
+    "breedingPower": 533,
+    "captureRate": 18
+  },
+  {
+    "id": "azurobe_cryst",
+    "name": "Azurobe Cryst",
+    "paldeckNumber": 82,
+    "paldeckVariant": "B",
+    "elements": [
+      "Ice",
+      "Dragon"
+    ],
+    "description": "This Pal's white ribbon continuously absorbs heat from its surroundings, yet its temperature remains curiously unchanged. This strange ability once made it a target of relentless hunting, leaving it with a deep mistrust of humans to this day.",
+    "partnerSkill": "Icewing Dance - Can be ridden to travel on water. Changes the player's attack type to Ice while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "cooling",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "cloth",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "ice_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Frostbound Mountains",
+      "Frozen Coral Hill",
+      "Isle of the Glacial Core"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Azurobe_Cryst_icon.png",
+    "breedingPower": 528,
+    "captureRate": 18
   },
   {
     "id": "cryolinx",
     "name": "Cryolinx",
-    "paldeckNumber": 81,
+    "paldeckNumber": 83,
     "elements": [
       "Ice"
     ],
@@ -3670,13 +4521,58 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Cryolinx_icon.png",
-    "breedingPower": 544,
-    "captureRate": 22
+    "breedingPower": 516,
+    "captureRate": 18
+  },
+  {
+    "id": "cryolinx_terra",
+    "name": "Cryolinx Terra",
+    "paldeckNumber": 83,
+    "paldeckVariant": "B",
+    "elements": [
+      "Earth"
+    ],
+    "description": "It can easily carry many items with its large hands. However, its short legs slow its pace, often leaving it overtaken by nightfall.",
+    "partnerSkill": "Electro Hunter - While fighting together, Electric Pals drop more items when defeated.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "lumbering",
+        "level": 2
+      },
+      {
+        "type": "mining",
+        "level": 3
+      },
+      {
+        "type": "transporting",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "ore",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Scorched Ashland",
+      "Withered Seaside",
+      "Deserted Ash Plateau",
+      "Feybreak"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Cryolinx_Terra_icon.png",
+    "breedingPower": 511,
+    "captureRate": 18
   },
   {
     "id": "blazehowl",
     "name": "Blazehowl",
-    "paldeckNumber": 82,
+    "paldeckNumber": 84,
     "elements": [
       "Fire"
     ],
@@ -3709,13 +4605,13 @@
       "Volcanic Region"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Blazehowl_icon.png",
-    "breedingPower": 530,
-    "captureRate": 22
+    "breedingPower": 499,
+    "captureRate": 18
   },
   {
     "id": "blazehowl_noct",
     "name": "Blazehowl Noct",
-    "paldeckNumber": 82,
+    "paldeckNumber": 84,
     "elements": [
       "Fire",
       "Dark"
@@ -3749,14 +4645,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Blazehowl_Noct_icon.png",
-    "breedingPower": 525,
-    "captureRate": 17,
+    "breedingPower": 494,
+    "captureRate": 18,
     "paldeckVariant": "B"
   },
   {
     "id": "relaxaurus",
     "name": "Relaxaurus",
-    "paldeckNumber": 83,
+    "paldeckNumber": 85,
     "elements": [
       "Dragon"
     ],
@@ -3793,13 +4689,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Relaxaurus_icon.png",
-    "breedingPower": 515,
-    "captureRate": 21
+    "breedingPower": 483,
+    "captureRate": 18
   },
   {
     "id": "relaxaurus_lux",
     "name": "Relaxaurus Lux",
-    "paldeckNumber": 83,
+    "paldeckNumber": 85,
     "elements": [
       "Dragon",
       "Electricity"
@@ -3837,14 +4733,14 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Relaxaurus_Lux_icon.png",
-    "breedingPower": 510,
-    "captureRate": 16,
+    "breedingPower": 478,
+    "captureRate": 18,
     "paldeckVariant": "B"
   },
   {
     "id": "broncherry",
     "name": "Broncherry",
-    "paldeckNumber": 84,
+    "paldeckNumber": 86,
     "elements": [
       "Leaf"
     ],
@@ -3881,13 +4777,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Broncherry_icon.png",
-    "breedingPower": 500,
-    "captureRate": 21
+    "breedingPower": 466,
+    "captureRate": 17
   },
   {
     "id": "broncherry_aqua",
     "name": "Broncherry Aqua",
-    "paldeckNumber": 84,
+    "paldeckNumber": 86,
     "elements": [
       "Leaf",
       "Water"
@@ -3925,14 +4821,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Broncherry_Aqua_icon.png",
-    "breedingPower": 495,
-    "captureRate": 16,
+    "breedingPower": 461,
+    "captureRate": 17,
     "paldeckVariant": "B"
   },
   {
     "id": "petallia",
     "name": "Petallia",
-    "paldeckNumber": 85,
+    "paldeckNumber": 87,
     "elements": [
       "Leaf"
     ],
@@ -3969,13 +4865,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Petallia_icon.png",
-    "breedingPower": 486,
-    "captureRate": 20
+    "breedingPower": 449,
+    "captureRate": 17
   },
   {
     "id": "reptyro",
     "name": "Reptyro",
-    "paldeckNumber": 86,
+    "paldeckNumber": 88,
     "elements": [
       "Fire",
       "Earth"
@@ -4014,13 +4910,13 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Reptyro_icon.png",
-    "breedingPower": 461,
-    "captureRate": 20
+    "breedingPower": 432,
+    "captureRate": 17
   },
   {
     "id": "reptyro_cryst",
     "name": "Reptyro Cryst",
-    "paldeckNumber": 86,
+    "paldeckNumber": 88,
     "elements": [
       "Ice",
       "Earth"
@@ -4054,14 +4950,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Reptyro_Cryst_icon.png",
-    "breedingPower": 456,
-    "captureRate": 15,
+    "breedingPower": 427,
+    "captureRate": 17,
     "paldeckVariant": "B"
   },
   {
     "id": "kingpaca",
     "name": "Kingpaca",
-    "paldeckNumber": 87,
+    "paldeckNumber": 89,
     "elements": [
       "Neutral"
     ],
@@ -4098,13 +4994,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Kingpaca_icon.png",
-    "breedingPower": 441,
-    "captureRate": 19
+    "breedingPower": 416,
+    "captureRate": 16
   },
   {
     "id": "kingpaca_cryst",
     "name": "Kingpaca Cryst",
-    "paldeckNumber": 87,
+    "paldeckNumber": 89,
     "elements": [
       "Ice"
     ],
@@ -4141,14 +5037,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Kingpaca_Cryst_icon.png",
-    "breedingPower": 436,
-    "captureRate": 14,
+    "breedingPower": 411,
+    "captureRate": 16,
     "paldeckVariant": "B"
   },
   {
     "id": "mammorest",
     "name": "Mammorest",
-    "paldeckNumber": 88,
+    "paldeckNumber": 90,
     "elements": [
       "Leaf"
     ],
@@ -4185,13 +5081,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mammorest_icon.png",
-    "breedingPower": 422,
-    "captureRate": 19
+    "breedingPower": 399,
+    "captureRate": 16
   },
   {
     "id": "mammorest_cryst",
     "name": "Mammorest Cryst",
-    "paldeckNumber": 88,
+    "paldeckNumber": 90,
     "elements": [
       "Ice"
     ],
@@ -4228,14 +5124,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Mammorest_Cryst_icon.png",
-    "breedingPower": 417,
-    "captureRate": 14,
+    "breedingPower": 394,
+    "captureRate": 16,
     "paldeckVariant": "B"
   },
   {
     "id": "wumpo",
     "name": "Wumpo",
-    "paldeckNumber": 89,
+    "paldeckNumber": 91,
     "elements": [
       "Ice"
     ],
@@ -4276,13 +5172,13 @@
       "Mount Obsidian"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Wumpo_icon.png",
-    "breedingPower": 402,
-    "captureRate": 18
+    "breedingPower": 391,
+    "captureRate": 16
   },
   {
     "id": "wumpo_botan",
     "name": "Wumpo Botan",
-    "paldeckNumber": 89,
+    "paldeckNumber": 91,
     "elements": [
       "Leaf"
     ],
@@ -4323,14 +5219,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Wumpo_Botan_icon.png",
-    "breedingPower": 397,
-    "captureRate": 13,
+    "breedingPower": 386,
+    "captureRate": 16,
     "paldeckVariant": "B"
   },
   {
     "id": "warsect",
     "name": "Warsect",
-    "paldeckNumber": 90,
+    "paldeckNumber": 92,
     "elements": [
       "Leaf",
       "Earth"
@@ -4368,13 +5264,47 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Warsect_icon.png",
-    "breedingPower": 383,
-    "captureRate": 18
+    "breedingPower": 381,
+    "captureRate": 15
+  },
+  {
+    "id": "warsect_terra",
+    "name": "Warsect Terra",
+    "paldeckNumber": 92,
+    "paldeckVariant": "B",
+    "elements": [
+      "Earth"
+    ],
+    "description": "The ultra-hard armor surrounding its body is extremely strong and heat resistant. It doesn't flinch even if a Mammorest steps on it.",
+    "partnerSkill": "Fortified Shell - While fighting together, increases the player's defense and reduces damage received from Fire.",
+    "workSuitabilities": [
+      {
+        "type": "mining",
+        "level": 3
+      },
+      {
+        "type": "transporting",
+        "level": 3
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Loess Plains",
+      "Feybreak",
+      "Feybreak Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Warsect_Terra_icon.png",
+    "breedingPower": 376,
+    "captureRate": 15
   },
   {
     "id": "fenglope",
     "name": "Fenglope",
-    "paldeckNumber": 91,
+    "paldeckNumber": 93,
     "elements": [
       "Neutral"
     ],
@@ -4402,13 +5332,58 @@
       "No Man's Trail"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Fenglope_icon.png",
-    "breedingPower": 363,
-    "captureRate": 18
+    "breedingPower": 372,
+    "captureRate": 15
+  },
+  {
+    "id": "fenglope_lux",
+    "name": "Fenglope Lux",
+    "paldeckNumber": 93,
+    "paldeckVariant": "B",
+    "elements": [
+      "Electricity"
+    ],
+    "description": "In ages past, it was believed that drawing a picture of Fenglope Lux would result in being struck down by lightning.",
+    "partnerSkill": "Stormcloud - Rideable with double jump capability while mounted. Water-type Pals drop increased items when defeated while fighting together.",
+    "workSuitabilities": [
+      {
+        "type": "generating",
+        "level": 2
+      },
+      {
+        "type": "lumbering",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "horn",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "electric_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Feybreak",
+      "Sakurajima"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Fenglope_Lux_icon.png",
+    "breedingPower": 367,
+    "captureRate": 15
   },
   {
     "id": "felbat",
     "name": "Felbat",
-    "paldeckNumber": 92,
+    "paldeckNumber": 94,
     "elements": [
       "Dark"
     ],
@@ -4441,13 +5416,13 @@
       "Forgotten Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Felbat_icon.png",
-    "breedingPower": 344,
-    "captureRate": 17
+    "breedingPower": 362,
+    "captureRate": 15
   },
   {
     "id": "quivern",
     "name": "Quivern",
-    "paldeckNumber": 93,
+    "paldeckNumber": 95,
     "elements": [
       "Dragon"
     ],
@@ -4479,13 +5454,66 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Quivern_icon.png",
-    "breedingPower": 324,
-    "captureRate": 17
+    "breedingPower": 353,
+    "captureRate": 15
+  },
+  {
+    "id": "quivern_botan",
+    "name": "Quivern Botan",
+    "paldeckNumber": 95,
+    "paldeckVariant": "B",
+    "elements": [
+      "Dragon",
+      "Leaf"
+    ],
+    "description": "When you hug Quivern Botan, if it smells like sunshine and meadows, tomorrow will be sunny. If it smells damp, tomorrow will be wet and miserable.",
+    "partnerSkill": "Grass Dragon Affection - Can be ridden as a flying mount. While flying, movement speed is increased. Enhances Grass attacks while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "gathering",
+        "level": 2
+      },
+      {
+        "type": "mining",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "high_quality_pal_oil",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "red_berries",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Feybreak",
+      "Sakurajima"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Quivern_Botan_icon.png",
+    "breedingPower": 348,
+    "captureRate": 15
   },
   {
     "id": "blazamut",
     "name": "Blazamut",
-    "paldeckNumber": 94,
+    "paldeckNumber": 96,
     "elements": [
       "Fire"
     ],
@@ -4523,13 +5551,48 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Blazamut_icon.png",
-    "breedingPower": 305,
-    "captureRate": 16
+    "breedingPower": 343,
+    "captureRate": 14
+  },
+  {
+    "id": "blazamut_ryu",
+    "name": "Blazamut Ryu",
+    "paldeckNumber": 96,
+    "paldeckVariant": "B",
+    "elements": [
+      "Dragon",
+      "Fire"
+    ],
+    "description": "Long ago, it emerged from the depths of the earth. With relentless, raging flames showing no mercy, it burned the entire island until nothing remained.",
+    "partnerSkill": "Dragon Kaiser - Can be ridden. Enhances Dragon attacks while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "kindling",
+        "level": 4
+      },
+      {
+        "type": "mining",
+        "level": 4
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "carbon_fiber",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Summoning Altar (raid boss)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Blazamut_Ryu_icon.png",
+    "breedingPower": 338,
+    "captureRate": 14
   },
   {
     "id": "helzephyr",
     "name": "Helzephyr",
-    "paldeckNumber": 95,
+    "paldeckNumber": 97,
     "elements": [
       "Dark"
     ],
@@ -4557,13 +5620,48 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Helzephyr_icon.png",
-    "breedingPower": 285,
-    "captureRate": 16
+    "breedingPower": 334,
+    "captureRate": 14
+  },
+  {
+    "id": "helzephyr_lux",
+    "name": "Helzephyr Lux",
+    "paldeckNumber": 97,
+    "paldeckVariant": "B",
+    "elements": [
+      "Dark",
+      "Electricity"
+    ],
+    "description": "It calls forth lightning from the depths of hell. While considered a subspecies of Helzephyr, there's a theory that suggests Helzephyr Lux, struck by lightning from hell, will transform into Helzephyr.",
+    "partnerSkill": "Wings of Thunder - Can be ridden as a flying mount. Changes the player's attack type to Electric while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "generating",
+        "level": 3
+      },
+      {
+        "type": "transporting",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "electric_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Sakurajima northern beach"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Helzephyr_Lux_icon.png",
+    "breedingPower": 329,
+    "captureRate": 14
   },
   {
     "id": "astegon",
     "name": "Astegon",
-    "paldeckNumber": 96,
+    "paldeckNumber": 98,
     "elements": [
       "Dragon",
       "Dark"
@@ -4598,13 +5696,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Astegon_icon.png",
-    "breedingPower": 266,
-    "captureRate": 16
+    "breedingPower": 324,
+    "captureRate": 14
   },
   {
     "id": "menasting",
     "name": "Menasting",
-    "paldeckNumber": 97,
+    "paldeckNumber": 99,
     "elements": [
       "Dark",
       "Earth"
@@ -4638,13 +5736,48 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Menasting_icon.png",
-    "breedingPower": 246,
-    "captureRate": 15
+    "breedingPower": 315,
+    "captureRate": 13
+  },
+  {
+    "id": "menasting_terra",
+    "name": "Menasting Terra",
+    "paldeckNumber": 99,
+    "paldeckVariant": "B",
+    "elements": [
+      "Earth"
+    ],
+    "description": "The main body is an entity made of energy, with nothing inside. It stuffs earth and minerals into its outer shell, achieving overwhelming mass.",
+    "partnerSkill": "Steel Scorpion - While fighting together, increases the player's defense and Electric Pals drop more items when defeated.",
+    "workSuitabilities": [
+      {
+        "type": "mining",
+        "level": 3
+      },
+      {
+        "type": "lumbering",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "flame_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Northern Rock Field",
+      "Sakurajima"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Menasting_Terra_icon.png",
+    "breedingPower": 310,
+    "captureRate": 13
   },
   {
     "id": "anubis",
     "name": "Anubis",
-    "paldeckNumber": 98,
+    "paldeckNumber": 100,
     "elements": [
       "Earth"
     ],
@@ -4681,13 +5814,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Anubis_icon.png",
-    "breedingPower": 227,
-    "captureRate": 15
+    "breedingPower": 305,
+    "captureRate": 13
   },
   {
     "id": "jormuntide",
     "name": "Jormuntide",
-    "paldeckNumber": 99,
+    "paldeckNumber": 101,
     "elements": [
       "Water",
       "Dragon"
@@ -4717,13 +5850,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Jormuntide_icon.png",
-    "breedingPower": 207,
-    "captureRate": 14
+    "breedingPower": 296,
+    "captureRate": 12
   },
   {
     "id": "jormuntide_ignis",
     "name": "Jormuntide Ignis",
-    "paldeckNumber": 99,
+    "paldeckNumber": 101,
     "elements": [
       "Fire",
       "Dragon"
@@ -4753,14 +5886,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Jormuntide_Ignis_icon.png",
-    "breedingPower": 202,
-    "captureRate": 9,
+    "breedingPower": 291,
+    "captureRate": 12,
     "paldeckVariant": "B"
   },
   {
     "id": "suzaku",
     "name": "Suzaku",
-    "paldeckNumber": 100,
+    "paldeckNumber": 102,
     "elements": [
       "Fire"
     ],
@@ -4793,13 +5926,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Suzaku_icon.png",
-    "breedingPower": 188,
-    "captureRate": 14
+    "breedingPower": 286,
+    "captureRate": 11
   },
   {
     "id": "suzaku_aqua",
     "name": "Suzaku Aqua",
-    "paldeckNumber": 100,
+    "paldeckNumber": 102,
     "elements": [
       "Water"
     ],
@@ -4832,14 +5965,14 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Suzaku_Aqua_icon.png",
-    "breedingPower": 183,
-    "captureRate": 9,
+    "breedingPower": 281,
+    "captureRate": 11,
     "paldeckVariant": "B"
   },
   {
     "id": "grizzbolt",
     "name": "Grizzbolt",
-    "paldeckNumber": 101,
+    "paldeckNumber": 103,
     "elements": [
       "Electricity"
     ],
@@ -4879,13 +6012,13 @@
       "Eastern Wild Island"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Grizzbolt_icon.png",
-    "breedingPower": 168,
-    "captureRate": 13
+    "breedingPower": 277,
+    "captureRate": 10
   },
   {
     "id": "lyleen",
     "name": "Lyleen",
-    "paldeckNumber": 102,
+    "paldeckNumber": 104,
     "elements": [
       "Leaf"
     ],
@@ -4925,13 +6058,13 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Lyleen_icon.png",
-    "breedingPower": 149,
-    "captureRate": 12
+    "breedingPower": 267,
+    "captureRate": 9
   },
   {
     "id": "lyleen_noct",
     "name": "Lyleen Noct",
-    "paldeckNumber": 102,
+    "paldeckNumber": 104,
     "elements": [
       "Dark"
     ],
@@ -4968,14 +6101,14 @@
       "Dungeon"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Lyleen_Noct_icon.png",
-    "breedingPower": 144,
-    "captureRate": 7,
+    "breedingPower": 262,
+    "captureRate": 9,
     "paldeckVariant": "B"
   },
   {
     "id": "faleris",
     "name": "Faleris",
-    "paldeckNumber": 103,
+    "paldeckNumber": 105,
     "elements": [
       "Fire"
     ],
@@ -5008,13 +6141,48 @@
       "Wildlife Sanctuary"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Faleris_icon.png",
-    "breedingPower": 129,
-    "captureRate": 11
+    "breedingPower": 258,
+    "captureRate": 8
+  },
+  {
+    "id": "faleris_aqua",
+    "name": "Faleris Aqua",
+    "paldeckNumber": 105,
+    "paldeckVariant": "B",
+    "elements": [
+      "Water"
+    ],
+    "description": "When it finds its prey, it unleashes a mighty torrent, sweeping the entire area. More often than not, the prey gets swept away in the chaos, leaving one to wonder whether this truly counts as hunting.",
+    "partnerSkill": "Tidal Predator - Can be ridden as a flying mount. While fighting together, Fire Pals drop more items when defeated.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 4
+      },
+      {
+        "type": "transporting",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Feybreak",
+      "Sakurajima"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Faleris_Aqua_icon.png",
+    "breedingPower": 253,
+    "captureRate": 8
   },
   {
     "id": "orserk",
     "name": "Orserk",
-    "paldeckNumber": 104,
+    "paldeckNumber": 106,
     "elements": [
       "Electricity",
       "Dragon"
@@ -5052,13 +6220,13 @@
       "Dungeon"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Orserk_icon.png",
-    "breedingPower": 110,
-    "captureRate": 10
+    "breedingPower": 248,
+    "captureRate": 8
   },
   {
     "id": "shadowbeak",
     "name": "Shadowbeak",
-    "paldeckNumber": 105,
+    "paldeckNumber": 107,
     "elements": [
       "Dark"
     ],
@@ -5087,13 +6255,13 @@
       "Syndicate Tower"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Shadowbeak_icon.png",
-    "breedingPower": 90,
-    "captureRate": 9
+    "breedingPower": 239,
+    "captureRate": 8
   },
   {
     "id": "paladius",
     "name": "Paladius",
-    "paldeckNumber": 106,
+    "paldeckNumber": 108,
     "elements": [
       "Neutral"
     ],
@@ -5130,13 +6298,13 @@
       "Syndicate Tower"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Paladius_icon.png",
-    "breedingPower": 90,
+    "breedingPower": 229,
     "captureRate": 8
   },
   {
     "id": "necromus",
     "name": "Necromus",
-    "paldeckNumber": 107,
+    "paldeckNumber": 109,
     "elements": [
       "Dark"
     ],
@@ -5173,13 +6341,13 @@
       "Syndicate Tower"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Necromus_icon.png",
-    "breedingPower": 80,
-    "captureRate": 7
+    "breedingPower": 220,
+    "captureRate": 8
   },
   {
     "id": "frostallion",
     "name": "Frostallion",
-    "paldeckNumber": 108,
+    "paldeckNumber": 110,
     "elements": [
       "Ice"
     ],
@@ -5208,13 +6376,13 @@
       "Syndicate Tower"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Frostallion_icon.png",
-    "breedingPower": 60,
-    "captureRate": 6
+    "breedingPower": 210,
+    "captureRate": 8
   },
   {
     "id": "frostallion_noct",
     "name": "Frostallion Noct",
-    "paldeckNumber": 108,
+    "paldeckNumber": 110,
     "elements": [
       "Dark"
     ],
@@ -5243,14 +6411,14 @@
       "Syndicate Tower"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Frostallion_Noct_icon.png",
-    "breedingPower": 55,
-    "captureRate": 5,
+    "breedingPower": 205,
+    "captureRate": 8,
     "paldeckVariant": "B"
   },
   {
     "id": "jetragon",
     "name": "Jetragon",
-    "paldeckNumber": 109,
+    "paldeckNumber": 111,
     "elements": [
       "Dragon"
     ],
@@ -5279,7 +6447,1993 @@
       "Syndicate Tower"
     ],
     "imageUrl": "https://palworld.wiki.gg/images/Jetragon_icon.png",
-    "breedingPower": 40,
+    "breedingPower": 201,
+    "captureRate": 8
+  },
+  {
+    "id": "bellanoir",
+    "name": "Bellanoir",
+    "paldeckNumber": 112,
+    "elements": [
+      "Dark"
+    ],
+    "description": "Without existing, she quietly gazed upon the world. One day, she was seized with a longing to be seen. With unbridled lust for vengeance against reality, thus was born the eclipsed siren.",
+    "partnerSkill": "Nightmare Iris - When activated, attacks targeted enemy with a powerful Nightmare Ray.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 2
+      },
+      {
+        "type": "medicine",
+        "level": 4
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "ancient_civilization_parts",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Summoning Altar (raid boss)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Bellanoir_icon.png",
+    "breedingPower": 196,
+    "captureRate": 10
+  },
+  {
+    "id": "bellanoir_libero",
+    "name": "Bellanoir Libero",
+    "paldeckNumber": 112,
+    "paldeckVariant": "B",
+    "elements": [
+      "Dark"
+    ],
+    "description": "A more powerful form of Bellanoir, wearing a flowing black gown with pinkish-purple flames beneath. Its single visible blue eye burns with a more intense hunger.",
+    "partnerSkill": "Nightmare Stare - When activated, attacks targeted enemy with a powerful Nightmare Bloom.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 2
+      },
+      {
+        "type": "medicine",
+        "level": 4
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "ancient_civilization_parts",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Summoning Altar (raid boss)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Bellanoir_Libero_icon.png",
+    "breedingPower": 191,
+    "captureRate": 10
+  },
+  {
+    "id": "selyne",
+    "name": "Selyne",
+    "paldeckNumber": 113,
+    "elements": [
+      "Dark",
+      "Neutral"
+    ],
+    "description": "The object floating behind, resembling the moon, is said to gradually become more circular with each generation.",
+    "partnerSkill": "Celestial Darkness - Can be ridden as a flying mount. Enhances Neutral and Dark element attacks while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 4
+      },
+      {
+        "type": "medicine",
+        "level": 3
+      },
+      {
+        "type": "transporting",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "cloth",
+        "method": "drop",
+        "rate": "uncommon"
+      },
+      {
+        "materialId": "sapphire",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Sakurajima (Meteorite Events only)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Selyne_icon.png",
+    "breedingPower": 191,
+    "captureRate": 10
+  },
+  {
+    "id": "croajiro",
+    "name": "Croajiro",
+    "paldeckNumber": 114,
+    "elements": [
+      "Water"
+    ],
+    "description": "Those who disgrace the honor of the herd are forced to take their own life. By piercing their inflated vocal sac with a tree branch, they are blown away into the atmosphere and return to the afterlife.",
+    "partnerSkill": "Leap Stance - When activated, Croajiro swells its abdomen and channels loyalty to build energy. Climbing on top launches the player high into the air.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 1
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "gathering",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "cloth",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Windswept Hills",
+      "Eastern Wild Island",
+      "Mushroom Wetlands",
+      "Bamboo Groves",
+      "Crescent Moon Shore"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Croajiro_icon.png",
+    "breedingPower": 187,
+    "captureRate": 9
+  },
+  {
+    "id": "croajiro_noct",
+    "name": "Croajiro Noct",
+    "paldeckNumber": 114,
+    "paldeckVariant": "B",
+    "elements": [
+      "Water",
+      "Dark"
+    ],
+    "description": "The Croajiro who have forsaken their honor gather and form splinter groups. They will use any underhanded means to take down their chosen prey.",
+    "partnerSkill": "Shadow Stance - Inflates abdomen to launch players high into the air; increases Attack of Dark Pals in the party.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 1
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "gathering",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "cloth",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Sakurajima freshwater areas",
+      "Crescent Moon Shore"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Croajiro_Noct_icon.png",
+    "breedingPower": 182,
+    "captureRate": 9
+  },
+  {
+    "id": "lullu",
+    "name": "Lullu",
+    "paldeckNumber": 115,
+    "elements": [
+      "Leaf"
+    ],
+    "description": "A small plant-like creature that wears a dress of white and orange flower petals. Fills the farm with good spirits wherever it goes.",
+    "partnerSkill": "Floral Boost - While at a base, Lullu fills the farm with good spirits, increasing the growth rate of the crops.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 2
+      },
+      {
+        "type": "medicine",
+        "level": 2
+      },
+      {
+        "type": "gathering",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "red_berries",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Sakurajima cherry blossom forest",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Lullu_icon.png",
+    "breedingPower": 182,
+    "captureRate": 9
+  },
+  {
+    "id": "shroomer",
+    "name": "Shroomer",
+    "paldeckNumber": 116,
+    "elements": [
+      "Leaf"
+    ],
+    "description": "A dinosaur-like Pal with a large red mushroom cap on its head. When stationed at a base, its mysterious spores slow the rate at which allies lose SAN.",
+    "partnerSkill": "Swooshy Spores - Can be ridden. While at a base, its mysterious spores slow the rate at which the SAN value of allies at the base decreases.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 2
+      },
+      {
+        "type": "gathering",
+        "level": 2
+      },
+      {
+        "type": "lumbering",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "red_berries",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Sakurajima Mushroom Wetlands",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Shroomer_icon.png",
+    "breedingPower": 178,
+    "captureRate": 9
+  },
+  {
+    "id": "shroomer_noct",
+    "name": "Shroomer Noct",
+    "paldeckNumber": 116,
+    "paldeckVariant": "B",
+    "elements": [
+      "Leaf",
+      "Dark"
+    ],
+    "description": "The abundance of spores released by this Pal blocks out sunlight. Sometimes, if Shroomer Noct appears motionless, it's not because it's mimicking a mushroom, but rather because its own spores don't let it see anything.",
+    "partnerSkill": "Swooshy Spores - Can be ridden. While at a base, its mysterious spores slow the rate at which the SAN value of allies decreases.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 2
+      },
+      {
+        "type": "gathering",
+        "level": 2
+      },
+      {
+        "type": "lumbering",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Mushroom Wetlands (night)",
+      "Frozen Coral Hill",
+      "Feybreak"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Shroomer_Noct_icon.png",
+    "breedingPower": 173,
+    "captureRate": 9
+  },
+  {
+    "id": "kikit",
+    "name": "Kikit",
+    "paldeckNumber": 117,
+    "elements": [
+      "Earth"
+    ],
+    "description": "A small armadillo-like Pal with a light tan body and a darker shell. Rolls into a ball to move quickly.",
+    "partnerSkill": "Rollin' Full Oil - While in team, Kikit helps carry supplies, decreasing the weight of crude oil in the player's inventory.",
+    "workSuitabilities": [
+      {
+        "type": "mining",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Sakurajima Southern Sandbar",
+      "Northern Rock Field",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Kikit_icon.png",
+    "breedingPower": 173,
+    "captureRate": 9
+  },
+  {
+    "id": "sootseer",
+    "name": "Sootseer",
+    "paldeckNumber": 118,
+    "elements": [
+      "Dark",
+      "Fire"
+    ],
+    "description": "A ghostly Pal with a black body and wispy purple flames emanating from its hands and head. Occasionally digs up Bone when assigned to the ranch.",
+    "partnerSkill": "Grave Robber - Sometimes digs up Bone when assigned to the ranch.",
+    "workSuitabilities": [
+      {
+        "type": "kindling",
+        "level": 3
+      },
+      {
+        "type": "handiwork",
+        "level": 2
+      },
+      {
+        "type": "mining",
+        "level": 2
+      },
+      {
+        "type": "gathering",
+        "level": 1
+      },
+      {
+        "type": "farming",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "bone",
+        "method": "farming",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Secluded Cemetery (night)",
+      "Sakurajima",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Sootseer_icon.png",
+    "breedingPower": 169,
+    "captureRate": 9
+  },
+  {
+    "id": "prixter",
+    "name": "Prixter",
+    "paldeckNumber": 119,
+    "elements": [
+      "Dark",
+      "Earth"
+    ],
+    "description": "It has about 5,000 types of poison. Some of them are deadly enough to cause instant death, but all of them are too weak to have any effect.",
+    "partnerSkill": "Scorpion Sonar - When activated, it can analyze airborne particles and find a dungeon's exit.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 1
+      },
+      {
+        "type": "lumbering",
+        "level": 3
+      },
+      {
+        "type": "medicine",
+        "level": 1
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Northern Rock Field",
+      "Sakurajima"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Prixter_icon.png",
+    "breedingPower": 164,
+    "captureRate": 8
+  },
+  {
+    "id": "knocklem",
+    "name": "Knocklem",
+    "paldeckNumber": 120,
+    "elements": [
+      "Earth"
+    ],
+    "description": "A large humanoid Pal encased in dark grey armor with gold highlights, carrying a detachable golden ring weapon. Its steel resolve inspires allies in battle.",
+    "partnerSkill": "Steel Guardian Mode - When activated, a steel resolve increases Knocklem's Attack and Defense for a limited time.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 3
+      },
+      {
+        "type": "mining",
+        "level": 4
+      },
+      {
+        "type": "transporting",
+        "level": 4
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "ore",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Sakurajima (Alpha only, coordinates -676, 174)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Knocklem_icon.png",
+    "breedingPower": 160,
+    "captureRate": 8
+  },
+  {
+    "id": "yakumo",
+    "name": "Yakumo",
+    "paldeckNumber": 121,
+    "elements": [
+      "Neutral"
+    ],
+    "description": "A small canine Pal with grey body and dark blue highlights. It has a strong sense of justice and despises evil.",
+    "partnerSkill": "Birds of a Feather - Can be ridden. While fighting together, becomes easier to encounter pals with the same Passive Skill as Yakumo.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Cherry Blossom Forest",
+      "Sakurajima",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Yakumo_icon.png",
+    "breedingPower": 155,
+    "captureRate": 8
+  },
+  {
+    "id": "dogen",
+    "name": "Dogen",
+    "paldeckNumber": 122,
+    "elements": [
+      "Neutral"
+    ],
+    "description": "A humanoid canine Pal with white fur and a red kasa hat, known for meditation and reflection on worldly desires. When activated, immediately teleports to the closest base.",
+    "partnerSkill": "Homeward Prayer - When activated, moves to the closest base. Cannot be used within dungeons.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 3
+      },
+      {
+        "type": "gathering",
+        "level": 2
+      },
+      {
+        "type": "lumbering",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      },
+      {
+        "type": "medicine",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Dancing Sakura Shrine",
+      "Sakurajima",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Dogen_icon.png",
+    "breedingPower": 151,
+    "captureRate": 8
+  },
+  {
+    "id": "dazemu",
+    "name": "Dazemu",
+    "paldeckNumber": 123,
+    "elements": [
+      "Earth"
+    ],
+    "description": "Take one step forward and forget your doubts. Take two steps forward and forget your worries. Take three steps forward and forget your fears. Face any enemy.",
+    "partnerSkill": "Sand Sprint - Can be ridden. Runs faster over sand and dirt terrain.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Twilight Dunes",
+      "Southern Sandbar",
+      "Sakurajima",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Dazemu_icon.png",
+    "breedingPower": 146,
+    "captureRate": 8
+  },
+  {
+    "id": "mimog",
+    "name": "Mimog",
+    "paldeckNumber": 124,
+    "elements": [
+      "Neutral"
+    ],
+    "description": "A Pal that mimics treasure chests. It reveals a face with blue eyes and a long tongue when active, fooling adventurers into thinking it's regular loot.",
+    "partnerSkill": "Master of Unlocking - Allows Mimog to open locked copper-tier Treasure Chests without needing a key.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Most areas throughout Palpagos Islands"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Mimog_icon.png",
+    "breedingPower": 142,
+    "captureRate": 7
+  },
+  {
+    "id": "xenovader",
+    "name": "Xenovader",
+    "paldeckNumber": 125,
+    "elements": [
+      "Dark"
+    ],
+    "description": "A bipedal reptilian Pal with a black body and purple markings, large claws, and sideways-facing purple horns. Appears during Meteorite Events.",
+    "partnerSkill": "Meteor Mania - Enhances mining damage and increases the likelihood of obtaining Meteorite Fragments.",
+    "workSuitabilities": [
+      {
+        "type": "lumbering",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Meteorite Events (most of Palpagos Islands)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Xenovader_icon.png",
+    "breedingPower": 137,
+    "captureRate": 7
+  },
+  {
+    "id": "xenogard",
+    "name": "Xenogard",
+    "paldeckNumber": 126,
+    "elements": [
+      "Dragon"
+    ],
+    "description": "A quadrupedal draconic Pal with black body and pale grey armored plates. Its five tail crystals resonate with meteorites.",
+    "partnerSkill": "Crater Enthusiast - Can be ridden. While in the team, it's easier to obtain Meteorite Fragment and Pure Quartz.",
+    "workSuitabilities": [
+      {
+        "type": "mining",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "high_quality_pal_oil",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Mount Obsidian",
+      "Desiccated Dunes",
+      "Astral Mountains"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Xenogard_icon.png",
+    "breedingPower": 133,
+    "captureRate": 7
+  },
+  {
+    "id": "xenolord",
+    "name": "Xenolord",
+    "paldeckNumber": 127,
+    "elements": [
+      "Dark",
+      "Dragon"
+    ],
+    "description": "A large bipedal draconic Pal with dark grey body and bronze belly, featuring cobalt blue armor plating and four floating energy diamonds resembling wings.",
+    "partnerSkill": "Meteor Wings - Serves as a flying mount that significantly boosts aerial movement speed.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 1
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Summoning Altar (raid boss)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Xenolord_icon.png",
+    "breedingPower": 128,
+    "captureRate": 7
+  },
+  {
+    "id": "nitemary",
+    "name": "Nitemary",
+    "paldeckNumber": 128,
+    "elements": [
+      "Dark"
+    ],
+    "description": "What it carries is its own soul. When it falls for someone, it forcibly extracts their soul and merges it with its own.",
+    "partnerSkill": "Soul Collector - While fighting together, Pals drop more Pal Souls when defeated.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 3
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Frozen Coral Hill",
+      "Feybreak",
+      "Feybreak Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Nitemary_icon.png",
+    "breedingPower": 124,
+    "captureRate": 7
+  },
+  {
+    "id": "starryon",
+    "name": "Starryon",
+    "paldeckNumber": 129,
+    "elements": [
+      "Dark"
+    ],
+    "description": "An equine Pal with a predominantly black body and blue mane. It takes immense pride in its flowing mane and becomes distressed over split ends.",
+    "partnerSkill": "Night Dancer - Can be ridden. Increases movement speed while mounted at night.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Feybreak (Scorched Hill, Frozen Coral Hill, nighttime)",
+      "Feybreak Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Starryon_icon.png",
+    "breedingPower": 119,
+    "captureRate": 6
+  },
+  {
+    "id": "silvegis",
+    "name": "Silvegis",
+    "paldeckNumber": 130,
+    "elements": [
+      "Dragon"
+    ],
+    "description": "A large quadrupedal dragon with a predominantly white body and golden armor. Increases the duration of the shield when using Aegis Charge while mounted.",
+    "partnerSkill": "Aegis Shield - Increases the duration of the shield when using Aegis Charge while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "lumbering",
+        "level": 3
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Scorched Hill",
+      "Feybreak (Alpha only)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Silvegis_icon.png",
+    "breedingPower": 115,
+    "captureRate": 6
+  },
+  {
+    "id": "smokie",
+    "name": "Smokie",
+    "paldeckNumber": 131,
+    "elements": [
+      "Dark"
+    ],
+    "description": "A small canine Pal with mostly black fur and wispy grey smoke coming from its head and tail. Skilled at sniffing out Chromite ore deposits.",
+    "partnerSkill": "Dig, Dog! Dig! - Enables the user to detect nearby Chromite nodes and increases yield when mining them.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Scorched Hill",
+      "Feybreak",
+      "Loess Plains",
+      "Feybreak Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Smokie_icon.png",
+    "breedingPower": 110,
+    "captureRate": 5
+  },
+  {
+    "id": "celesdir",
+    "name": "Celesdir",
+    "paldeckNumber": 132,
+    "elements": [
+      "Neutral"
+    ],
+    "description": "Ancient texts refer to it as the 'Beast of Salvation.' The light emitted by Celesdir purifies everything, literally causing things to vanish from existence without leaving a trace.",
+    "partnerSkill": "Blessing of Purification - Can be ridden. Increases the player's auto recovery speed while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 1
+      },
+      {
+        "type": "lumbering",
+        "level": 4
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "horn",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Scorched Hill",
+      "Loess Plains",
+      "Frozen Coral Hill",
+      "Feybreak"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Celesdir_icon.png",
+    "breedingPower": 106,
+    "captureRate": 5
+  },
+  {
+    "id": "omascul",
+    "name": "Omascul",
+    "paldeckNumber": 133,
+    "elements": [
+      "Dark"
+    ],
+    "description": "A penguin-shaped Pal with a white mask-like face hiding sharp teeth and four hidden arms. Its team experience bonus makes it invaluable for leveling.",
+    "partnerSkill": "Masquerade Dance - While in team, the Pals in the team gain more experience points.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 1
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Frozen Coral Hill",
+      "Feybreak",
+      "Feybreak Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Omascul_icon.png",
+    "breedingPower": 101,
+    "captureRate": 5
+  },
+  {
+    "id": "splatterina",
+    "name": "Splatterina",
+    "paldeckNumber": 134,
+    "elements": [
+      "Dark"
+    ],
+    "description": "It has an uncontrollable urge to tear its prey apart. Each individual has their own meticulous order for dismemberment.",
+    "partnerSkill": "Blade of Uncontrolled Passion - Increases items obtained from using the Meat Cleaver on Pals while Splatterina is in the player's possession.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 4
+      },
+      {
+        "type": "medicine",
+        "level": 3
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      },
+      {
+        "type": "lumbering",
+        "level": 1
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Scorched Hill (night)",
+      "Frozen Coral Hill (night)",
+      "Feybreak",
+      "Feybreak Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Splatterina_icon.png",
+    "breedingPower": 97,
+    "captureRate": 5
+  },
+  {
+    "id": "tarantriss",
+    "name": "Tarantriss",
+    "paldeckNumber": 135,
+    "elements": [
+      "Dark"
+    ],
+    "description": "Extremely sticky and clingy. The more it's resisted, the more tenacious it becomes.",
+    "partnerSkill": "Tarantriss' Web - Serves as a rideable mount with double jump capability and the ability to shoot spider silk for grappling and high-speed movement.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 2
+      },
+      {
+        "type": "gathering",
+        "level": 2
+      },
+      {
+        "type": "medicine",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [],
+    "locations": [
+      "Desiccated Dunes (night)",
+      "Scorched Hill southern half",
+      "Feybreak",
+      "Feybreak Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Tarantriss_icon.png",
+    "breedingPower": 92,
+    "captureRate": 5
+  },
+  {
+    "id": "azurmane",
+    "name": "Azurmane",
+    "paldeckNumber": 136,
+    "elements": [
+      "Electricity"
+    ],
+    "description": "A large equine Pal with azure blue body and black thunderbolt markings. Its glowing blue energy mane and tail crackle with raw electricity.",
+    "partnerSkill": "Plasma Dash - Can be ridden. Also allows dashing in the air and moving at high speed.",
+    "workSuitabilities": [
+      {
+        "type": "generating",
+        "level": 4
+      },
+      {
+        "type": "gathering",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "electric_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Scorched Hill (night)",
+      "Frozen Coral Hill (night)",
+      "Feybreak"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Azurmane_icon.png",
+    "breedingPower": 88,
+    "captureRate": 5
+  },
+  {
+    "id": "bastigor",
+    "name": "Bastigor",
+    "paldeckNumber": 137,
+    "elements": [
+      "Ice"
+    ],
+    "description": "The sight of anything round gives it an uncontrollable urge to punch it. For Bastigor the toughest challenge, after simply living, is making a snowman.",
+    "partnerSkill": "Blizzard Crash - Can be ridden. While mounted, delivers crushing blows with an Ice-forged hammer.",
+    "workSuitabilities": [
+      {
+        "type": "lumbering",
+        "level": 3
+      },
+      {
+        "type": "mining",
+        "level": 3
+      },
+      {
+        "type": "cooling",
+        "level": 4
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "ice_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Breeding only (Frostallion + Anubis)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Bastigor_icon.png",
+    "breedingPower": 83,
+    "captureRate": 5
+  },
+  {
+    "id": "prunelia",
+    "name": "Prunelia",
+    "paldeckNumber": 138,
+    "elements": [
+      "Leaf",
+      "Dark"
+    ],
+    "description": "Intelligent and graceful in its demeanor, it was frequently employed as an attendant by the island's nobles. However, when encountered at night, its face looked so eerie that it quickly fell out of favor.",
+    "partnerSkill": "Prayer for Abundant Harvest - While at a base, Prunelia's prayers bless the crops, increasing their harvest.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 3
+      },
+      {
+        "type": "medicine",
+        "level": 3
+      },
+      {
+        "type": "gathering",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "red_berries",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Scorched Hill",
+      "Feybreak",
+      "Feybreak Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Prunelia_icon.png",
+    "breedingPower": 79,
+    "captureRate": 5
+  },
+  {
+    "id": "nyafia",
+    "name": "Nyafia",
+    "paldeckNumber": 139,
+    "elements": [
+      "Dark"
+    ],
+    "description": "A humanoid feline Pal with light grey fur and bright magenta hair that covers its right eye. When activated, fires a shotgun at nearby enemies.",
+    "partnerSkill": "Shot-Nyan Mode - When activated, Nyafia will fire a shotgun at nearby enemies for a limited time.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 3
+      },
+      {
+        "type": "gathering",
+        "level": 2
+      },
+      {
+        "type": "lumbering",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Scorched Hill",
+      "Feybreak",
+      "Feybreak Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Nyafia_icon.png",
+    "breedingPower": 74,
+    "captureRate": 5
+  },
+  {
+    "id": "gildane",
+    "name": "Gildane",
+    "paldeckNumber": 140,
+    "elements": [
+      "Earth"
+    ],
+    "description": "During the golden age of alchemy on the island, its ever-glowing golden fur was highly prized as a catalyst for transmuting gold.",
+    "partnerSkill": "Sandstorm's Blessing - Can be ridden; converts player's attack type to Ground element while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Scorched Ashland",
+      "Withered Seaside",
+      "Deserted Ash Plateau",
+      "Emberstone Plateau",
+      "Feybreak"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Gildane_icon.png",
+    "breedingPower": 70,
+    "captureRate": 5
+  },
+  {
+    "id": "herbil",
+    "name": "Herbil",
+    "paldeckNumber": 141,
+    "elements": [
+      "Leaf",
+      "Neutral"
+    ],
+    "description": "When in doubt, punch it till it works — that's Herbil's approach to fixing things. With strength perfectly tuned for humans, sometimes just one punch is enough to restart a stopped heart.",
+    "partnerSkill": "Herbil Pulse - While in team, Herbil uses its healing powers to revive the player when incapacitated.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 2
+      },
+      {
+        "type": "gathering",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "red_berries",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Sunlit Isle",
+      "Eternal Summer Isle",
+      "Oasis Isle"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Herbil_icon.png",
+    "breedingPower": 66,
+    "captureRate": 5
+  },
+  {
+    "id": "icelyn",
+    "name": "Icelyn",
+    "paldeckNumber": 142,
+    "elements": [
+      "Ice"
+    ],
+    "description": "A semi-humanoid Pal wearing a wide-brimmed witch's hat adorned with ice crystals and a white dress with light blue highlights. Changes the player's attack type to Ice when fighting together.",
+    "partnerSkill": "Witch's Icy Veil - While fighting together, changes the player's attack type to Ice.",
+    "workSuitabilities": [
+      {
+        "type": "handiwork",
+        "level": 2
+      },
+      {
+        "type": "medicine",
+        "level": 2
+      },
+      {
+        "type": "cooling",
+        "level": 3
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "ice_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Frostbitten Isle",
+      "Astral Mountains Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Icelyn_icon.png",
+    "breedingPower": 63,
+    "captureRate": 5
+  },
+  {
+    "id": "frostplume",
+    "name": "Frostplume",
+    "paldeckNumber": 143,
+    "elements": [
+      "Ice"
+    ],
+    "description": "So precise is its sense of time that it awakens at the exact same hour every morning. According to Palpagos lore, a day was divided into 24 parts because when Frostplume spreads its tail feathers wide, it reveals a pattern with 24 distinct spaces.",
+    "partnerSkill": "Peacock Pounce - Frostplume's icy aura sharpens your focus, improving reload speed.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 1
+      },
+      {
+        "type": "cooling",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "ice_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Frostbitten Isle",
+      "Astral Mountains Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Frostplume_icon.png",
+    "breedingPower": 59,
+    "captureRate": 5
+  },
+  {
+    "id": "palumba",
+    "name": "Palumba",
+    "paldeckNumber": 144,
+    "elements": [
+      "Leaf"
+    ],
+    "description": "Disrupts enemies' rhythm with a signature dance. In turf battles, the first to fall in sync with the other's rhythm loses.",
+    "partnerSkill": "Samba Step - Can be ridden and runs faster over grass terrain.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 2
+      },
+      {
+        "type": "gathering",
+        "level": 2
+      },
+      {
+        "type": "mining",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Eternal Summer Isle",
+      "Oasis Isle",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Palumba_icon.png",
+    "breedingPower": 56,
+    "captureRate": 5
+  },
+  {
+    "id": "braloha",
+    "name": "Braloha",
+    "paldeckNumber": 145,
+    "elements": [
+      "Leaf",
+      "Earth"
+    ],
+    "description": "A large sauropod-like Pal with tan body and green markings. When stationed at a base breeding farm, shortens the time it takes Pals to produce eggs.",
+    "partnerSkill": "Balmy Weather - Can be ridden. While at a base, shortens the time it takes Pals assigned to BreedFarm to produce eggs.",
+    "workSuitabilities": [
+      {
+        "type": "planting",
+        "level": 4
+      },
+      {
+        "type": "gathering",
+        "level": 4
+      },
+      {
+        "type": "mining",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "red_berries",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Oasis Isle",
+      "Cherry Blossom Cave"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Braloha_icon.png",
+    "breedingPower": 52,
+    "captureRate": 5
+  },
+  {
+    "id": "munchill",
+    "name": "Munchill",
+    "paldeckNumber": 146,
+    "elements": [
+      "Ice",
+      "Water"
+    ],
+    "description": "The inside of its mouth stays pleasantly cold, making it a natural fridge when closed. A small reptilian Pal with a round body and four stubby legs.",
+    "partnerSkill": "Icy Maw - While in team, Munchill cools ingredients inside its mouth, making the food in your inventory less likely to spoil.",
+    "workSuitabilities": [
+      {
+        "type": "cooling",
+        "level": 2
+      },
+      {
+        "type": "watering",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Frostbitten Isle",
+      "Frostbound Mountains",
+      "Isle of the Glacial Core",
+      "Frozen Coral Hill"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Munchill_icon.png",
+    "breedingPower": 48,
+    "captureRate": 5
+  },
+  {
+    "id": "polapup",
+    "name": "Polapup",
+    "paldeckNumber": 147,
+    "elements": [
+      "Ice",
+      "Water"
+    ],
+    "description": "Among Polapups, the fastest slider on the snow earns the highest respect. Sometimes, a too-forceful leap sends one tumbling from the sky — a common sight during territorial season.",
+    "partnerSkill": "Rider of the Snowy Mountain - Can be ridden. Runs faster over snow. Can slide quickly down slopes.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 2
+      },
+      {
+        "type": "cooling",
+        "level": 3
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "ice_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Isle of the Glacial Core",
+      "Frostbound Mountains",
+      "Frozen Coral Hill"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Polapup_icon.png",
+    "breedingPower": 45,
+    "captureRate": 5
+  },
+  {
+    "id": "turtacle",
+    "name": "Turtacle",
+    "paldeckNumber": 148,
+    "elements": [
+      "Water"
+    ],
+    "description": "To protect its fragile body, it developed an incredibly tough shell. Unfortunately, it's utterly defenseless underneath. Even a little tickle could knock it out cold.",
+    "partnerSkill": "Spikey Carrier - While in team, Turtacle helps carry supplies, decreasing the weight of armor in the player's inventory.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 2
+      },
+      {
+        "type": "mining",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Isle of Decayed Treasures",
+      "Windswept Hills (fishing)",
+      "Sea Breeze Archipelago (fishing)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Turtacle_icon.png",
+    "breedingPower": 41,
+    "captureRate": 5
+  },
+  {
+    "id": "turtacle_terra",
+    "name": "Turtacle Terra",
+    "paldeckNumber": 148,
+    "paldeckVariant": "B",
+    "elements": [
+      "Water",
+      "Earth"
+    ],
+    "description": "To protect its fragile body, it developed an incredibly tough shell. With most of its senses concentrated in its limbs and shell, it can't even tell if someone quietly touches its core.",
+    "partnerSkill": "Shiny Hauler - Decreases armor weight in player inventory while in team; also boosts Attack of Ground-type Pals.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 2
+      },
+      {
+        "type": "mining",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Desiccated Dunes (fishing)",
+      "Eternal Summer Isle (fishing)",
+      "Oasis Isle (fishing)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Turtacle_Terra_icon.png",
+    "breedingPower": 36,
+    "captureRate": 5
+  },
+  {
+    "id": "jellroy",
+    "name": "Jellroy",
+    "paldeckNumber": 149,
+    "elements": [
+      "Water",
+      "Dark"
+    ],
+    "description": "A Pal that closely resembles Jelliette. It sometimes appears as a substitute when Jelliette is unavailable. Its acting is so flawless that no one ever notices the switch.",
+    "partnerSkill": "Jellroy Drop - While in your team, increases salvage item yields. When stationed at a base alongside Jelliette, boosts watering speed.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "medicine",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Phantom Isle",
+      "Windswept Hills (fishing, night)",
+      "Frostbitten Isle (fishing, night)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Jellroy_icon.png",
+    "breedingPower": 38,
+    "captureRate": 5
+  },
+  {
+    "id": "jelliette",
+    "name": "Jelliette",
+    "paldeckNumber": 150,
+    "elements": [
+      "Water"
+    ],
+    "description": "A small humanoid jellyfish-like Pal with a predominantly white body and long flowing white tentacles on its head. While Jelliette and Jellroy are together at a base, Jelliette's watering speed increases.",
+    "partnerSkill": "Jelliette Drop - While in team, increases items obtained from fishing. While Jelliette and Jellroy are in your base, Jelliette's watering speed is increased.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Frostbitten Isle",
+      "Windswept Hills (fishing)",
+      "Sea Breeze Archipelago (fishing)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Jelliette_icon.png",
+    "breedingPower": 34,
+    "captureRate": 5
+  },
+  {
+    "id": "gloopie",
+    "name": "Gloopie",
+    "paldeckNumber": 151,
+    "elements": [
+      "Water",
+      "Dark"
+    ],
+    "description": "Be sure to check your plans for the next day before falling asleep with this Pal. Its suction cups leave marks that look suspiciously like hickeys.",
+    "partnerSkill": "Sticky Princess - The capture gauge decreases more slowly in the fishing minigame when the bar is not aligned.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Isle of Decayed Treasures",
+      "Mount Obsidian (fishing, night)",
+      "Sakurajima (fishing, night)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Gloopie_icon.png",
+    "breedingPower": 30,
+    "captureRate": 5
+  },
+  {
+    "id": "finsider",
+    "name": "Finsider",
+    "paldeckNumber": 152,
+    "elements": [
+      "Water"
+    ],
+    "description": "It looks like something is peeking out from inside a costume, but even if you reach inside, there's nothing there. In fact, you can keep reaching deeper and deeper. Perhaps the universe itself lies within.",
+    "partnerSkill": "Echo Chamber - While in team, Finsider helps carry supplies, decreasing the weight of weapons in the player's inventory.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Sunlit Isle",
+      "Eternal Summer Isle",
+      "Desiccated Dunes (fishing)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Finsider_icon.png",
+    "breedingPower": 27,
+    "captureRate": 5
+  },
+  {
+    "id": "finsider_ignis",
+    "name": "Finsider Ignis",
+    "paldeckNumber": 152,
+    "paldeckVariant": "B",
+    "elements": [
+      "Water",
+      "Fire"
+    ],
+    "description": "Finsider Ignis has a predominantly pink body with red dorsal and tail fins. Its fiery nature also boosts the Attack of Fire Pals in the team.",
+    "partnerSkill": "Ember Chamber - While in team, decreases the weight of weapons in the player's inventory. Also increases Attack of Fire Pals.",
+    "workSuitabilities": [
+      {
+        "type": "kindling",
+        "level": 2
+      },
+      {
+        "type": "watering",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "level": 1
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "flame_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Phantom Isle",
+      "Feybreak (fishing)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Finsider_Ignis_icon.png",
+    "breedingPower": 22,
+    "captureRate": 5
+  },
+  {
+    "id": "ghangler",
+    "name": "Ghangler",
+    "paldeckNumber": 153,
+    "elements": [
+      "Dark",
+      "Water"
+    ],
+    "description": "With its shining lure, it illuminates the darkness. An anglerfish-like Pal with a skull-like mask and four horn-like protrusions.",
+    "partnerSkill": "Master Night Angler - Enables riding for water travel and reduces the time for Pals to bite during nighttime fishing.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 4
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Phantom Isle",
+      "Sakurajima (fishing, night)",
+      "Volcanic Cavern"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Ghangler_icon.png",
+    "breedingPower": 23,
+    "captureRate": 5
+  },
+  {
+    "id": "ghangler_ignis",
+    "name": "Ghangler Ignis",
+    "paldeckNumber": 153,
+    "paldeckVariant": "B",
+    "elements": [
+      "Fire",
+      "Water"
+    ],
+    "description": "Its blazing lure doubles as a grill for roasting prey. Drawn in by the delicious aroma, Pals have no hope of escape once Ghangler Ignis sets its sights on them.",
+    "partnerSkill": "Flame Lantern - Can be ridden to travel quickly across water. While fighting together, the time it takes for Pals to bite during night fishing is reduced.",
+    "workSuitabilities": [
+      {
+        "type": "kindling",
+        "level": 3
+      },
+      {
+        "type": "watering",
+        "level": 4
+      },
+      {
+        "type": "transporting",
+        "level": 2
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "bone",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "flame_organ",
+        "method": "drop",
+        "rate": "uncommon"
+      }
+    ],
+    "locations": [
+      "Feybreak (fishing)",
+      "No. 3 Wildlife Sanctuary (fishing)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Ghangler_Ignis_icon.png",
+    "breedingPower": 18,
+    "captureRate": 5
+  },
+  {
+    "id": "whalaska",
+    "name": "Whalaska",
+    "paldeckNumber": 154,
+    "elements": [
+      "Ice",
+      "Water"
+    ],
+    "description": "A large whale-like Pal with a light blue upper body and white lower body with a white goatee on its chin. Starts the fishing minigame with the capture gauge higher than usual.",
+    "partnerSkill": "Chilled Whale Cruiser - Can be ridden. While fighting together, the fishing minigame starts with the capture gauge higher than usual.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 3
+      },
+      {
+        "type": "cooling",
+        "level": 4
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "ice_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Isle of the Glacial Core",
+      "Frozen Coral Hill (fishing)",
+      "Astral Mountains"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Whalaska_icon.png",
+    "breedingPower": 20,
+    "captureRate": 5
+  },
+  {
+    "id": "whalaska_ignis",
+    "name": "Whalaska Ignis",
+    "paldeckNumber": 154,
+    "paldeckVariant": "B",
+    "elements": [
+      "Ice",
+      "Fire"
+    ],
+    "description": "Determined never to be mistaken for drift ice again, it turned bright red through sheer will. Unfortunately, some Pals can't see red. So despite its efforts, its personal space continues to be invaded.",
+    "partnerSkill": "Cozy Whale Cruiser - Rideable mount that enhances fishing mechanics by starting the capture gauge higher and increasing its fill rate.",
+    "workSuitabilities": [
+      {
+        "type": "kindling",
+        "level": 3
+      },
+      {
+        "type": "cooling",
+        "level": 4
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "pal_fluid",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "flame_organ",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Feybreak coast (fishing)",
+      "No. 3 Wildlife Sanctuary (fishing)",
+      "Mount Obsidian"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Whalaska_Ignis_icon.png",
+    "breedingPower": 15,
+    "captureRate": 5
+  },
+  {
+    "id": "neptilius",
+    "name": "Neptilius",
+    "paldeckNumber": 155,
+    "elements": [
+      "Water"
+    ],
+    "description": "A large whale-like Pal with a predominantly grey body and a white and blue underbelly, featuring azure gemstones with golden rims and a golden crown-like structure on its head.",
+    "partnerSkill": "Sentinel of the Great Sea - Enables spear strike follow-ups during combat and allows riding across water with high-altitude leaping capability.",
+    "workSuitabilities": [
+      {
+        "type": "watering",
+        "level": 4
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "carbon_fiber",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Isle of the Glacial Core (Alpha only, coordinates 139, 651)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Neptilius_icon.png",
+    "breedingPower": 16,
+    "captureRate": 5
+  },
+  {
+    "id": "hartalis",
+    "name": "Hartalis",
+    "paldeckNumber": 156,
+    "elements": [
+      "Neutral"
+    ],
+    "description": "The silence is unsettling, yet strangely soothing. No one else remains. All have been delivered. O King of Salvation, carry me too into eternal stillness.",
+    "partnerSkill": "Sacred Barrier - Can be ridden. While mounted, generates a barrier that blocks all attacks. Can triple jump while mounted.",
+    "workSuitabilities": [
+      {
+        "type": "gathering",
+        "level": 3
+      },
+      {
+        "type": "lumbering",
+        "level": 4
+      }
+    ],
+    "drops": [
+      {
+        "materialId": "horn",
+        "method": "drop",
+        "rate": "common"
+      },
+      {
+        "materialId": "leather",
+        "method": "drop",
+        "rate": "common"
+      }
+    ],
+    "locations": [
+      "Summoning Altar (raid boss)"
+    ],
+    "imageUrl": "https://palworld.wiki.gg/images/Hartalis_icon.png",
+    "breedingPower": 12,
     "captureRate": 5
   }
 ]

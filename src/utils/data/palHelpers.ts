@@ -58,7 +58,7 @@ export function getUniqueLocations(): string[] {
       locationSet.add(loc)
     }
   }
-  return [...locationSet].sort()
+  return [...locationSet].sort((a, b) => a.localeCompare(b))
 }
 
 export function getPalsByLocation(location: string): Pal[] {

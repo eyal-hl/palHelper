@@ -15,7 +15,9 @@
       "Bash(git commit -m 'feat: sort owned pals to top across all pal lists:*)",
       "Bash(git push:*)",
       "Bash(git commit -m 'fix: correct paldeck numbers for B variant pals:*)",
-      "Bash(gh run:*)"
+      "Bash(gh run:*)",
+      "WebFetch(domain:game8.co)",
+      "Bash(git commit -m 'feat: add 80 missing pals — B variants, Woolipop/Caprity, DLC pals #112-156:*)"
     ]
   }
 }
