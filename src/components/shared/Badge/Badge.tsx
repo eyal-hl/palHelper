@@ -1,7 +1,7 @@
 import type { Element } from '@/data/types'
 import styles from './Badge.module.css'
 
-type BadgeVariant = 'element' | 'method' | 'rate' | 'category' | 'neutral'
+type BadgeVariant = 'element' | 'method' | 'rate' | 'category' | 'neutral' | 'variant'
 
 interface BadgeProps {
   label: string

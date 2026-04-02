@@ -37,6 +37,7 @@ export function TrackerPalRow({ pal, isOwned, onToggle }: TrackerPalRowProps) {
           {pal.elements.map((el) => (
             <Badge key={el} label={el} variant="element" element={el} />
           ))}
+          {pal.paldeckVariant && <Badge label="Variant" variant="variant" />}
         </div>
       </label>
     </li>

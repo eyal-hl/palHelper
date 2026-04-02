@@ -86,7 +86,10 @@ export function BreedingCalculator() {
                   size="lg"
                 />
                 <div className={styles.offspringDetails}>
-                  <span className={styles.offspringNumber}>#{offspring.paldeckNumber}{offspring.paldeckVariant ?? ''}</span>
+                  <span className={styles.offspringNumber}>
+                    #{offspring.paldeckNumber}
+                    {offspring.paldeckVariant ?? ''}
+                  </span>
                   <h3 className={styles.offspringName}>{offspring.name}</h3>
                   <div className={styles.elements}>
                     {offspring.elements.map((el) => (

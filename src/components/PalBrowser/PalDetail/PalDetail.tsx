@@ -38,6 +38,7 @@ export function PalDetail() {
               {pal.elements.map((el) => (
                 <Badge key={el} label={el} variant="element" element={el} />
               ))}
+              {pal.paldeckVariant && <Badge label="Variant" variant="variant" />}
             </div>
             <CaptureRateBadge captureRate={pal.captureRate} />
           </div>

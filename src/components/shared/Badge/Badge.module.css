@@ -34,6 +34,12 @@
   color: var(--color-text-secondary);
 }
 
+/* Variant (B type) */
+.badge[data-variant='variant'] {
+  background: rgba(240, 160, 40, 0.2);
+  color: #e8a020;
+}
+
 /* Element variants */
 .badge[data-variant='element'][data-element='neutral'] {
   background: rgba(139, 143, 168, 0.2);

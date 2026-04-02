@@ -32,7 +32,10 @@ export function PalCard({ pal }: PalCardProps) {
           ))}
         </div>
       </div>
-      <h3 className={styles.name}>{pal.name}</h3>
+      <h3 className={styles.name}>
+        {pal.name}
+        {pal.paldeckVariant && <Badge label="Variant" variant="variant" />}
+      </h3>
       <p className={styles.description}>{pal.description}</p>
       <div className={styles.footer}>
         <CaptureRateBadge captureRate={pal.captureRate} />
