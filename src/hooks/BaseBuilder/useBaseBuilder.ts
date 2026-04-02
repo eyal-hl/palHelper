@@ -30,10 +30,7 @@ export function useBaseBuilder(): UseBaseBuilderReturn {
   const [slots, setSlots] = useState<WorkSlotState[]>([])
 
   function addSlot(): void {
-    setSlots((prev) => [
-      ...prev,
-      { id: generateSlotId(), workType: DEFAULT_WORK_TYPE, count: 1 },
-    ])
+    setSlots((prev) => [...prev, { id: generateSlotId(), workType: DEFAULT_WORK_TYPE, count: 1 }])
   }
 
   function removeSlot(id: string): void {
@@ -41,9 +38,7 @@ export function useBaseBuilder(): UseBaseBuilderReturn {
   }
 
   function updateSlot(id: string, patch: Partial<Omit<WorkSlotState, 'id'>>): void {
-    setSlots((prev) =>
-      prev.map((s) => (s.id === id ? { ...s, ...patch } : s))
-    )
+    setSlots((prev) => prev.map((s) => (s.id === id ? { ...s, ...patch } : s)))
   }
 
   const recommendations = useMemo<Map<WorkType, Pal[]>>(

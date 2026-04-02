@@ -40,9 +40,7 @@ describe('suggestPalsForBase', () => {
   it('a pal can appear in results for multiple work types', () => {
     // Find a pal with multiple work suitabilities
     const allPals = getAllPals()
-    const multiWorker = allPals.find(
-      (p) => p.workSuitabilities.length >= 2
-    )
+    const multiWorker = allPals.find((p) => p.workSuitabilities.length >= 2)
     expect(multiWorker).toBeDefined()
     const ownedIds = new Set([multiWorker!.id])
     const workTypes = multiWorker!.workSuitabilities.map((ws) => ws.type as never)

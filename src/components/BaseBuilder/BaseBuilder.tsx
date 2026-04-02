@@ -65,9 +65,7 @@ export function BaseBuilder() {
                 <select
                   className={styles.workSelect}
                   value={slot.workType}
-                  onChange={(e) =>
-                    updateSlot(slot.id, { workType: e.target.value as WorkType })
-                  }
+                  onChange={(e) => updateSlot(slot.id, { workType: e.target.value as WorkType })}
                   aria-label="Work type"
                 >
                   {ALL_WORK_TYPES.map((wt) => (
@@ -111,7 +109,8 @@ export function BaseBuilder() {
           <h2 className={styles.sectionTitle}>Recommendations</h2>
           <p className={styles.hint}>Based on your owned pals</p>
 
-          {recommendations.size === 0 || [...recommendations.values()].every((v) => v.length === 0) ? (
+          {recommendations.size === 0 ||
+          [...recommendations.values()].every((v) => v.length === 0) ? (
             <EmptyState
               message="Track your owned Pals first"
               hint="Go to the Pal Tracker to mark which pals you own."
@@ -129,9 +128,7 @@ export function BaseBuilder() {
                     {pals.length > 0 ? (
                       <ul className={styles.recPalList} role="list">
                         {pals.map((pal) => {
-                          const ws = pal.workSuitabilities.find(
-                            (w) => w.type === slot.workType
-                          )
+                          const ws = pal.workSuitabilities.find((w) => w.type === slot.workType)
                           return (
                             <li key={pal.id} className={styles.recPalRow}>
                               <PalImage
@@ -141,9 +138,7 @@ export function BaseBuilder() {
                                 size="sm"
                               />
                               <span className={styles.recPalName}>{pal.name}</span>
-                              {ws && (
-                                <span className={styles.recPalLevel}>Lv {ws.level}</span>
-                              )}
+                              {ws && <span className={styles.recPalLevel}>Lv {ws.level}</span>}
                             </li>
                           )
                         })}

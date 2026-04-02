@@ -54,7 +54,12 @@ export function PalPicker({ value, onChange, placeholder = 'Select a Pal...' }: 
             size="sm"
           />
           <span className={styles.selectedName}>{selectedPal.name}</span>
-          <button className={styles.clearButton} onClick={handleClear} type="button" aria-label="Clear selection">
+          <button
+            className={styles.clearButton}
+            onClick={handleClear}
+            type="button"
+            aria-label="Clear selection"
+          >
             ✕
           </button>
         </div>
@@ -101,9 +106,7 @@ export function PalPicker({ value, onChange, placeholder = 'Select a Pal...' }: 
                 </button>
               </li>
             ))}
-            {filteredPals.length === 0 && (
-              <li className={styles.noResults}>No pals found</li>
-            )}
+            {filteredPals.length === 0 && <li className={styles.noResults}>No pals found</li>}
           </ul>
         </div>
       )}

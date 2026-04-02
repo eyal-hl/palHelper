@@ -1,9 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import {
-  getOffspring,
-  getParentCombos,
-  isSpecialCombo,
-} from '@/utils/data/breedingHelpers'
+import { getOffspring, getParentCombos, isSpecialCombo } from '@/utils/data/breedingHelpers'
 
 describe('isSpecialCombo', () => {
   it('returns true for a known special combo', () => {
@@ -66,10 +62,12 @@ describe('getParentCombos', () => {
     // relaxaurus_lux is a special combo child
     const combos = getParentCombos('relaxaurus_lux')
     expect(combos.length).toBeGreaterThan(0)
-    expect(combos.some((c) => {
-      const ids = [c.parent1.id, c.parent2.id]
-      return ids.includes('relaxaurus') && ids.includes('sparkit')
-    })).toBe(true)
+    expect(
+      combos.some((c) => {
+        const ids = [c.parent1.id, c.parent2.id]
+        return ids.includes('relaxaurus') && ids.includes('sparkit')
+      })
+    ).toBe(true)
   })
 
   it('includes special combos that produce the child', () => {

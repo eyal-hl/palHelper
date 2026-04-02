@@ -81,7 +81,9 @@ export function LocationFinder() {
                   onClick={() => setSelectedLocation(loc)}
                   type="button"
                 >
-                  <span className={styles.locationIcon} aria-hidden="true">📍</span>
+                  <span className={styles.locationIcon} aria-hidden="true">
+                    📍
+                  </span>
                   <span className={styles.locationName}>{loc}</span>
                   <span className={styles.locationCount}>
                     {palCount} pal{palCount !== 1 ? 's' : ''}

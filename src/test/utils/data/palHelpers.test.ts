@@ -65,9 +65,9 @@ describe('filterPalsByWorkTypeAndLevel', () => {
   it('returns all pals with the given work type at any level when minLevel is 1', () => {
     const results = filterPalsByWorkTypeAndLevel('kindling', 1)
     expect(results.length).toBeGreaterThan(0)
-    expect(
-      results.every((p) => p.workSuitabilities.some((ws) => ws.type === 'kindling'))
-    ).toBe(true)
+    expect(results.every((p) => p.workSuitabilities.some((ws) => ws.type === 'kindling'))).toBe(
+      true
+    )
   })
 
   it('returns only pals at or above the minimum level', () => {
@@ -114,9 +114,7 @@ describe('getPalsByLocation', () => {
     const results = getPalsByLocation('Windswept Hills')
     expect(results.length).toBeGreaterThan(0)
     expect(
-      results.every((p) =>
-        p.locations.some((l) => l.toLowerCase() === 'windswept hills')
-      )
+      results.every((p) => p.locations.some((l) => l.toLowerCase() === 'windswept hills'))
     ).toBe(true)
   })
 

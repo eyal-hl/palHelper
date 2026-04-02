@@ -21,9 +21,7 @@ export function BreedingCalculator() {
   } = useBreedingCalculator()
 
   const isSpecial =
-    mode === 'forward' && parent1Id && parent2Id
-      ? isSpecialCombo(parent1Id, parent2Id)
-      : false
+    mode === 'forward' && parent1Id && parent2Id ? isSpecialCombo(parent1Id, parent2Id) : false
 
   return (
     <div className={styles.page}>
@@ -57,21 +55,29 @@ export function BreedingCalculator() {
           <div className={styles.parentsRow}>
             <div className={styles.pickerWrapper}>
               <p className={styles.pickerLabel}>Parent 1</p>
-              <PalPicker value={parent1Id} onChange={setParent1Id} placeholder="Select Parent 1..." />
+              <PalPicker
+                value={parent1Id}
+                onChange={setParent1Id}
+                placeholder="Select Parent 1..."
+              />
             </div>
-            <span className={styles.plus} aria-hidden="true">+</span>
+            <span className={styles.plus} aria-hidden="true">
+              +
+            </span>
             <div className={styles.pickerWrapper}>
               <p className={styles.pickerLabel}>Parent 2</p>
-              <PalPicker value={parent2Id} onChange={setParent2Id} placeholder="Select Parent 2..." />
+              <PalPicker
+                value={parent2Id}
+                onChange={setParent2Id}
+                placeholder="Select Parent 2..."
+              />
             </div>
           </div>
 
           {offspring ? (
             <div className={styles.resultCard}>
               <h2 className={styles.resultTitle}>Offspring</h2>
-              {isSpecial && (
-                <p className={styles.specialCombo}>Special Combo!</p>
-              )}
+              {isSpecial && <p className={styles.specialCombo}>Special Combo!</p>}
               <div className={styles.offspringInfo}>
                 <PalImage
                   name={offspring.name}
@@ -90,11 +96,9 @@ export function BreedingCalculator() {
                 </div>
               </div>
             </div>
-          ) : (
-            parent1Id || parent2Id ? (
-              <p className={styles.hint}>Select both parents to see offspring</p>
-            ) : null
-          )}
+          ) : parent1Id || parent2Id ? (
+            <p className={styles.hint}>Select both parents to see offspring</p>
+          ) : null}
         </div>
       )}
 
@@ -102,7 +106,11 @@ export function BreedingCalculator() {
         <div className={styles.reverseSection}>
           <div className={styles.pickerWrapper}>
             <p className={styles.pickerLabel}>Desired Child</p>
-            <PalPicker value={desiredChildId} onChange={setDesiredChildId} placeholder="Select desired child..." />
+            <PalPicker
+              value={desiredChildId}
+              onChange={setDesiredChildId}
+              placeholder="Select desired child..."
+            />
           </div>
 
           {desiredChildId && parentCombos.length > 0 && (
@@ -122,7 +130,9 @@ export function BreedingCalculator() {
                       />
                       <span className={styles.comboPalName}>{parent1.name}</span>
                     </div>
-                    <span className={styles.comboCross} aria-hidden="true">×</span>
+                    <span className={styles.comboCross} aria-hidden="true">
+                      ×
+                    </span>
                     <div className={styles.comboPal}>
                       <PalImage
                         name={parent2.name}
@@ -139,7 +149,10 @@ export function BreedingCalculator() {
           )}
 
           {desiredChildId && parentCombos.length === 0 && (
-            <EmptyState message="No combinations found" hint="This Pal cannot be bred from any known pair." />
+            <EmptyState
+              message="No combinations found"
+              hint="This Pal cannot be bred from any known pair."
+            />
           )}
         </div>
       )}

@@ -10,7 +10,9 @@
       "WebFetch(domain:palworld.wiki.gg)",
       "Bash(node -e ':*)",
       "Bash(node:*)",
-      "Bash(python3 -c \"import json,sys; pals=json.load\\(sys.stdin\\); print\\([\\(p['id'],p['breedingPower']\\) for p in pals[:10]]\\)\")"
+      "Bash(python3 -c \"import json,sys; pals=json.load\\(sys.stdin\\); print\\([\\(p['id'],p['breedingPower']\\) for p in pals[:10]]\\)\")",
+      "Bash(git add:*)",
+      "Bash(git commit -m 'feat: sort owned pals to top across all pal lists:*)"
     ]
   }
 }

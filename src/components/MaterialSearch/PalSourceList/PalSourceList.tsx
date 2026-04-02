@@ -4,6 +4,7 @@ import { Badge } from '@/components/shared/Badge/Badge'
 import { PalImage } from '@/components/shared/PalImage/PalImage'
 import { formatDropRate } from '@/utils/shared/formatters'
 import { getPalSourcesForMaterial, type PalMaterialSource } from '@/utils/data/palHelpers'
+import { usePalTrackerContext } from '@/context/PalTrackerContext'
 import styles from './PalSourceList.module.css'
 
 interface PalSourceListProps {
@@ -19,6 +20,7 @@ const METHOD_LABELS: Record<AcquisitionMethod, { label: string; icon: string }> 
 const METHOD_ORDER: AcquisitionMethod[] = ['drop', 'farming', 'butchering']
 
 export function PalSourceList({ material }: PalSourceListProps) {
+  const { ownedPalIds } = usePalTrackerContext()
   const sources = getPalSourcesForMaterial(material.id)
 
   if (sources.length === 0) {
@@ -29,6 +31,17 @@ export function PalSourceList({ material }: PalSourceListProps) {
   for (const source of sources) {
     if (!grouped.has(source.method)) grouped.set(source.method, [])
     grouped.get(source.method)!.push(source)
+  }
+
+  for (const [method, entries] of grouped) {
+    grouped.set(
+      method,
+      [...entries].sort((a, b) => {
+        const aOwned = ownedPalIds.has(a.pal.id) ? 0 : 1
+        const bOwned = ownedPalIds.has(b.pal.id) ? 0 : 1
+        return aOwned - bOwned
+      })
+    )
   }
 
   return (

@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import type { Pal } from '@/data/types'
 import { getUniqueLocations, getPalsByLocation } from '@/utils/data/palHelpers'
+import { usePalTrackerContext } from '@/context/PalTrackerContext'
 
 interface UseLocationFinderReturn {
   locationQuery: string
@@ -12,6 +13,7 @@ interface UseLocationFinderReturn {
 }
 
 export function useLocationFinder(): UseLocationFinderReturn {
+  const { ownedPalIds } = usePalTrackerContext()
   const [locationQuery, setLocationQuery] = useState('')
   const [selectedLocation, setSelectedLocation] = useState<string | null>(null)
 
@@ -25,8 +27,13 @@ export function useLocationFinder(): UseLocationFinderReturn {
 
   const palsAtLocation = useMemo<Pal[]>(() => {
     if (!selectedLocation) return []
-    return getPalsByLocation(selectedLocation)
-  }, [selectedLocation])
+    const pals = getPalsByLocation(selectedLocation)
+    return [...pals].sort((a, b) => {
+      const aOwned = ownedPalIds.has(a.id) ? 0 : 1
+      const bOwned = ownedPalIds.has(b.id) ? 0 : 1
+      return aOwned - bOwned
+    })
+  }, [selectedLocation, ownedPalIds])
 
   return {
     locationQuery,

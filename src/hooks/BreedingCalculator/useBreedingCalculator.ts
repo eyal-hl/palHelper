@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import type { Pal } from '@/data/types'
 import { getOffspring, getParentCombos } from '@/utils/data/breedingHelpers'
+import { usePalTrackerContext } from '@/context/PalTrackerContext'
 
 type Mode = 'forward' | 'reverse'
 
@@ -18,6 +19,7 @@ interface UseBreedingCalculatorReturn {
 }
 
 export function useBreedingCalculator(): UseBreedingCalculatorReturn {
+  const { ownedPalIds } = usePalTrackerContext()
   const [mode, setModeState] = useState<Mode>('forward')
   const [parent1Id, setParent1Id] = useState<string | null>(null)
   const [parent2Id, setParent2Id] = useState<string | null>(null)
@@ -42,8 +44,13 @@ export function useBreedingCalculator(): UseBreedingCalculatorReturn {
   const parentCombos = useMemo<Array<{ parent1: Pal; parent2: Pal }>>(() => {
     if (mode !== 'reverse') return []
     if (!desiredChildId) return []
-    return getParentCombos(desiredChildId)
-  }, [mode, desiredChildId])
+    const combos = getParentCombos(desiredChildId)
+    return [...combos].sort((a, b) => {
+      const aOwned = (ownedPalIds.has(a.parent1.id) ? 1 : 0) + (ownedPalIds.has(a.parent2.id) ? 1 : 0)
+      const bOwned = (ownedPalIds.has(b.parent1.id) ? 1 : 0) + (ownedPalIds.has(b.parent2.id) ? 1 : 0)
+      return bOwned - aOwned
+    })
+  }, [mode, desiredChildId, ownedPalIds])
 
   return {
     mode,
