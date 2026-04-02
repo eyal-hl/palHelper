@@ -1,0 +1,1 @@
+import{j as o}from"./index-6QrFIkj_.js";const r="_badge_1cohm_1",d={badge:r};function c({label:s,variant:t="neutral",element:a}){return o.jsx("span",{className:d.badge,"data-variant":t,"data-element":a==null?void 0:a.toLowerCase(),children:s})}export{c as B};
