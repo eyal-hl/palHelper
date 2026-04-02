@@ -49,6 +49,16 @@ export interface Pal {
   /** Location names or area descriptions */
   locations: string[]
   imageUrl?: string
+  /** Breeding power (CombiRank). Higher = weaker/more common pal. Used for breeding offspring calculation. */
+  breedingPower: number
+  /** Capture rate 1-100. Higher = easier to catch. */
+  captureRate: number
+}
+
+export interface SpecialBreedingCombo {
+  parent1Id: string
+  parent2Id: string
+  childId: string
 }
 
 export type MaterialCategory =

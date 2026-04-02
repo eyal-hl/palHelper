@@ -13,6 +13,22 @@ const PalDetail = lazy(() =>
 const PalTracker = lazy(() =>
   import('@/components/PalTracker/PalTracker').then((m) => ({ default: m.PalTracker }))
 )
+const BreedingCalculator = lazy(() =>
+  import('@/components/BreedingCalculator/BreedingCalculator').then((m) => ({
+    default: m.BreedingCalculator,
+  }))
+)
+const BaseBuilder = lazy(() =>
+  import('@/components/BaseBuilder/BaseBuilder').then((m) => ({ default: m.BaseBuilder }))
+)
+const WorkBrowser = lazy(() =>
+  import('@/components/WorkBrowser/WorkBrowser').then((m) => ({ default: m.WorkBrowser }))
+)
+const LocationFinder = lazy(() =>
+  import('@/components/LocationFinder/LocationFinder').then((m) => ({
+    default: m.LocationFinder,
+  }))
+)
 
 function PageLoader() {
   return (
@@ -31,6 +47,10 @@ export function AppRoutes() {
         <Route path="/pals" element={<PalBrowser />} />
         <Route path="/pals/:palId" element={<PalDetail />} />
         <Route path="/tracker" element={<PalTracker />} />
+        <Route path="/breeding" element={<BreedingCalculator />} />
+        <Route path="/base" element={<BaseBuilder />} />
+        <Route path="/work" element={<WorkBrowser />} />
+        <Route path="/locations" element={<LocationFinder />} />
         <Route path="*" element={<Navigate to="/materials" replace />} />
       </Routes>
     </Suspense>

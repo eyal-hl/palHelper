@@ -2,6 +2,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom'
 import { getPalById } from '@/utils/data/palHelpers'
 import { getMaterialById } from '@/utils/data/materialHelpers'
 import { Badge } from '@/components/shared/Badge/Badge'
+import { CaptureRateBadge } from '@/components/shared/CaptureRateBadge/CaptureRateBadge'
 import { EmptyState } from '@/components/shared/EmptyState/EmptyState'
 import { ItemImage } from '@/components/shared/ItemImage/ItemImage'
 import { PalImage } from '@/components/shared/PalImage/PalImage'
@@ -38,6 +39,7 @@ export function PalDetail() {
                 <Badge key={el} label={el} variant="element" element={el} />
               ))}
             </div>
+            <CaptureRateBadge captureRate={pal.captureRate} />
           </div>
         </div>
         <button

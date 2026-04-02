@@ -39,6 +39,33 @@ export function getTotalPalCount(): number {
   return pals.length
 }
 
+export function filterPalsByWorkTypeAndLevel(workType: WorkType, minLevel: number): Pal[] {
+  return pals
+    .filter((pal) =>
+      pal.workSuitabilities.some((ws) => ws.type === workType && ws.level >= minLevel)
+    )
+    .sort((a, b) => {
+      const aLevel = a.workSuitabilities.find((ws) => ws.type === workType)!.level
+      const bLevel = b.workSuitabilities.find((ws) => ws.type === workType)!.level
+      return bLevel - aLevel
+    })
+}
+
+export function getUniqueLocations(): string[] {
+  const locationSet = new Set<string>()
+  for (const pal of pals) {
+    for (const loc of pal.locations) {
+      locationSet.add(loc)
+    }
+  }
+  return [...locationSet].sort()
+}
+
+export function getPalsByLocation(location: string): Pal[] {
+  const query = location.toLowerCase()
+  return pals.filter((pal) => pal.locations.some((loc) => loc.toLowerCase() === query))
+}
+
 export function getPalSourcesForMaterial(materialId: string): PalMaterialSource[] {
   const sources: PalMaterialSource[] = []
   for (const pal of pals) {

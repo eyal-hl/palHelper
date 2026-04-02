@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import type { Pal } from '@/data/types'
 import { Badge } from '@/components/shared/Badge/Badge'
 import { PalImage } from '@/components/shared/PalImage/PalImage'
+import { CaptureRateBadge } from '@/components/shared/CaptureRateBadge/CaptureRateBadge'
 import { usePalTrackerContext } from '@/context/PalTrackerContext'
 import styles from './PalCard.module.css'
 
@@ -33,6 +34,9 @@ export function PalCard({ pal }: PalCardProps) {
       </div>
       <h3 className={styles.name}>{pal.name}</h3>
       <p className={styles.description}>{pal.description}</p>
+      <div className={styles.footer}>
+        <CaptureRateBadge captureRate={pal.captureRate} />
+      </div>
     </Link>
   )
 }
