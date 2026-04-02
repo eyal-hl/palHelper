@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.wrapper[data-size='sm']  { width: 40px;  height: 40px;  }
+.wrapper[data-size='md']  { width: 64px;  height: 64px;  }
+.wrapper[data-size='lg']  { width: 96px;  height: 96px;  }
+.wrapper[data-size='xl']  { width: 128px; height: 128px; }
+
+/* Element-tinted background (used when image present) */
+.wrapper[data-element='neutral']     { background: rgba(139, 143, 168, 0.15); }
+.wrapper[data-element='fire']        { background: rgba(232, 92,  58,  0.15); }
+.wrapper[data-element='water']       { background: rgba(58,  142, 232, 0.15); }
+.wrapper[data-element='leaf']        { background: rgba(76,  175, 125, 0.15); }
+.wrapper[data-element='electricity'] { background: rgba(240, 192, 64,  0.15); }
+.wrapper[data-element='ice']         { background: rgba(127, 200, 232, 0.15); }
+.wrapper[data-element='earth']       { background: rgba(196, 148, 90,  0.15); }
+.wrapper[data-element='dark']        { background: rgba(128, 96,  192, 0.15); }
+.wrapper[data-element='dragon']      { background: rgba(160, 64,  176, 0.15); }
+
+/* Fallback: stronger tint + initial letter */
+.wrapper[data-fallback='true'][data-element='neutral']     { background: rgba(139, 143, 168, 0.25); border: 1px solid rgba(139, 143, 168, 0.3); }
+.wrapper[data-fallback='true'][data-element='fire']        { background: rgba(232, 92,  58,  0.25); border: 1px solid rgba(232, 92,  58,  0.3); }
+.wrapper[data-fallback='true'][data-element='water']       { background: rgba(58,  142, 232, 0.25); border: 1px solid rgba(58,  142, 232, 0.3); }
+.wrapper[data-fallback='true'][data-element='leaf']        { background: rgba(76,  175, 125, 0.25); border: 1px solid rgba(76,  175, 125, 0.3); }
+.wrapper[data-fallback='true'][data-element='electricity'] { background: rgba(240, 192, 64,  0.25); border: 1px solid rgba(240, 192, 64,  0.3); }
+.wrapper[data-fallback='true'][data-element='ice']         { background: rgba(127, 200, 232, 0.25); border: 1px solid rgba(127, 200, 232, 0.3); }
+.wrapper[data-fallback='true'][data-element='earth']       { background: rgba(196, 148, 90,  0.25); border: 1px solid rgba(196, 148, 90,  0.3); }
+.wrapper[data-fallback='true'][data-element='dark']        { background: rgba(128, 96,  192, 0.25); border: 1px solid rgba(128, 96,  192, 0.3); }
+.wrapper[data-fallback='true'][data-element='dragon']      { background: rgba(160, 64,  176, 0.25); border: 1px solid rgba(160, 64,  176, 0.3); }
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
+}
+
+.initial {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  opacity: 0.7;
+  user-select: none;
+  font-size: 1.2em;
+}
+
+.wrapper[data-size='sm']  .initial { font-size: 1em;   }
+.wrapper[data-size='lg']  .initial { font-size: 2em;   }
+.wrapper[data-size='xl']  .initial { font-size: 2.5em; }

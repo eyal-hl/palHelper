@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-12) var(--space-6);
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-4);
+}
+
+.message {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-2);
+}
+
+.hint {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}

@@ -1,0 +1,86 @@
+.groups {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.groupTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-secondary);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.groupCount {
+  margin-left: auto;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  background: var(--color-bg-tertiary);
+  padding: 1px var(--space-2);
+  border-radius: var(--radius-full);
+  font-weight: var(--font-weight-normal);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-bg-tertiary);
+  border-radius: var(--radius-md);
+  flex-wrap: wrap;
+}
+
+.palLink {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.palLink:hover {
+  color: var(--color-accent);
+}
+
+.palName {
+  font-weight: var(--font-weight-medium);
+}
+
+.palNumber {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+
+.empty {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  padding: var(--space-4) 0;
+}

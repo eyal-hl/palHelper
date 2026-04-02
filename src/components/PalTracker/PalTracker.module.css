@@ -1,0 +1,144 @@
+.page {
+  padding: var(--space-2) 0;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-1);
+}
+
+.subtitle {
+  color: var(--color-text-secondary);
+}
+
+.clearButton {
+  background: none;
+  border: 1px solid var(--color-error);
+  border-radius: var(--radius-md);
+  color: var(--color-error);
+  font-size: var(--font-size-sm);
+  padding: var(--space-2) var(--space-4);
+  transition:
+    background var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.clearButton:hover {
+  background: rgba(224, 92, 92, 0.1);
+}
+
+.progress {
+  margin-bottom: var(--space-6);
+}
+
+.progressStats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-2);
+}
+
+.progressCount {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.progressCount strong {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-lg);
+}
+
+.progressPercent {
+  font-size: var(--font-size-sm);
+  color: var(--color-accent);
+  font-weight: var(--font-weight-semibold);
+}
+
+.progressBar {
+  height: 8px;
+  background: var(--color-bg-tertiary);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--color-accent);
+  border-radius: var(--radius-full);
+  transition: width var(--transition-slow);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+  margin-bottom: var(--space-4);
+}
+
+.searchWrapper {
+  flex: 1;
+  min-width: 200px;
+  max-width: 380px;
+}
+
+.filterTabs {
+  display: flex;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.filterTab {
+  background: none;
+  border: none;
+  padding: var(--space-2) var(--space-4);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  border-right: 1px solid var(--color-border);
+  transition:
+    background var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.filterTab:last-child {
+  border-right: none;
+}
+
+.filterTab:hover {
+  background: var(--color-bg-hover);
+  color: var(--color-text-primary);
+}
+
+.filterTab.filterTabActive {
+  background: var(--color-accent-dim);
+  color: var(--color-accent);
+}
+
+.listContainer {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.list {
+  list-style: none;
+}
+
+.emptyItem {
+  padding: var(--space-8);
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}

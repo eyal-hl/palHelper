@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx --yes create-vite@latest . --template react-ts)",
+      "Bash(npm install:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run:*)",
+      "WebSearch",
+      "WebFetch(domain:palworld.wiki.gg)",
+      "Bash(node -e ':*)",
+      "Bash(node:*)"
+    ]
+  }
+}

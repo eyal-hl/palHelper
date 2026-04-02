@@ -1,0 +1,94 @@
+.row {
+  border-bottom: 1px solid var(--color-border);
+  transition: background var(--transition-fast);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row:hover {
+  background: var(--color-bg-hover);
+}
+
+.row.owned {
+  background: rgba(76, 175, 125, 0.06);
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Hide native checkbox but keep it accessible */
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.checkmark {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid var(--color-border-light);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: var(--font-weight-bold);
+  color: white;
+  background: transparent;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.row.owned .checkmark {
+  background: var(--color-success);
+  border-color: var(--color-success);
+}
+
+.palName {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+}
+
+.palName:hover {
+  color: var(--color-accent);
+}
+
+.row.owned .palName {
+  color: var(--color-text-secondary);
+}
+
+.number {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  min-width: 32px;
+}
+
+.elements {
+  display: flex;
+  gap: var(--space-1);
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+@media (max-width: 480px) {
+  .elements {
+    display: none;
+  }
+}

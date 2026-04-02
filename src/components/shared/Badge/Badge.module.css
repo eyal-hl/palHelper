@@ -1,0 +1,81 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Neutral variant */
+.badge[data-variant='neutral'] {
+  background: var(--color-bg-hover);
+  color: var(--color-text-secondary);
+}
+
+/* Category variant */
+.badge[data-variant='category'] {
+  background: rgba(124, 106, 247, 0.2);
+  color: var(--color-accent);
+}
+
+/* Method variant */
+.badge[data-variant='method'] {
+  background: rgba(76, 175, 125, 0.2);
+  color: var(--color-success);
+}
+
+/* Rate variant */
+.badge[data-variant='rate'][data-element] {
+  background: var(--color-bg-hover);
+  color: var(--color-text-secondary);
+}
+
+/* Element variants */
+.badge[data-variant='element'][data-element='neutral'] {
+  background: rgba(139, 143, 168, 0.2);
+  color: var(--color-element-neutral);
+}
+
+.badge[data-variant='element'][data-element='fire'] {
+  background: rgba(232, 92, 58, 0.2);
+  color: var(--color-element-fire);
+}
+
+.badge[data-variant='element'][data-element='water'] {
+  background: rgba(58, 142, 232, 0.2);
+  color: var(--color-element-water);
+}
+
+.badge[data-variant='element'][data-element='leaf'] {
+  background: rgba(76, 175, 125, 0.2);
+  color: var(--color-element-leaf);
+}
+
+.badge[data-variant='element'][data-element='electricity'] {
+  background: rgba(240, 192, 64, 0.2);
+  color: var(--color-element-electricity);
+}
+
+.badge[data-variant='element'][data-element='ice'] {
+  background: rgba(127, 200, 232, 0.2);
+  color: var(--color-element-ice);
+}
+
+.badge[data-variant='element'][data-element='earth'] {
+  background: rgba(196, 148, 90, 0.2);
+  color: var(--color-element-earth);
+}
+
+.badge[data-variant='element'][data-element='dark'] {
+  background: rgba(128, 96, 192, 0.2);
+  color: var(--color-element-dark);
+}
+
+.badge[data-variant='element'][data-element='dragon'] {
+  background: rgba(160, 64, 176, 0.2);
+  color: var(--color-element-dragon);
+}

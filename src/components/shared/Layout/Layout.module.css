@@ -1,0 +1,22 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.content {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--space-6);
+}
+
+@media (max-width: 640px) {
+  .content {
+    padding: var(--space-4);
+  }
+}
