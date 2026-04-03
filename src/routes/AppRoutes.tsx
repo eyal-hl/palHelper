@@ -29,6 +29,9 @@ const LocationFinder = lazy(() =>
     default: m.LocationFinder,
   }))
 )
+const UsefulPals = lazy(() =>
+  import('@/components/UsefulPals/UsefulPals').then((m) => ({ default: m.UsefulPals }))
+)
 
 function PageLoader() {
   return (
@@ -51,6 +54,7 @@ export function AppRoutes() {
         <Route path="/base" element={<BaseBuilder />} />
         <Route path="/work" element={<WorkBrowser />} />
         <Route path="/locations" element={<LocationFinder />} />
+        <Route path="/useful" element={<UsefulPals />} />
         <Route path="*" element={<Navigate to="/materials" replace />} />
       </Routes>
     </Suspense>

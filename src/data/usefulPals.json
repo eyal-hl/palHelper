@@ -1,0 +1,303 @@
+[
+  {
+    "palId": "anubis",
+    "category": "Base Workers",
+    "whyUseful": "Highest Handiwork level in the game at Lv4, dramatically speeds up all crafting. Also has Mining Lv4, making it a dual powerhouse for both crafting and ore gathering.",
+    "keyTrait": "Handiwork Lv4 + Mining Lv4",
+    "howToGet": { "method": "both", "details": "Breed Penking + Bushi. Also catchable as an Alpha Boss in the Desert region." }
+  },
+  {
+    "palId": "jormuntide_ignis",
+    "category": "Base Workers",
+    "whyUseful": "The only pal with Kindling Lv4. One Jormuntide Ignis at your furnace dramatically outpaces any other fire worker.",
+    "keyTrait": "Kindling Lv4 (only pal with this level)",
+    "howToGet": { "method": "breed", "details": "Breed Jormuntide + Blazamut. Cannot be caught in the wild." }
+  },
+  {
+    "palId": "orserk",
+    "category": "Base Workers",
+    "whyUseful": "The only pal with Generating Electricity Lv4, powerful enough to power an entire late-game base alone. Also has Handiwork Lv2 and Transporting Lv3.",
+    "keyTrait": "Generating Electricity Lv4 (only pal with this level)",
+    "howToGet": { "method": "both", "details": "Breed Grizzbolt + Relaxaurus. Also caught at No. 3 Wildlife Sanctuary." }
+  },
+  {
+    "palId": "lyleen",
+    "category": "Base Workers",
+    "whyUseful": "Best Planting pal at Lv4, also has Gathering Lv3, Handiwork Lv3, and Medicine Production Lv3. Top all-around base worker for farming setups.",
+    "keyTrait": "Planting Lv4 + Gathering Lv3 + Medicine Production Lv3",
+    "howToGet": { "method": "both", "details": "Breed Mossanda + Petallia. Also caught at No. 2 Wildlife Sanctuary." }
+  },
+  {
+    "palId": "blazamut",
+    "category": "Base Workers",
+    "whyUseful": "Has Mining Lv4 — the highest mining level available. Also has Kindling Lv3, making it excellent for late-game ore and smelting before getting Jormuntide Ignis.",
+    "keyTrait": "Mining Lv4 + Kindling Lv3",
+    "howToGet": { "method": "catch", "details": "Scorching Mineshaft Alpha Boss (southwest of Foot of the Volcano waypoint) or No. 3 Wildlife Sanctuary." }
+  },
+  {
+    "palId": "digtoise",
+    "category": "Base Workers",
+    "whyUseful": "Only has Mining Lv3, so it won't get distracted by other tasks. An extremely efficient dedicated miner that drills ore at top speed.",
+    "keyTrait": "Mining Lv3 (dedicated, no task distractions)",
+    "howToGet": { "method": "catch", "details": "Desert region around Duneshelter and Sand Dunes areas." }
+  },
+  {
+    "palId": "wumpo_botan",
+    "category": "Base Workers",
+    "whyUseful": "Highest Transporting level at Lv4. Also has Planting, Handiwork, and Lumbering — an excellent multi-role support pal for large farming bases.",
+    "keyTrait": "Transporting Lv4 (highest in game)",
+    "howToGet": { "method": "catch", "details": "No. 2 Wildlife Sanctuary (western map edge) or Eastern Wild Island." }
+  },
+  {
+    "palId": "grizzbolt",
+    "category": "Base Workers",
+    "whyUseful": "Best mid-game electricity generator at Lv3. Also an excellent combat pal — its Gatling Gun Partner Skill lets the player fire a minigun while mounted.",
+    "keyTrait": "Generating Electricity Lv3 + mounted Gatling Gun",
+    "howToGet": { "method": "both", "details": "Breed Mossanda + Rayhound. Also caught at No. 1 Wildlife Sanctuary." }
+  },
+  {
+    "palId": "verdash",
+    "category": "Base Workers",
+    "whyUseful": "Exceptional all-rounder with Handiwork Lv3, Gathering Lv3, Lumbering Lv3, and Planting Lv3 — one of the best multi-task workers for any base setup.",
+    "keyTrait": "Handiwork Lv3 + Gathering Lv3 + Lumbering Lv3 + Planting Lv3",
+    "howToGet": { "method": "catch", "details": "No. 2 Wildlife Sanctuary or Alpha Boss at Sealed Realm of the Swift." }
+  },
+  {
+    "palId": "penking",
+    "category": "Base Workers",
+    "whyUseful": "Covers five different work types: Watering Lv3, Mining Lv3, Cooling Lv2, Handiwork Lv2, Transporting Lv2. One of the best mid-game workers available.",
+    "keyTrait": "5 work suitabilities — Watering Lv3 + Mining Lv3",
+    "howToGet": { "method": "catch", "details": "Penking Dungeon (Sealed Realm of the Frozen Wings) or as a roaming Alpha Boss." }
+  },
+  {
+    "palId": "prunelia",
+    "category": "Base Workers",
+    "whyUseful": "Feybreak DLC pal with Planting, Gathering, Medicine Production, Transporting, and Handiwork. Its Partner Skill increases crop yields, making it the best farming support from the DLC.",
+    "keyTrait": "Planting + crop yield Partner Skill boost",
+    "howToGet": { "method": "catch", "details": "Feybreak Island (DLC area)." }
+  },
+  {
+    "palId": "jetragon",
+    "category": "Combat",
+    "whyUseful": "Top-tier Dragon-type legendary. Fastest flying mount in the game and a powerful combat pal with the Aerial Missile Partner Skill that fires rockets while flying.",
+    "keyTrait": "Highest flight speed + Dragon-type legendary damage",
+    "howToGet": { "method": "catch", "details": "Legendary Alpha Boss on Mount Obsidian, north of Beach of Everlasting Summer teleport (Level 50)." }
+  },
+  {
+    "palId": "shadowbeak",
+    "category": "Combat",
+    "whyUseful": "Top-tier Dark-type with very high attack. Its Partner Skill grants Dark damage to player attacks while mounted, lethal combined with the player's weapons.",
+    "keyTrait": "Dark-type high ATK + boosts player attacks when mounted",
+    "howToGet": { "method": "both", "details": "Breed Kitsun + Astegon. Also caught at No. 3 Wildlife Sanctuary." }
+  },
+  {
+    "palId": "paladius",
+    "category": "Combat",
+    "whyUseful": "Premier Neutral-type legendary with massive HP and DEF. Its 150-power Pal Blast AoE makes it devastating, and it triple-jumps as a ground mount.",
+    "keyTrait": "Neutral legendary — exceptional survivability + 150-power AoE",
+    "howToGet": { "method": "catch", "details": "Legendary Alpha Boss near Deep Sand Dunes, coordinates (446, 680). Daytime only." }
+  },
+  {
+    "palId": "necromus",
+    "category": "Combat",
+    "whyUseful": "Dark-type legendary with extreme ATK. Found paired with Paladius. Its Dark damage output rivals any other legendary and it excels as a night-exclusive mount.",
+    "keyTrait": "Dark-type legendary ATK powerhouse",
+    "howToGet": { "method": "catch", "details": "Legendary Alpha Boss near Deep Sand Dunes (446, 681). Nocturnal — only active at night." }
+  },
+  {
+    "palId": "jormuntide",
+    "category": "Combat",
+    "whyUseful": "Top-tier Water/Dragon pal with two 150-power moves (Hydro Laser + Dragon Meteor). Also has Transporting Lv4 for base use — one of the most well-rounded pals.",
+    "keyTrait": "Dual 150-power moves + Transporting Lv4",
+    "howToGet": { "method": "catch", "details": "Large lake in the northeast of Palpagos mainland. Also an Alpha Boss in the area." }
+  },
+  {
+    "palId": "faleris",
+    "category": "Combat",
+    "whyUseful": "S-tier Fire-type flying combatant. Deals massive AoE fire damage, applies burn debuffs, and is one of the fastest flying mounts outside of Jetragon.",
+    "keyTrait": "Fire AoE + fast flying mount",
+    "howToGet": { "method": "breed", "details": "Breed Vanwyrm + Anubis. Also caught at No. 3 Wildlife Sanctuary." }
+  },
+  {
+    "palId": "lyleen_noct",
+    "category": "Combat",
+    "whyUseful": "Dark-type healer that restores HP in combat while dealing Dark damage. Has Handiwork Lv3 and Medicine Production Lv3 for base use too.",
+    "keyTrait": "Dark-type combat healer + Handiwork Lv3 + Medicine Lv3",
+    "howToGet": { "method": "breed", "details": "Breed Lyleen + Menasting." }
+  },
+  {
+    "palId": "blazamut_ryu",
+    "category": "Combat",
+    "whyUseful": "Fire/Dragon DLC legendary added in the Sakurajima update. Extremely high stats — the highest combined offensive stats of any pal in the game.",
+    "keyTrait": "Fire/Dragon legendary — highest offensive stats in game",
+    "howToGet": { "method": "catch", "details": "Defeat the Blazamut Ryu Raid Boss (summoned via Summoning Altar). Does not spawn in the wild." }
+  },
+  {
+    "palId": "warsect",
+    "category": "Combat",
+    "whyUseful": "Strong Leaf/Earth hybrid fighter. Solar Blast gives great AoE coverage and Giga Horn provides knockback control. Versatile for both solo and group combat.",
+    "keyTrait": "Leaf/Earth dual-type with AoE and knockback moves",
+    "howToGet": { "method": "both", "details": "Found in forest areas mid-game. Also breedable from Mossanda + Verdash." }
+  },
+  {
+    "palId": "chikipi",
+    "category": "Farming / Food",
+    "whyUseful": "The only pal that passively produces Eggs at the Ranch. Eggs are a key ingredient in Cakes needed for breeding — Chikipi is indispensable for any breeding operation.",
+    "keyTrait": "Passive Egg production at Ranch",
+    "howToGet": { "method": "catch", "details": "Very common in early areas: Sea Breeze Archipelago, Marsh Island, Eastern Wild Island." }
+  },
+  {
+    "palId": "mozzarina",
+    "category": "Farming / Food",
+    "whyUseful": "The only pal that passively produces Milk at the Ranch. Milk is a key Cake ingredient, making Mozzarina essential for any sustained breeding program.",
+    "keyTrait": "Passive Milk production at Ranch",
+    "howToGet": { "method": "catch", "details": "Northwest island from starting area, east of Sealed Realm of the Thunder Dragon waypoint." }
+  },
+  {
+    "palId": "beegarde",
+    "category": "Farming / Food",
+    "whyUseful": "The only pal that passively produces Honey at the Ranch. Honey is the third Cake ingredient — you need all three to breed. Beegarde also has the most work types of any pal (7 total).",
+    "keyTrait": "Passive Honey production at Ranch",
+    "howToGet": { "method": "catch", "details": "Mossanda Forest during daytime. Caution — they self-destruct when attacking." }
+  },
+  {
+    "palId": "caprity",
+    "category": "Farming / Food",
+    "whyUseful": "Passively produces Red Berries at the Ranch, providing a stable food supply without needing planted fields. Great for keeping base pals fed automatically.",
+    "keyTrait": "Passive Red Berry production at Ranch",
+    "howToGet": { "method": "catch", "details": "Windswept Hills, Eastern Wild Island, Ice Wind Island." }
+  },
+  {
+    "palId": "sibelyx",
+    "category": "Farming / Food",
+    "whyUseful": "Produces High Quality Cloth directly at the Ranch, bypassing the need to craft it from 10x Wool. Enormously time-efficient for mid-to-late game armor crafting.",
+    "keyTrait": "Passive High Quality Cloth at Ranch (skips wool conversion)",
+    "howToGet": { "method": "catch", "details": "Cold/snowy biomes in the Astral Mountains region." }
+  },
+  {
+    "palId": "mau",
+    "category": "Farming / Food",
+    "whyUseful": "Passively digs up Gold Coins at the Ranch, providing consistent currency income without combat grinding. Mau Cryst does the same and works in cold-biome ranches.",
+    "keyTrait": "Passive Gold Coin production at Ranch",
+    "howToGet": { "method": "catch", "details": "Mau found in desert regions near the starting area. Mau Cryst in snowy biomes." }
+  },
+  {
+    "palId": "flambelle",
+    "category": "Farming / Food",
+    "whyUseful": "Passively produces Flame Organs at the Ranch, eliminating the need to grind fire-type pals in combat for this key crafting ingredient.",
+    "keyTrait": "Passive Flame Organ production at Ranch",
+    "howToGet": { "method": "catch", "details": "Volcanic areas in the southern fire biome of Palpagos Island." }
+  },
+  {
+    "palId": "jetragon",
+    "category": "Transport / Mount",
+    "whyUseful": "Fastest flying mount in the game — crosses the entire map in under a minute. Fires rockets via its Aerial Missile Partner Skill while flying.",
+    "keyTrait": "Fastest flying mount in the game",
+    "howToGet": { "method": "catch", "details": "Legendary Alpha Boss on Mount Obsidian, north of Beach of Everlasting Summer (Level 50)." }
+  },
+  {
+    "palId": "faleris",
+    "category": "Transport / Mount",
+    "whyUseful": "Second-fastest flying mount, far more accessible than Jetragon via breeding. Ideal for players wanting a fast flyer before reaching endgame.",
+    "keyTrait": "Fast flying mount — best pre-Jetragon option",
+    "howToGet": { "method": "breed", "details": "Breed Vanwyrm + Anubis. Most accessible powerful flying mount." }
+  },
+  {
+    "palId": "paladius",
+    "category": "Transport / Mount",
+    "whyUseful": "Best ground mount in the game. Triple-jumps and sprints at exceptional speed, making it irreplaceable for overland exploration.",
+    "keyTrait": "Best ground mount — triple jump + highest sprint speed",
+    "howToGet": { "method": "catch", "details": "Legendary Alpha Boss near Deep Sand Dunes (446, 680). Daytime only." }
+  },
+  {
+    "palId": "fenglope",
+    "category": "Transport / Mount",
+    "whyUseful": "Best land mount before obtaining Paladius. Covers rough terrain quickly — excellent for mid-game exploration and bridging the gap to endgame mounts.",
+    "keyTrait": "Fast land mount (best mid-game ground speed)",
+    "howToGet": { "method": "catch", "details": "Alpha Boss at Falls Mineshaft (west of Ascetic Falls). Also at No. 3 Wildlife Sanctuary." }
+  },
+  {
+    "palId": "quivern",
+    "category": "Transport / Mount",
+    "whyUseful": "Reliable mid-game flying mount with decent speed and Dragon typing. Also has Handiwork Lv2 and Transporting Lv2 — a good all-rounder before endgame flyers.",
+    "keyTrait": "Accessible mid-game flying mount with base utility",
+    "howToGet": { "method": "catch", "details": "Mountainous regions in the northeast. Also breedable from common pals." }
+  },
+  {
+    "palId": "suzaku_aqua",
+    "category": "Transport / Mount",
+    "whyUseful": "Fastest water/swimming mount in the game. Essential for traversing oceans quickly, especially for reaching island Wildlife Sanctuaries to catch rare pals.",
+    "keyTrait": "Fastest swimming/ocean mount",
+    "howToGet": { "method": "breed", "details": "Breed Jormuntide + Suzaku. Cannot be caught in the wild." }
+  },
+  {
+    "palId": "cattiva",
+    "category": "Early Game",
+    "whyUseful": "The perfect starter: Handiwork, Transporting, Gathering, and Mining Lv1. Its Partner Skill increases carry weight — solves the early inventory problem immediately.",
+    "keyTrait": "Carry weight boost Partner Skill + 4 work suitabilities",
+    "howToGet": { "method": "catch", "details": "Everywhere in starting areas — one of the first pals you encounter." }
+  },
+  {
+    "palId": "lifmunk",
+    "category": "Early Game",
+    "whyUseful": "Covers Planting, Handiwork, Lumbering, Gathering, and Medicine Production Lv1. The Medicine Production suitability is rare among early pals and valuable from the start.",
+    "keyTrait": "Medicine Production Lv1 + 4 other suitabilities",
+    "howToGet": { "method": "catch", "details": "Very common across the starting area." }
+  },
+  {
+    "palId": "pengullet",
+    "category": "Early Game",
+    "whyUseful": "The first pal most players find with Watering (Lv1) to irrigate crops. Has Handiwork, Transporting, and Cooling Lv2 — a surprisingly versatile early pal.",
+    "keyTrait": "Earliest accessible Watering pal",
+    "howToGet": { "method": "catch", "details": "Cold/snowy lake areas at the bottom of the Astral Mountains." }
+  },
+  {
+    "palId": "rushoar",
+    "category": "Early Game",
+    "whyUseful": "Its Partner Skill lets it charge and break rocks while you ride it, effectively replacing your pickaxe. Makes early ore farming trivial.",
+    "keyTrait": "Mounted rock-breaking — replaces pickaxe early",
+    "howToGet": { "method": "catch", "details": "Sea Breeze Archipelago, Marsh Island, Windswept Hills." }
+  },
+  {
+    "palId": "tanzee",
+    "category": "Early Game",
+    "whyUseful": "Best early all-rounder covering Gathering, Lumbering, Handiwork, Planting, and Transporting — all five in one pal. Only early pal that covers that many tasks.",
+    "keyTrait": "5 work suitabilities (most of any early game pal)",
+    "howToGet": { "method": "catch", "details": "Hilly forest areas near the starting zone, day and night." }
+  },
+  {
+    "palId": "foxparks",
+    "category": "Early Game",
+    "whyUseful": "Earliest Fire pal with Kindling Lv1 to power your first furnace. Its unique flamethrower Partner Skill also makes it one of the most fun early combat companions.",
+    "keyTrait": "Earliest Kindling pal + flamethrower Partner Skill",
+    "howToGet": { "method": "catch", "details": "Very common around the Plateau of Beginnings starting area." }
+  },
+  {
+    "palId": "anubis",
+    "category": "Breeding",
+    "whyUseful": "One of the most important breeding parents — used to breed Faleris (Vanwyrm + Anubis) and accessible from mid-game pals. Top base worker on its own too.",
+    "keyTrait": "Key breeding parent for Faleris + Handiwork Lv4 + Mining Lv4",
+    "howToGet": { "method": "breed", "details": "Breed Penking + Bushi. Accessible in late-mid game." }
+  },
+  {
+    "palId": "shadowbeak",
+    "category": "Breeding",
+    "whyUseful": "Prime endgame breeding target. A Shadowbeak with 4 optimized passive skills is the strongest Dark-type combat pal — worth breeding multiple generations to perfect.",
+    "keyTrait": "Endgame passive-stacking target for best Dark combat pal",
+    "howToGet": { "method": "breed", "details": "Breed Kitsun + Astegon. Both parents catchable in the wild." }
+  },
+  {
+    "palId": "orserk",
+    "category": "Breeding",
+    "whyUseful": "The definitive late-game electricity breeding target. A 4-passive Orserk with Artisan-type passives can replace multiple Grizzbolt and fully power a late-game base alone.",
+    "keyTrait": "Generating Electricity Lv4 — passive stacking for base automation",
+    "howToGet": { "method": "breed", "details": "Breed Grizzbolt + Relaxaurus. Both parents easily caught in mid-game." }
+  },
+  {
+    "palId": "lyleen_noct",
+    "category": "Breeding",
+    "whyUseful": "Best bred support/healer pal in the game. With 4 good passives it heals in combat, excels at Dark damage, and works Handiwork and Medicine Production at base.",
+    "keyTrait": "Healer + Dark attacker — top passive-stacking support target",
+    "howToGet": { "method": "breed", "details": "Breed Lyleen + Menasting. Lyleen bred from Mossanda + Petallia." }
+  }
+]

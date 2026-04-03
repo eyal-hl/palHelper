@@ -16,4 +16,5 @@ export const NAV_ITEMS: NavItem[] = [
   { path: '/base', label: 'Base Builder', icon: '🏠' },
   { path: '/work', label: 'Work', icon: '⚒️' },
   { path: '/locations', label: 'Locations', icon: '📍' },
+  { path: '/useful', label: 'Top Pals', icon: '⭐' },
 ]
